@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer className="border-t border-border bg-card/50">
@@ -5,9 +7,15 @@ const Footer = () => {
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
+            <Image
+              src="/logotext.png"
+              alt="logo with text"
+              height={80}
+              width={300}
+            />
+            {/* <h3 className="text-xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
               Andalan Tech
-            </h3>
+            </h3> */}
             <p className="text-sm text-muted-foreground">
               Membangun website modern dengan teknologi terdepan untuk bisnis
               Anda.
