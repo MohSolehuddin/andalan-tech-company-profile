@@ -1,0 +1,88 @@
+export const pricingData = {
+  oneTime: [
+    {
+      name: "STARTER",
+      price: "15 Juta",
+      description: "Perfect untuk landing page dan portfolio",
+      features: [
+        "5-7 Halaman",
+        "Responsive Design",
+        "SEO Basic",
+        "Fast Loading",
+        "1 Bulan Support",
+      ],
+      highlighted: false,
+    },
+    {
+      name: "STANDARD",
+      price: "30 Juta",
+      description: "Ideal untuk bisnis dan e-commerce kecil",
+      features: [
+        "10-15 Halaman",
+        "Advanced SEO",
+        "Database Integration",
+        "Admin Dashboard",
+        "3 Bulan Support",
+        "Free SSL",
+      ],
+      highlighted: true,
+    },
+    {
+      name: "PREMIUM",
+      price: "50 Juta+",
+      description: "Enterprise solution dengan fitur custom",
+      features: [
+        "Unlimited Pages",
+        "Custom Features",
+        "API Integration",
+        "Advanced Analytics",
+        "6 Bulan Support",
+        "Priority Support",
+      ],
+      highlighted: false,
+    },
+  ],
+  monthly: [
+    {
+      name: "BASIC",
+      price: "500K/bulan",
+      description: "Hosting dan maintenance dasar",
+      features: [
+        "Vercel Pro Hosting",
+        "SSL Certificate",
+        "24/7 Monitoring",
+        "Monthly Backup",
+        "Email Support",
+      ],
+      highlighted: false,
+    },
+    {
+      name: "PRO",
+      price: "1.5 Juta/bulan",
+      description: "Full managed hosting dengan update",
+      features: [
+        "Everything in Basic",
+        "Weekly Updates",
+        "Performance Optimization",
+        "Security Monitoring",
+        "Priority Support",
+        "CDN Optimization",
+      ],
+      highlighted: true,
+    },
+    {
+      name: "ENTERPRISE",
+      price: "Custom",
+      description: "Dedicated support untuk skala besar",
+      features: [
+        "Everything in Pro",
+        "Dedicated Support",
+        "Custom SLA",
+        "Advanced Analytics",
+        "Multi-site Management",
+        "White Label Options",
+      ],
+      highlighted: false,
+    },
+  ],
+};
