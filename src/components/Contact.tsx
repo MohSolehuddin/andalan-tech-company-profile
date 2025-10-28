@@ -1,4 +1,5 @@
 "use client";
+import { sendEmail } from "@/actions/sendEmail";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -17,31 +18,17 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
+import { contactSchema } from "@/lib/schema/contactSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Mail, MapPin, MessageSquare, Send } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-// import { useToast } from "@/hooks/use-toast";
-import { Mail, MapPin, MessageSquare, Send } from "lucide-react";
-
-const contactSchema = z.object({
-  name: z.string().min(2, "Nama minimal 2 karakter").max(100),
-  email: z.string().email("Email tidak valid"),
-  whatsapp: z
-    .string()
-    .regex(
-      /^(\+62|62|0)[0-9]{9,12}$/,
-      "Format WhatsApp tidak valid (contoh: 081234567890)"
-    ),
-  service: z.string().min(1, "Pilih jenis layanan"),
-  message: z.string().min(10, "Pesan minimal 10 karakter").max(1000),
-});
 
 type ContactFormValues = z.infer<typeof contactSchema>;
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  //   const { toast } = useToast();
 
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
@@ -55,12 +42,14 @@ const Contact = () => {
   });
 
   const onSubmit = async (data: ContactFormValues) => {
-    console.log(data);
-    setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    form.reset();
-    setIsSubmitting(false);
+    try {
+      setIsSubmitting(true);
+      await sendEmail(data);
+      form.reset();
+      setIsSubmitting(false);
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   return (
