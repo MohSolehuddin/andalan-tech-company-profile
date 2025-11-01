@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
-import { pricingData } from "@/lib/utils/pricingData";
+import { pricingData } from "@/lib/constants/pricingData";
 import { Check } from "lucide-react";
 import { useState } from "react";
 const Pricing = () => {

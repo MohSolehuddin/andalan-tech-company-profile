@@ -12,14 +12,14 @@ export const benefits = [
     icon: Shield,
     title: "Server Terkelola Penuh",
     description:
-      "Keamanan tingkat enterprise dengan Vercel Edge Network. Tidak perlu khawatir tentang server.",
+      "Keamanan terjamin, server super cepat. Tidak perlu khawatir tentang server.",
     metric: "99.9% Uptime",
   },
   {
     icon: RefreshCw,
-    title: "Build & Deploy Otomatis",
+    title: "Online instan",
     description:
-      "Setiap perubahan langsung live dalam hitungan detik. CI/CD pipeline yang sempurna.",
+      "Website online dalam sekali membuat kopi setelah perubahan terjadi",
     metric: "Auto Deploy",
   },
 ];

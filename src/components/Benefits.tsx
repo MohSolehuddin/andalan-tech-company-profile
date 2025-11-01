@@ -1,4 +1,4 @@
-import { benefits } from "@/lib/utils/benefits";
+import { benefits } from "@/lib/constants/benefits";
 
 const Benefits = () => {
   return (

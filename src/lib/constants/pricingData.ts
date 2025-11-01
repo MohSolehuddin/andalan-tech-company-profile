@@ -1,11 +1,12 @@
 export const pricingData = {
   oneTime: [
     {
-      name: "STARTER",
-      price: "15 Juta",
-      description: "Perfect untuk landing page dan portfolio",
+      name: "UMKM Friendly",
+      price: "1.5 Juta+",
+      description:
+        "Perfect untuk landing page, portfolio, ataupun company profile",
       features: [
-        "5-7 Halaman",
+        "1-5 Halaman",
         "Responsive Design",
         "SEO Basic",
         "Fast Loading",
@@ -14,29 +15,22 @@ export const pricingData = {
       highlighted: false,
     },
     {
-      name: "STANDARD",
-      price: "30 Juta",
+      name: "Starter",
+      price: "5 Juta+",
       description: "Ideal untuk bisnis dan e-commerce kecil",
-      features: [
-        "10-15 Halaman",
-        "Advanced SEO",
-        "Database Integration",
-        "Admin Dashboard",
-        "3 Bulan Support",
-        "Free SSL",
-      ],
+      features: ["5-10 Halaman", "Advanced SEO", "Database Integration"],
       highlighted: true,
     },
     {
       name: "PREMIUM",
-      price: "50 Juta+",
-      description: "Enterprise solution dengan fitur custom",
+      price: "15 Juta+",
+      description: "Solusi komperhensif untuk bisnis anda dengan fitur custom",
       features: [
         "Unlimited Pages",
         "Custom Features",
         "API Integration",
         "Advanced Analytics",
-        "6 Bulan Support",
+        "2 Bulan Support",
         "Priority Support",
       ],
       highlighted: false,
@@ -44,8 +38,8 @@ export const pricingData = {
   ],
   monthly: [
     {
-      name: "BASIC",
-      price: "500K/bulan",
+      name: "UMKM",
+      price: "75K/bulan",
       description: "Hosting dan maintenance dasar",
       features: [
         "Vercel Pro Hosting",
@@ -58,7 +52,7 @@ export const pricingData = {
     },
     {
       name: "PRO",
-      price: "1.5 Juta/bulan",
+      price: "150K/bulan",
       description: "Full managed hosting dengan update",
       features: [
         "Everything in Basic",
@@ -77,10 +71,7 @@ export const pricingData = {
       features: [
         "Everything in Pro",
         "Dedicated Support",
-        "Custom SLA",
         "Advanced Analytics",
-        "Multi-site Management",
-        "White Label Options",
       ],
       highlighted: false,
     },
