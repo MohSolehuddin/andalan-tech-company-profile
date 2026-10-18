@@ -4,6 +4,7 @@ import apotek from "./items/apotek";
 import asuransi from "./items/asuransi";
 import ayamGoreng from "./items/ayam-goreng";
 import bakery from "./items/bakery";
+import bakso from "./items/bakso";
 import bangunan from "./items/bangunan";
 import barbershop from "./items/barbershop";
 import bengkel from "./items/bengkel";
@@ -66,6 +67,7 @@ export const demoItems: DemoItem[] = [
   asuransi,
   ayamGoreng,
   bakery,
+  bakso,
   bangunan,
   barbershop,
   bengkel,
