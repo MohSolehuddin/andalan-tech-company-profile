@@ -8,7 +8,7 @@ const steps = [
   },
   {
     title: "Inspeksi & Penawaran",
-    desc: "Tim kami cek langsung kondisi unit, lalu memberi penawaran harga tukar tambah terbaik.",
+    desc: "Tim kami cek langsung kondisi unit, lalu memberi penawaran harga tukar tambah kompetitif.",
   },
   {
     title: "Pilih Unit Pengganti",
@@ -53,7 +53,7 @@ export default function DealerMobilTrade() {
               href={waLink("Halo Auto Prima Dealer Mobil, saya ingin tukar tambah mobil saya ke unit di dealer Anda.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-500">
+              className="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-600">
               <MessageCircle className="h-5 w-5" />
               Nilai Tukar Tambah via WhatsApp
             </a>

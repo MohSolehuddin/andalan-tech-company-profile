@@ -5,7 +5,7 @@ export default function MotorContact() {
   return (
     <section className="bg-white px-4 py-20">
       <div className="container mx-auto max-w-6xl">
-        <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 text-white shadow-xl">
+        <div className="overflow-hidden rounded-xl border border-slate-200 bg-slate-900 text-white shadow-xl">
           <div className="grid gap-8 p-8 md:p-12 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-7">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-orange-500/20 px-3 py-1 text-xs font-semibold text-orange-400">
@@ -63,7 +63,7 @@ export default function MotorContact() {
                   href={waLink("Halo Motor Jaya Showroom, saya ingin membuat janji test ride sepeda motor.")}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 rounded-xl bg-orange-600 py-3 text-xs font-bold text-white shadow-md shadow-orange-600/30 transition-all hover:bg-orange-500">
+                  className="flex items-center justify-center gap-2 rounded-xl bg-orange-600 py-3 text-xs font-bold text-white shadow-sm transition-all hover:bg-orange-500 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                   <MessageCircle className="h-4 w-4" />
                   Jadwalkan Test Ride via WhatsApp
                 </a>
@@ -71,7 +71,7 @@ export default function MotorContact() {
                   href={waLink("Halo Motor Jaya Showroom, saya ingin konsultasi umum seputar motor yang tersedia.")}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-white/10">
+                  className="flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
                   Tanya CS Showroom
                 </a>
               </div>

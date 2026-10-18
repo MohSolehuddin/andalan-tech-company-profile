@@ -17,7 +17,7 @@ const services = [
     icon: Hammer,
     title: "Renovasi Total & Parsial",
     price: "Mulai Rp 1,5 Jt / m²",
-    desc: "Solusi perbaikan rumah, penambahan lantai/tingkat, pelebaran dapur, hingga penggantian rangka atap baja ringan bebas bocor.",
+    desc: "Layanan perbaikan rumah, penambahan lantai/tingkat, pelebaran dapur, hingga penggantian rangka atap baja ringan bebas bocor.",
     points: [
       "Peningkatan lantai (tingkat 2)",
       "Peremajaan fasad tampak depan",
@@ -57,7 +57,7 @@ const KontraktorServices = () => {
             Layanan Unggulan
           </span>
           <h2 className="mt-3 text-2xl font-bold tracking-tight text-stone-900 sm:text-3xl md:text-4xl">
-            Solusi Konstruksi Terintegrasi
+            Layanan Konstruksi Terintegrasi
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-stone-600">
             Dari perencanaan denah, estimasi material, hingga pelaksanaan fisik lapangan dengan standar mutu terjamin.
@@ -99,7 +99,7 @@ const KontraktorServices = () => {
                     href={waLink(`Halo Bangun Karya Kontraktor, saya ingin konsultasi layanan ${item.title}.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-yellow-600/30 bg-yellow-50 px-4 py-2.5 text-xs font-semibold text-yellow-900 transition-colors hover:bg-yellow-100">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-yellow-600/30 bg-yellow-50 px-4 py-2.5 text-xs font-semibold text-yellow-900 transition-colors hover:bg-yellow-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-600">
                     Konsultasi Layanan Ini
                     <ArrowRight className="h-3.5 w-3.5" />
                   </a>

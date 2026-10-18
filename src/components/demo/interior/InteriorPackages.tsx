@@ -89,7 +89,7 @@ export default function InteriorPackages() {
               <p className="mt-4 text-3xl font-bold tracking-tight text-slate-900">
                 {item.price}
               </p>
-              <p className="text-xs uppercase tracking-wider text-slate-500">
+              <p className="text-xs uppercase tracking-wider text-slate-600">
                 {item.unit}
               </p>
 
@@ -109,7 +109,7 @@ export default function InteriorPackages() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors ${
+                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:ring-offset-2 ${
                     item.featured
                       ? "bg-rose-600 text-white hover:bg-rose-500"
                       : "border border-rose-200 bg-white text-rose-700 hover:bg-rose-50"

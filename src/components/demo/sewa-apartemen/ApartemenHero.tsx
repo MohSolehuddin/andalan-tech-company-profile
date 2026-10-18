@@ -10,10 +10,6 @@ const trustBadges = [
 export default function ApartemenHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
-      {/* Background ambient gradients without external images */}
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-indigo-500/15 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-violet-500/15 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-indigo-500/40 bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-300">
@@ -35,13 +31,13 @@ export default function ApartemenHero() {
               href={waLink("Halo Huni Apartemen & Kost, saya ingin konsultasi dan tanya ketersediaan unit.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-indigo-500">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500">
               <MessageCircle className="h-5 w-5" />
               Tanya Ketersediaan Unit
             </a>
             <a
               href="#listing"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <KeyRound className="h-5 w-5 text-indigo-400" />
               Lihat Pilihan Unit
             </a>

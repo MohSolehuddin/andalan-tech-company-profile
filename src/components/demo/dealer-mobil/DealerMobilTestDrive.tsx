@@ -23,7 +23,7 @@ export default function DealerMobilTestDrive() {
                 href={waLink("Halo Auto Prima Dealer Mobil, saya ingin jadwalkan test drive. Unit yang diminati: ...")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-500">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-600">
                 <MessageCircle className="h-5 w-5" />
                 Jadwalkan Test Drive
               </a>
@@ -31,7 +31,7 @@ export default function DealerMobilTestDrive() {
                 href={waLink("Halo Auto Prima Dealer Mobil, saya ingin tanya-tanya dulu soal unit dan kredit.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-700 transition-colors hover:border-red-400 hover:text-red-700">
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-700 transition-colors hover:border-red-400 hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500">
                 <MessageCircle className="h-5 w-5 text-red-600" />
                 Tanya via WhatsApp
               </a>

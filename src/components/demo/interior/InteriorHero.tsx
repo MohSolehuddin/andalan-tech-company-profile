@@ -10,10 +10,6 @@ const trustMetrics = [
 export default function InteriorHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
-      {/* Background ambient gradients without external images */}
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-rose-500/15 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-orange-500/15 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-rose-500/40 bg-rose-500/10 px-4 py-1.5 text-sm font-medium text-rose-300">
@@ -35,13 +31,13 @@ export default function InteriorHero() {
               href={waLink("Halo Ruang Interior Studio, saya ingin konsultasi desain interior.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-rose-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-rose-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-rose-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-rose-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
               <MessageCircle className="h-5 w-5" />
               Konsultasi Gratis via WhatsApp
             </a>
             <a
               href="#portofolio"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950">
               <LayoutGrid className="h-5 w-5 text-rose-400" />
               Lihat Portofolio
             </a>

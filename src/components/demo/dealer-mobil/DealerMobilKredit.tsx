@@ -69,7 +69,7 @@ export default function DealerMobilKredit() {
               id="pilih-unit"
               value={carId}
               onChange={(event) => setCarId(event.target.value)}
-              className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-900 focus:border-red-500 focus:outline-none">
+              className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-900 focus:border-red-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2">
               {cars.map((item) => (
                 <option key={item.id} value={item.id}>
                   {item.name} — {rupiah(item.price)}
@@ -85,7 +85,7 @@ export default function DealerMobilKredit() {
                     key={option}
                     type="button"
                     onClick={() => setDpPercent(option)}
-                    className={`rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
+                    className={`rounded-lg border px-3 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500 ${
                       dpPercent === option
                         ? "border-red-600 bg-red-600 text-white"
                         : "border-slate-300 bg-white text-slate-700 hover:border-red-400"
@@ -104,7 +104,7 @@ export default function DealerMobilKredit() {
                     key={option}
                     type="button"
                     onClick={() => setTenor(option)}
-                    className={`rounded-lg border px-2 py-2 text-sm font-semibold transition-colors ${
+                    className={`rounded-lg border px-2 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500 ${
                       tenor === option
                         ? "border-red-600 bg-red-600 text-white"
                         : "border-slate-300 bg-white text-slate-700 hover:border-red-400"
@@ -163,7 +163,7 @@ export default function DealerMobilKredit() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-red-600 px-4 py-3 pt-3 font-semibold text-white transition-colors hover:bg-red-500">
+              className="mt-auto inline-flex items-center justify-center gap-2 rounded-xl bg-red-600 px-4 py-3 pt-3 font-semibold text-white transition-colors hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500">
               <MessageCircle className="h-4 w-4" />
               Ajukan Kredit via WhatsApp
             </a>

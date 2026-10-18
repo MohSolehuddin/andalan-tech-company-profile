@@ -75,7 +75,7 @@ export default function MotorServices() {
               href={waLink("Halo Motor Jaya Showroom, saya ingin booking jadwal servis motor / menanyakan ketersediaan suku cadang.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-6 py-3.5 text-xs font-bold text-slate-900 shadow-md transition-colors hover:bg-orange-50">
+              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-6 py-3.5 text-xs font-bold text-slate-900 shadow-md transition-colors hover:bg-orange-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
               <MessageCircle className="h-4 w-4 text-orange-600" />
               Booking Servis via WhatsApp
             </a>

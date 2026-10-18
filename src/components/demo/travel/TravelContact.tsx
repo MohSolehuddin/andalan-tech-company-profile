@@ -23,7 +23,7 @@ export default function TravelContact() {
                 href={waLink("Halo Jelajah Andalan Travel, saya ingin booking paket wisata. Mohon dibantu rekomendasinya.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-cyan-400">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-cyan-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-cyan-400">
                 <MessageCircle className="h-5 w-5" />
                 Booking Sekarang via WhatsApp
               </a>

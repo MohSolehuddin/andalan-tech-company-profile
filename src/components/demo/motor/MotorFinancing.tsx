@@ -70,7 +70,7 @@ export default function MotorFinancing() {
         </div>
 
         {/* Leasing Box & Direct CTA */}
-        <div className="mt-12 overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 p-8 text-white">
+        <div className="mt-12 overflow-hidden rounded-xl border border-slate-200 bg-slate-900 p-8 text-white">
           <div className="grid gap-8 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-7">
               <div className="inline-flex items-center gap-1.5 rounded-full bg-orange-500/20 px-3 py-1 text-xs font-semibold text-orange-400">
@@ -82,7 +82,7 @@ export default function MotorFinancing() {
               </h3>
               <p className="mt-3 text-sm text-slate-300">
                 Sebutkan motor incaran dan kemampuan angsuran Anda. Tim finance kami akan
-                meracik skema cicilan terbaik dengan angsuran termurah.
+                meracik skema cicilan yang sesuai dengan kemampuan anggaran Anda.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-2 text-xs">
@@ -125,7 +125,7 @@ export default function MotorFinancing() {
                 href={waLink("Halo Motor Jaya Showroom, saya ingin simulasi kredit motor. Mohon kirimkan rincian DP dan tenor angsuran.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-orange-600 py-3 text-xs font-bold text-white shadow-md shadow-orange-600/30 transition-all hover:bg-orange-500">
+                className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-orange-600 py-3 text-xs font-bold text-white shadow-sm transition-all hover:bg-orange-500 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                 <MessageCircle className="h-4 w-4" />
                 Minta Tabel Angsuran via WA
               </a>

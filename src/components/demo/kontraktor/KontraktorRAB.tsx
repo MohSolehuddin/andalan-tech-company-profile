@@ -80,7 +80,7 @@ const KontraktorRAB = () => {
               key={tier.name}
               className={`relative flex flex-col justify-between rounded-xl border p-6 transition-all ${
                 tier.popular
-                  ? "border-yellow-400 bg-stone-800 shadow-lg shadow-yellow-500/10"
+                  ? "border-yellow-400 bg-stone-800 shadow-md"
                   : "border-stone-800 bg-stone-950/70"
               }`}>
               {tier.popular && (
@@ -112,7 +112,7 @@ const KontraktorRAB = () => {
                   href={waLink(`Halo Bangun Karya Kontraktor, saya ingin konsultasi simulasi RAB untuk ${tier.name}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-xs font-semibold transition-colors ${
+                  className={`inline-flex w-full items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-xs font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-900 ${
                     tier.popular
                       ? "bg-yellow-500 text-stone-950 hover:bg-yellow-400"
                       : "border border-stone-700 bg-stone-800 text-stone-200 hover:bg-stone-700 hover:text-white"

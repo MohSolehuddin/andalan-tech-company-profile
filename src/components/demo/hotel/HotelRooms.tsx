@@ -116,21 +116,21 @@ export default function HotelRooms() {
                       <Users className="h-4 w-4 text-teal-600" />
                       {room.guests} Tamu
                     </span>
-                    <span className="text-[11px] text-slate-400">Kapasitas</span>
+                    <span className="text-[11px] text-slate-600">Kapasitas</span>
                   </div>
                   <div className="flex flex-col items-center justify-center gap-1 border-x border-slate-100">
                     <span className="flex items-center gap-1 font-semibold text-slate-900">
                       <BedDouble className="h-4 w-4 text-teal-600" />
                       {room.bed}
                     </span>
-                    <span className="text-[11px] text-slate-400">Tempat tidur</span>
+                    <span className="text-[11px] text-slate-600">Tempat tidur</span>
                   </div>
                   <div className="flex flex-col items-center justify-center gap-1">
                     <span className="flex items-center gap-1 font-semibold text-slate-900">
                       <Maximize2 className="h-4 w-4 text-teal-600" />
                       {room.area} m²
                     </span>
-                    <span className="text-[11px] text-slate-400">Luas</span>
+                    <span className="text-[11px] text-slate-600">Luas</span>
                   </div>
                 </div>
 
@@ -142,7 +142,7 @@ export default function HotelRooms() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-500">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-600">
                     <MessageCircle className="h-4 w-4" />
                     Pesan Kamar Ini
                   </a>

@@ -9,7 +9,7 @@ const facilities = [
   {
     icon: Wifi,
     title: "High-Speed WiFi Fiber",
-    desc: "Koneksi internet tanpa batas berkecepatan tinggi hingga 100 Mbps, lancar untuk WFH dan kuliah online.",
+    desc: "Koneksi internet stabil berkecepatan hingga 100 Mbps, lancar untuk WFH dan kuliah online.",
   },
   {
     icon: Car,
