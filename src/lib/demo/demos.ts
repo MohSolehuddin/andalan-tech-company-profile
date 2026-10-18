@@ -49,6 +49,7 @@ import saas from "./items/saas";
 import salon from "./items/salon";
 import sekolah from "./items/sekolah";
 import sewaApartemen from "./items/sewa-apartemen";
+import sewaIphone from "./items/sewa-iphone";
 import skincare from "./items/skincare";
 import spa from "./items/spa";
 import tani from "./items/tani";
@@ -112,6 +113,7 @@ export const demoItems: DemoItem[] = [
   salon,
   sekolah,
   sewaApartemen,
+  sewaIphone,
   skincare,
   spa,
   tani,
