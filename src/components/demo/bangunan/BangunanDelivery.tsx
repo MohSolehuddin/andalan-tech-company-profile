@@ -69,7 +69,7 @@ export default function BangunanDelivery() {
             href={waLink("Halo Toko Bangunan Kokoh, saya mau atur pengiriman material ke lokasi proyek.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-amber-400">
+            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-400">
             <MessageCircle className="h-5 w-5" />
             Atur Pengiriman
           </a>

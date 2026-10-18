@@ -57,7 +57,7 @@ export default function TokoEmasServices() {
             Custom Desain & Tukar Tambah Emas
           </h2>
           <p className="mt-2 text-sm text-neutral-600">
-            Solusi menyeluruh dari pembuatan cincin pernikahan, trade-in model
+            Layanan lengkap dari pembuatan cincin pernikahan, trade-in model
             lama, hingga jaminan buyback terpercaya.
           </p>
         </div>
@@ -91,7 +91,7 @@ export default function TokoEmasServices() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 hover:text-amber-800">
+                  className="inline-flex items-center gap-1.5 rounded-sm text-xs font-semibold text-amber-700 hover:text-amber-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-700">
                   <MessageCircle className="h-3.5 w-3.5" />
                   Konsultasikan Layanan Ini via WA →
                 </a>
@@ -121,7 +121,7 @@ export default function TokoEmasServices() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-neutral-950 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800">
+              className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-neutral-950 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-950">
               <MessageCircle className="h-4 w-4 text-emerald-400" />
               Chat Konsultasi Tukar Tambah
             </a>

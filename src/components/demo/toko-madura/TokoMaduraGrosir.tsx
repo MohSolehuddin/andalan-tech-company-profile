@@ -19,7 +19,7 @@ const packages = [
   {
     name: "Paket Kulakan Warung",
     tagline: "Harga agen khusus reseller kelontong & warung makan",
-    price: "Harga Grosir Terbaik",
+    price: "Harga Grosir Terjangkau",
     badge: "Grosir Partai",
     items: [
       "Beras karungan 25kg / 50kg",
@@ -79,7 +79,7 @@ export default function TokoMaduraGrosir() {
                 <h3 className="mt-4 text-xl font-bold text-neutral-900">
                   {pkg.name}
                 </h3>
-                <p className="mt-1 text-xs text-neutral-500">{pkg.tagline}</p>
+                <p className="mt-1 text-xs text-neutral-600">{pkg.tagline}</p>
                 <p className="mt-4 text-2xl font-bold text-emerald-700">
                   {pkg.price}
                 </p>
@@ -101,7 +101,7 @@ export default function TokoMaduraGrosir() {
                   href={waLink(pkg.waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-600">
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   <MessageCircle className="h-4 w-4" />
                   Order via WhatsApp
                 </a>

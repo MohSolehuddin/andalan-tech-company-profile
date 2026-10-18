@@ -29,7 +29,7 @@ export default function KelontongHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#produk"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-lime-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-lime-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-lime-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-lime-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-lime-400">
               <ShoppingBasket className="h-5 w-5" />
               Lihat Harga Sembako
             </a>
@@ -37,7 +37,7 @@ export default function KelontongHero() {
               href={waLink("Halo Kelontong Sembako Murah, saya mau pesan sembako.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <MessageCircle className="h-5 w-5" />
               Pesan via WhatsApp
             </a>

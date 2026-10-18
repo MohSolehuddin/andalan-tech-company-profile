@@ -68,7 +68,7 @@ export default function MinimarketCatalog() {
               key={cat}
               type="button"
               onClick={() => setActiveTab(cat)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-600 ${
                 activeTab === cat
                   ? "bg-red-600 text-white"
                   : "bg-neutral-100 text-neutral-700 hover:bg-neutral-200"
@@ -94,7 +94,7 @@ export default function MinimarketCatalog() {
                 <h3 className="mt-1.5 font-bold text-neutral-900">
                   {product.name}
                 </h3>
-                <p className="text-xs text-neutral-500">{product.unit}</p>
+                <p className="text-xs text-neutral-600">{product.unit}</p>
               </div>
 
               <div className="mt-4 flex items-center justify-between border-t border-neutral-100 pt-3">
@@ -105,7 +105,7 @@ export default function MinimarketCatalog() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 rounded-md bg-neutral-900 px-2.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-red-600">
+                  className="inline-flex items-center gap-1 rounded-md bg-neutral-900 px-2.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-red-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   <ShoppingBag className="h-3.5 w-3.5" />
                   Pesan
                 </a>
@@ -128,7 +128,7 @@ export default function MinimarketCatalog() {
             href={waLink("Halo Minimart Sejahtera, saya mau kirim daftar catatan belanja harian.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-500 sm:mt-0">
+            className="mt-4 inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-emerald-600 sm:mt-0">
             <MessageCircle className="h-4 w-4" />
             Kirim Catatan Belanja
           </a>

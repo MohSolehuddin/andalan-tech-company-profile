@@ -134,7 +134,7 @@ export default function TokoEmasCollection() {
               key={category}
               type="button"
               onClick={() => setActiveCategory(category)}
-              className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
+              className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-600 ${
                 activeCategory === category
                   ? "bg-amber-600 text-white shadow-xs"
                   : "border border-neutral-200 bg-white text-neutral-700 hover:border-amber-400"
@@ -156,7 +156,7 @@ export default function TokoEmasCollection() {
                 </span>
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <div className="flex items-center justify-between text-xs text-neutral-500">
+                <div className="flex items-center justify-between text-xs text-neutral-600">
                   <span className="font-semibold uppercase text-amber-700">
                     {item.category}
                   </span>
@@ -165,9 +165,9 @@ export default function TokoEmasCollection() {
                 <h3 className="mt-1.5 font-bold text-neutral-900 line-clamp-2">
                   {item.name}
                 </h3>
-                <p className="mt-1 text-xs text-neutral-500">{item.karat}</p>
+                <p className="mt-1 text-xs text-neutral-600">{item.karat}</p>
                 <div className="mt-3 pt-3 border-t border-neutral-100">
-                  <span className="text-xs text-neutral-500">Estimasi Harga</span>
+                  <span className="text-xs text-neutral-600">Estimasi Harga</span>
                   <p className="text-lg font-bold text-neutral-950">
                     {item.price}
                   </p>
@@ -178,7 +178,7 @@ export default function TokoEmasCollection() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-neutral-950 px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-amber-600">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-neutral-950 px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-amber-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-950">
                   <MessageCircle className="h-4 w-4 text-emerald-400" />
                   Tanya via WhatsApp
                 </a>

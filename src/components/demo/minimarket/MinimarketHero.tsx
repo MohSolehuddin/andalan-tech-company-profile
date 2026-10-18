@@ -32,13 +32,13 @@ export default function MinimarketHero() {
               href={waLink("Halo Minimart Sejahtera, saya mau order belanjaan harian.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-400">
               <MessageCircle className="h-5 w-5" />
               Pesan Antar via WhatsApp
             </a>
             <a
               href="#katalog"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <ShoppingBag className="h-5 w-5" />
               Lihat Katalog Produk
             </a>

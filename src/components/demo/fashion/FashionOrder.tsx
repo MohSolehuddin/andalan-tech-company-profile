@@ -26,10 +26,10 @@ const steps = [
 
 export default function FashionOrder() {
   return (
-    <section id="cara-order" className="bg-violet-50 px-4 py-20">
+    <section id="cara-order" className="bg-neutral-50 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-violet-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-neutral-700">
             Cara Order
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -41,9 +41,9 @@ export default function FashionOrder() {
           {steps.map((step) => (
             <div
               key={step.title}
-              className="rounded-2xl border border-violet-100 bg-white p-6">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-violet-100">
-                <step.icon className="h-6 w-6 text-violet-700" />
+              className="rounded-2xl border border-neutral-200 bg-white p-6">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-neutral-100">
+                <step.icon className="h-6 w-6 text-neutral-800" />
               </div>
               <h3 className="mt-4 font-bold text-neutral-900">{step.title}</h3>
               <p className="mt-1 text-sm text-neutral-600">{step.desc}</p>
@@ -51,10 +51,10 @@ export default function FashionOrder() {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 rounded-2xl bg-linear-to-br from-violet-600 to-purple-700 px-6 py-8 text-white sm:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 rounded-2xl bg-neutral-900 px-6 py-8 text-white sm:flex-row">
           <div>
             <p className="text-lg font-bold">Belum yakin pilih ukuran?</p>
-            <p className="text-sm text-violet-50/90">
+            <p className="text-sm text-neutral-300">
               Kirim tinggi dan berat badan, kami bantu rekomendasi ukuran.
             </p>
           </div>
@@ -64,7 +64,7 @@ export default function FashionOrder() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-violet-700 transition-colors hover:bg-violet-50">
+            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
             <MessageCircle className="h-5 w-5" />
             Konsultasi Ukuran
           </a>

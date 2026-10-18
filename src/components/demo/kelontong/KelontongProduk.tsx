@@ -51,7 +51,7 @@ export default function KelontongProduk() {
               </div>
               <div className="flex flex-1 flex-col p-5">
                 <h3 className="font-bold text-neutral-900">{item.name}</h3>
-                <p className="mt-0.5 text-xs uppercase tracking-wide text-neutral-500">
+                <p className="mt-0.5 text-xs uppercase tracking-wide text-neutral-600">
                   {item.unit}
                 </p>
                 <p className="mt-2 text-lg font-bold text-lime-700">
@@ -63,7 +63,7 @@ export default function KelontongProduk() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   <ShoppingBasket className="h-4 w-4" />
                   Pesan
                 </a>

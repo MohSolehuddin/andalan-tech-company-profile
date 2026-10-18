@@ -21,7 +21,7 @@ export default function KelontongContact() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-green-700 transition-colors hover:bg-lime-50">
+                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-green-700 transition-colors hover:bg-lime-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
                 <MessageCircle className="h-5 w-5" />
                 Order via WhatsApp
               </a>
@@ -57,7 +57,7 @@ export default function KelontongContact() {
           </div>
         </div>
 
-        <p className="mt-12 text-center text-sm text-neutral-500">
+        <p className="mt-12 text-center text-sm text-neutral-600">
           © {new Date().getFullYear()} Kelontong Sembako Murah — Demo website
           oleh Andalan Tech.
         </p>

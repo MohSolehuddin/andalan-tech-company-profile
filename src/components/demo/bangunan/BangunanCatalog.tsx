@@ -55,7 +55,7 @@ export default function BangunanCatalog() {
               key={category}
               type="button"
               onClick={() => setActive(category)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900 ${
                 active === category
                   ? "bg-stone-900 text-white"
                   : "border border-neutral-200 bg-white text-neutral-700 hover:border-stone-400"
@@ -77,7 +77,7 @@ export default function BangunanCatalog() {
                 </span>
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <span className="text-xs uppercase tracking-wide text-neutral-500">
+                <span className="text-xs uppercase tracking-wide text-neutral-600">
                   {material.category}
                 </span>
                 <h3 className="mt-1 font-bold text-neutral-900">
@@ -92,7 +92,7 @@ export default function BangunanCatalog() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-stone-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-stone-700">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-stone-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-stone-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900">
                   <ShoppingCart className="h-4 w-4" />
                   Pesan via WhatsApp
                 </a>

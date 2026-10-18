@@ -135,7 +135,7 @@ export default function TokoMaduraCatalog() {
               key={category}
               type="button"
               onClick={() => setActiveCategory(category)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-emerald-600 ${
                 activeCategory === category
                   ? "bg-emerald-700 text-white shadow-sm"
                   : "border border-neutral-200 bg-white text-neutral-700 hover:border-emerald-400"
@@ -168,7 +168,7 @@ export default function TokoMaduraCatalog() {
                   <p className="text-xl font-bold text-emerald-700">
                     {product.price}
                   </p>
-                  <p className="text-xs text-neutral-500">{product.unit}</p>
+                  <p className="text-xs text-neutral-600">{product.unit}</p>
                 </div>
                 <div className="mt-3 rounded-lg bg-emerald-50 px-2.5 py-1.5 text-xs text-emerald-800">
                   💡 {product.wholesale}
@@ -180,7 +180,7 @@ export default function TokoMaduraCatalog() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-600 px-3 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-emerald-500">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-600 px-3 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-emerald-600">
                     <MessageCircle className="h-4 w-4" />
                     Pesan via WhatsApp
                   </a>

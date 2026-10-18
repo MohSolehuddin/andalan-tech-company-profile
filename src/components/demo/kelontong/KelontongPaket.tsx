@@ -85,10 +85,10 @@ export default function KelontongPaket() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors ${
+                className={`mt-6 inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   item.best
-                    ? "bg-lime-600 text-white hover:bg-lime-500"
-                    : "border border-neutral-300 text-neutral-900 hover:border-lime-400"
+                    ? "bg-lime-600 text-white hover:bg-lime-500 focus-visible:ring-lime-600"
+                    : "border border-neutral-300 text-neutral-900 hover:border-lime-400 focus-visible:ring-neutral-900"
                 }`}>
                 <MessageCircle className="h-4 w-4" />
                 Pesan Paket

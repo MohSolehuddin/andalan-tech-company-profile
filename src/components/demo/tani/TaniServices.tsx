@@ -31,7 +31,7 @@ export default function TaniServices() {
             Layanan Kami
           </p>
           <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">
-            Solusi Menyeluruh untuk Pertanian Anda
+            Layanan Lengkap untuk Pertanian Anda
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600">
             Lebih dari sekadar toko, kami hadir membantu kelancaran operasional petani dari awal tanam sampai panen.
@@ -63,7 +63,7 @@ export default function TaniServices() {
                   href={waLink(`Halo Tani Makmur Situbondo, saya ingin informasi layanan: ${svc.title}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-green-700 transition-colors hover:text-green-800">
+                  className="inline-flex items-center gap-2 rounded-sm text-sm font-semibold text-green-700 transition-colors hover:text-green-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-600">
                   <MessageCircle className="h-4 w-4" />
                   Tanya Layanan Ini &rarr;
                 </a>

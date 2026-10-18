@@ -10,10 +10,6 @@ const trustBadges = [
 export default function TaniHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
-      {/* Background ambient gradients without external images */}
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-green-600/15 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-lime-500/15 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-3xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-green-500/40 bg-green-500/10 px-4 py-1.5 text-xs sm:text-sm font-medium text-green-300">
@@ -33,13 +29,13 @@ export default function TaniHero() {
               href={waLink("Halo Tani Makmur Situbondo, saya mau tanya stok pupuk dan benih untuk lahan saya.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-green-600 to-lime-600 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-green-500 hover:to-lime-500">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-green-600 to-lime-600 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-green-500 hover:to-lime-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-500">
               <MessageCircle className="h-5 w-5" />
               Pesan via WhatsApp
             </a>
             <a
               href="#katalog"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <Wheat className="h-5 w-5 text-lime-400" />
               Lihat Katalog Produk
             </a>
