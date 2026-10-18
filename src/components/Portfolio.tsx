@@ -3,6 +3,23 @@ import { ArrowRight, Sparkles, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { demoItems } from "@/lib/demo/demos";
 
+const FEATURED_SLUGS = [
+  "restoran",
+  "klinik",
+  "toko",
+  "jasa",
+  "properti",
+  "bengkel",
+  "salon",
+  "sekolah",
+  "saas",
+];
+
+const featuredDemos = FEATURED_SLUGS.flatMap((slug) => {
+  const demo = demoItems.find((item) => item.slug === slug);
+  return demo ? [demo] : [];
+});
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="py-20 bg-muted/30">
@@ -23,16 +40,20 @@ const Portfolio = () => {
 
         {/* Live demos */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {demoItems.map((demo) => (
+          {featuredDemos.map((demo) => (
             <Link
               key={demo.slug}
               href={`/demo/${demo.slug}`}
               className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <div
-                className={`flex h-44 items-center justify-center bg-linear-to-br ${demo.accentBg}`}>
-                <span className="text-6xl" aria-hidden="true">
-                  {demo.emoji}
-                </span>
+                className={`relative h-44 overflow-hidden bg-linear-to-br ${demo.accentBg}`}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`/demo/preview/${demo.slug}.webp`}
+                  alt={`Pratinjau website ${demo.name}`}
+                  loading="lazy"
+                  className="h-full w-full object-cover object-top"
+                />
               </div>
 
               <div className="flex flex-1 flex-col p-6">
@@ -62,6 +83,20 @@ const Portfolio = () => {
               </div>
             </Link>
           ))}
+        </div>
+
+        {/* See all demos */}
+        <div className="mt-10 text-center">
+          <Button
+            asChild
+            variant="secondary"
+            size="lg"
+            className="shadow-xs hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+            <Link href="/demo">
+              Lihat semua {demoItems.length} demo
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
         </div>
 
         {/* Special Offer Banner */}
