@@ -10,9 +10,6 @@ const trustItems = [
 export const BimbelHero = () => {
   return (
     <section className="relative overflow-hidden bg-indigo-950 text-white">
-      <div className="absolute -top-24 -right-24 h-80 w-80 rounded-full bg-sky-500/20 blur-3xl" />
-      <div className="absolute -bottom-32 -left-16 h-80 w-80 rounded-full bg-indigo-500/20 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-4 py-1.5 text-xs sm:text-sm font-medium text-sky-200">
@@ -36,13 +33,13 @@ export const BimbelHero = () => {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-sky-400 to-indigo-400 px-6 py-3.5 font-semibold text-indigo-950 transition-all hover:brightness-110 shadow-lg shadow-sky-500/20">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-sky-400 to-indigo-400 px-6 py-3.5 font-semibold text-indigo-950 transition-all hover:brightness-110 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Daftar Trial Gratis 1 Sesi
             </a>
             <a
               href="#program"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Calendar className="h-4 w-4" />
               Jelajahi Program
             </a>

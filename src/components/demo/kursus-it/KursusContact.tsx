@@ -51,7 +51,7 @@ export default function KursusContact() {
         </div>
 
         {/* Lab & Contact Info Card */}
-        <div className="mt-16 overflow-hidden rounded-3xl bg-linear-to-br from-indigo-900 to-blue-950 p-8 text-white md:p-12">
+        <div className="mt-16 overflow-hidden rounded-xl bg-linear-to-br from-indigo-900 to-blue-950 p-8 text-white md:p-12">
           <div className="grid items-center gap-8 lg:grid-cols-2">
             <div>
               <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/30 px-3 py-1 text-xs font-semibold text-indigo-200">
@@ -96,7 +96,7 @@ export default function KursusContact() {
                 href={waLink("Halo Kode Kursus Komputer & IT, saya ingin mendaftar dan tanya info jadwal batch terdekat.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-500 px-6 py-3.5 text-sm font-bold text-white shadow-md transition-colors hover:bg-indigo-400">
+                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-500 px-6 py-3.5 text-sm font-bold text-white shadow-md transition-colors hover:bg-indigo-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-5 w-5" />
                 Daftar via WhatsApp Sekarang
               </a>

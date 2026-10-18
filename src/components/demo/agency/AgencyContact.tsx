@@ -7,7 +7,7 @@ export default function AgencyContact() {
       <div className="container mx-auto max-w-5xl">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-violet-500/30 bg-violet-500/10 px-3.5 py-1 text-xs font-medium text-violet-300">
+            <span className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3.5 py-1 text-xs font-medium text-indigo-300">
               <Send className="h-3.5 w-3.5" />
               Mulai Proyek Anda
             </span>
@@ -23,7 +23,7 @@ export default function AgencyContact() {
                 href={waLink("Halo Andalan Digital Agency, saya mau jadwalkan sesi diskusi/konsultasi proyek baru.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-violet-600 to-indigo-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-violet-600/30 transition-all hover:from-violet-500 hover:to-indigo-500">
+                className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-5 w-5" />
                 Chat WhatsApp Sekarang
               </a>
@@ -32,7 +32,7 @@ export default function AgencyContact() {
 
           <div className="space-y-5 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs">
             <div className="flex items-start gap-3.5">
-              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-violet-400" />
+              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-indigo-400" />
               <div>
                 <p className="font-semibold text-sm text-white">Lokasi Kantor</p>
                 <p className="text-xs sm:text-sm text-neutral-400">
@@ -41,7 +41,7 @@ export default function AgencyContact() {
               </div>
             </div>
             <div className="flex items-start gap-3.5">
-              <Clock className="mt-0.5 h-5 w-5 shrink-0 text-violet-400" />
+              <Clock className="mt-0.5 h-5 w-5 shrink-0 text-indigo-400" />
               <div>
                 <p className="font-semibold text-sm text-white">Jam Kerja &amp; Konsultasi</p>
                 <p className="text-xs sm:text-sm text-neutral-400">
@@ -50,14 +50,14 @@ export default function AgencyContact() {
               </div>
             </div>
             <div className="flex items-start gap-3.5">
-              <Phone className="mt-0.5 h-5 w-5 shrink-0 text-violet-400" />
+              <Phone className="mt-0.5 h-5 w-5 shrink-0 text-indigo-400" />
               <div>
                 <p className="font-semibold text-sm text-white">Telepon / WhatsApp Resmi</p>
                 <p className="text-xs sm:text-sm text-neutral-400">+62 877 4596 8545</p>
               </div>
             </div>
             <div className="flex items-start gap-3.5">
-              <Mail className="mt-0.5 h-5 w-5 shrink-0 text-violet-400" />
+              <Mail className="mt-0.5 h-5 w-5 shrink-0 text-indigo-400" />
               <div>
                 <p className="font-semibold text-sm text-white">Email Kerja Sama</p>
                 <p className="text-xs sm:text-sm text-neutral-400">

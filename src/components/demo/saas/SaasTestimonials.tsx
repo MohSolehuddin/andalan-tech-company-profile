@@ -15,7 +15,7 @@ const testimonials = [
     quote:
       "Tampilannya sangat bersih dan cepat dipelajari anggota tim baru. Notifikasi WhatsApp untuk reminder deadline benar-benar fitur penolong kami.",
     initials: "RW",
-    bgClass: "from-cyan-500 to-blue-600",
+    bgClass: "from-blue-500 to-indigo-600",
   },
   {
     name: "Hendra Pratama",
@@ -23,7 +23,7 @@ const testimonials = [
     quote:
       "Sistem reporting real-time memudahkan saya memonitor omset 5 cabang langsung dari handphone. Sangat bernilai untuk bisnis yang sedang ekspansi.",
     initials: "HP",
-    bgClass: "from-teal-500 to-cyan-600",
+    bgClass: "from-teal-500 to-blue-600",
   },
 ];
 

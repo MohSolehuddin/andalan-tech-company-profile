@@ -20,7 +20,7 @@ const DashSidebar = () => {
     <aside className="hidden w-64 shrink-0 flex-col justify-between bg-slate-900 text-slate-300 lg:sticky lg:top-[37px] lg:flex lg:h-[calc(100vh-37px)]">
       <div className="p-5">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-indigo-500 to-indigo-700 text-base font-extrabold text-white shadow-lg shadow-indigo-500/25">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-indigo-500 to-indigo-700 text-base font-extrabold text-white shadow-sm">
             N
           </div>
           <div>
@@ -34,9 +34,9 @@ const DashSidebar = () => {
             <button
               key={item.label}
               type="button"
-              className={`flex w-full items-center justify-between rounded-xl px-3.5 py-2.5 text-sm font-medium transition-colors ${
+              className={`flex w-full items-center justify-between rounded-xl px-3.5 py-2.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                 item.active
-                  ? "bg-indigo-500 text-white shadow-md shadow-indigo-500/25"
+                  ? "bg-indigo-500 text-white shadow-sm"
                   : "text-slate-400 hover:bg-slate-800 hover:text-white"
               }`}>
               <span className="inline-flex items-center gap-3">

@@ -58,7 +58,7 @@ const DashActivity = () => {
                 <span className="block text-xs leading-relaxed text-slate-700">
                   {activity.text}
                 </span>
-                <span className="mt-0.5 block text-[11px] text-slate-400">
+                <span className="mt-0.5 block text-[11px] text-slate-600">
                   {activity.time}
                 </span>
               </span>
@@ -67,7 +67,7 @@ const DashActivity = () => {
         </ul>
       </section>
 
-      <section className="rounded-2xl bg-linear-to-br from-indigo-600 to-slate-900 p-5 text-white shadow-lg shadow-indigo-500/10">
+      <section className="rounded-2xl bg-linear-to-br from-indigo-600 to-slate-900 p-5 text-white shadow-sm">
         <div className="text-sm font-bold">
           Ingin aplikasi admin seperti ini?
         </div>
@@ -81,7 +81,7 @@ const DashActivity = () => {
           )}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-2.5 text-xs font-bold text-indigo-700 transition-colors hover:bg-indigo-50">
+          className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-2.5 text-xs font-bold text-indigo-700 transition-colors hover:bg-indigo-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
           <MessageSquare className="h-4 w-4" />
           Konsultasi via WhatsApp
         </a>

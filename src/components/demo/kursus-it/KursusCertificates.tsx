@@ -31,7 +31,6 @@ export default function KursusCertificates() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Certificate Visual Card */}
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-            <div className="absolute -inset-2 rounded-3xl bg-linear-to-r from-indigo-500 to-blue-600 opacity-20 blur-xl" />
             <div className="relative overflow-hidden rounded-2xl border-4 border-white bg-linear-to-br from-indigo-900 via-indigo-950 to-slate-950 p-6 text-white shadow-xl sm:p-8">
               <div className="flex items-center justify-between border-b border-indigo-700/50 pb-4">
                 <div className="flex items-center gap-2">
@@ -103,7 +102,7 @@ export default function KursusCertificates() {
                 href={waLink("Halo Kode Kursus Komputer & IT, saya ingin tanya contoh sertifikat & syarat kelulusan.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 text-xs font-semibold text-white transition-colors hover:bg-slate-800">
+                className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 text-xs font-semibold text-white transition-colors hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-4 w-4" />
                 Tanya Detail Sertifikasi via WhatsApp
               </a>

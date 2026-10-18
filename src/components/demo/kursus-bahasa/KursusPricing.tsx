@@ -75,13 +75,13 @@ export default function KursusPricing() {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`relative flex flex-col justify-between rounded-3xl border p-6 transition-shadow sm:p-8 ${
+              className={`relative flex flex-col justify-between rounded-xl border p-6 transition-shadow sm:p-8 ${
                 plan.popular
-                  ? "border-blue-600 bg-neutral-950 text-white shadow-xl shadow-blue-950/20"
+                  ? "border-blue-600 bg-neutral-950 text-white shadow-sm"
                   : "border-neutral-200 bg-white text-neutral-900 hover:shadow-lg"
               }`}>
               {plan.popular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-linear-to-r from-cyan-400 to-blue-500 px-4 py-1 text-xs font-bold tracking-wide text-blue-950 uppercase shadow-xs">
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-blue-400 px-4 py-1 text-xs font-bold tracking-wide text-blue-950 uppercase shadow-xs">
                   Paling Diminati
                 </div>
               )}
@@ -112,7 +112,7 @@ export default function KursusPricing() {
                     <li key={feat} className="flex items-start gap-3">
                       <Check
                         className={`mt-0.5 h-4 w-4 shrink-0 ${
-                          plan.popular ? "text-cyan-400" : "text-blue-600"
+                          plan.popular ? "text-blue-400" : "text-blue-600"
                         }`}
                       />
                       <span
@@ -131,9 +131,9 @@ export default function KursusPricing() {
                   href={waLink(plan.waMsg)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex w-full items-center justify-center rounded-xl py-3 text-sm font-semibold transition-transform hover:scale-[1.02] active:scale-[0.98] ${
+                  className={`flex w-full items-center justify-center rounded-xl py-3 text-sm font-semibold transition-transform hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     plan.popular
-                      ? "bg-linear-to-r from-cyan-400 to-blue-400 font-bold text-blue-950 shadow-md shadow-blue-900/40"
+                      ? "bg-blue-400 font-bold text-blue-950 shadow-sm"
                       : "border border-neutral-300 bg-neutral-900 text-white hover:bg-neutral-800"
                   }`}>
                   Daftar Paket Ini

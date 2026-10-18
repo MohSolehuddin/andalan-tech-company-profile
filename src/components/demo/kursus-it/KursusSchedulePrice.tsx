@@ -110,7 +110,7 @@ export default function KursusSchedulePrice() {
                 href={waLink(plan.waMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-3 text-xs font-semibold transition-colors ${
+                className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-3 text-xs font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   plan.popular
                     ? "bg-indigo-600 text-white hover:bg-indigo-500"
                     : "bg-slate-100 text-slate-800 hover:bg-slate-200"
@@ -138,7 +138,7 @@ export default function KursusSchedulePrice() {
               href={waLink("Halo Kode Kursus Komputer & IT, saya ingin cek ketersediaan jadwal kelas terdekat.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-700 hover:underline md:mt-0">
+              className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-700 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 md:mt-0">
               <Clock className="h-4 w-4" />
               Cek Kursi &amp; Jadwal Terdekat
             </a>

@@ -32,7 +32,7 @@ export default function KursusTrial() {
     <section id="trial" className="bg-blue-950 px-4 py-20 text-white">
       <div className="container mx-auto max-w-5xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-300">
+          <p className="text-sm font-semibold uppercase tracking-widest text-blue-300">
             Trial Gratis
           </p>
           <h2 className="mt-2 text-3xl font-bold md:text-4xl">
@@ -49,10 +49,10 @@ export default function KursusTrial() {
             <div
               key={step.title}
               className="relative rounded-2xl border border-white/10 bg-white/5 p-6">
-              <span className="absolute -top-3 left-6 inline-flex h-7 w-7 items-center justify-center rounded-full bg-cyan-400 text-xs font-bold text-blue-950">
+              <span className="absolute -top-3 left-6 inline-flex h-7 w-7 items-center justify-center rounded-full bg-blue-400 text-xs font-bold text-blue-950">
                 {index + 1}
               </span>
-              <step.icon className="h-6 w-6 text-cyan-300" />
+              <step.icon className="h-6 w-6 text-blue-300" />
               <h3 className="mt-4 font-bold">{step.title}</h3>
               <p className="mt-1 text-sm text-blue-50/80">{step.desc}</p>
             </div>
@@ -74,7 +74,7 @@ export default function KursusTrial() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-cyan-400 px-6 py-3 font-semibold text-blue-950 transition-colors hover:bg-cyan-300">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-blue-400 px-6 py-3 font-semibold text-blue-950 transition-colors hover:bg-blue-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Daftar Trial via WhatsApp
             </a>
@@ -82,7 +82,7 @@ export default function KursusTrial() {
 
           <div className="space-y-5 rounded-2xl bg-white/5 p-6">
             <div className="flex items-start gap-3">
-              <MapPin className="mt-0.5 h-5 w-5 text-cyan-300" />
+              <MapPin className="mt-0.5 h-5 w-5 text-blue-300" />
               <div>
                 <p className="font-semibold">Alamat</p>
                 <p className="text-sm text-blue-50/90">
@@ -91,7 +91,7 @@ export default function KursusTrial() {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Clock className="mt-0.5 h-5 w-5 text-cyan-300" />
+              <Clock className="mt-0.5 h-5 w-5 text-blue-300" />
               <div>
                 <p className="font-semibold">Jam Layanan</p>
                 <p className="text-sm text-blue-50/90">
@@ -100,14 +100,14 @@ export default function KursusTrial() {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Phone className="mt-0.5 h-5 w-5 text-cyan-300" />
+              <Phone className="mt-0.5 h-5 w-5 text-blue-300" />
               <div>
                 <p className="font-semibold">Telepon / WhatsApp</p>
                 <p className="text-sm text-blue-50/90">+62 877 4596 8545</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Mail className="mt-0.5 h-5 w-5 text-cyan-300" />
+              <Mail className="mt-0.5 h-5 w-5 text-blue-300" />
               <div>
                 <p className="font-semibold">Email</p>
                 <p className="text-sm text-blue-50/90">

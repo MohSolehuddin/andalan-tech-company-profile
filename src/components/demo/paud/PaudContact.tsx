@@ -21,14 +21,14 @@ export const PaudContact = () => {
                 href={waLink("Halo PAUD Ceria & Daycare, saya ingin jadwalkan kunjungan sekolah dan trial class anak.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-rose-500 to-pink-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-rose-950/40 transition-all hover:brightness-110">
+                className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-rose-500 to-pink-500 px-6 py-3.5 font-semibold text-white shadow-sm transition-all hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-5 w-5" />
                 Jadwalkan Kunjungan via WA
               </a>
             </div>
           </div>
 
-          <div className="space-y-4 rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8">
+          <div className="space-y-4 rounded-xl border border-white/10 bg-white/5 p-6 md:p-8">
             <div className="flex items-start gap-3">
               <MapPin className="mt-1 h-5 w-5 shrink-0 text-rose-400" />
               <div>

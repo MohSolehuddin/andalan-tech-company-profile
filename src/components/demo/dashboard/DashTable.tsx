@@ -84,7 +84,7 @@ const DashTable = () => {
         </div>
         <button
           type="button"
-          className="text-xs font-semibold text-indigo-600 hover:text-indigo-700">
+          className="text-xs font-semibold text-indigo-600 hover:text-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
           Lihat semua
         </button>
       </div>
@@ -92,7 +92,7 @@ const DashTable = () => {
       <div className="overflow-x-auto">
         <table className="w-full min-w-[640px] text-left text-sm">
           <thead>
-            <tr className="text-[11px] uppercase tracking-wider text-slate-400">
+            <tr className="text-[11px] uppercase tracking-wider text-slate-600">
               <th className="px-5 py-3 font-semibold sm:px-6">ID</th>
               <th className="px-5 py-3 font-semibold sm:px-6">Pelanggan</th>
               <th className="px-5 py-3 font-semibold sm:px-6">Produk</th>
