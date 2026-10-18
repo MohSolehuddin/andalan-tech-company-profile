@@ -69,7 +69,7 @@ export default function AyamPromo() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-red-700 transition-colors hover:bg-red-50">
+            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-red-700 transition-colors hover:bg-red-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
             <MessageCircle className="h-5 w-5" />
             Pesan Antar Sekarang
           </a>

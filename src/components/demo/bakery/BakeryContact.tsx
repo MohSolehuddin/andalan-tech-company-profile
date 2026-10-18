@@ -27,14 +27,14 @@ const BakeryContact = () => {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 font-semibold text-neutral-950 transition-colors hover:bg-amber-400">
+                className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 font-semibold text-neutral-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-500">
                 <Phone className="h-4 w-4" />
                 Chat WhatsApp Toko
               </a>
             </div>
           </div>
 
-          <div className="space-y-4 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs md:p-8">
+          <div className="space-y-4 rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs md:p-8">
             <div className="flex items-start gap-3.5">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/20 text-amber-400">
                 <Clock className="h-5 w-5" />

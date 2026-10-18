@@ -24,8 +24,7 @@ export default function TokoKueOrderWA() {
     <section id="order-wa" className="bg-neutral-900 px-4 py-20 text-white">
       <div className="container mx-auto max-w-6xl">
         {/* Banner Pemesanan */}
-        <div className="relative overflow-hidden rounded-3xl bg-linear-to-r from-pink-600 via-rose-600 to-pink-700 p-8 shadow-xl md:p-12">
-          <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-white/10 blur-2xl" />
+        <div className="relative overflow-hidden rounded-xl bg-linear-to-r from-pink-600 via-rose-600 to-pink-700 p-8 shadow-xl md:p-12">
           <div className="relative z-10 max-w-2xl">
             <span className="inline-block rounded-full bg-white/20 px-3.5 py-1 text-xs font-semibold tracking-wide text-white backdrop-blur-xs">
               Pemesanan Cepat &amp; Mudah
@@ -44,7 +43,7 @@ export default function TokoKueOrderWA() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 rounded-xl bg-white px-6 py-3.5 font-bold text-neutral-900 shadow-lg transition-all hover:bg-neutral-100 hover:scale-[1.02]">
+                className="inline-flex items-center gap-2.5 rounded-xl bg-white px-6 py-3.5 font-bold text-neutral-900 shadow-sm transition-all hover:bg-neutral-100 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
                 <MessageCircle className="h-5 w-5 text-pink-600" />
                 Hubungi via WhatsApp
               </a>

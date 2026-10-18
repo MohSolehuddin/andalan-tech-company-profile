@@ -12,8 +12,6 @@ export default function OlehHero() {
     <section className="relative overflow-hidden bg-stone-950 text-white">
       {/* Background atmospheric gradient */}
       <div className="absolute inset-0 bg-linear-to-br from-amber-900/40 via-orange-950/60 to-stone-950" />
-      <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-600/20 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-96 w-96 rounded-full bg-amber-600/20 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-12">
@@ -39,13 +37,13 @@ export default function OlehHero() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-6 py-3.5 font-semibold text-stone-950 transition-colors hover:bg-orange-400">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-6 py-3.5 font-semibold text-stone-950 transition-colors hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                 <Gift className="h-5 w-5" />
                 Pesan via WhatsApp
               </a>
               <a
                 href="#katalog"
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10">
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
                 Lihat Katalog Produk
               </a>
             </div>
@@ -63,7 +61,7 @@ export default function OlehHero() {
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative mx-auto max-w-md rounded-3xl border border-orange-500/30 bg-linear-to-b from-stone-900/90 to-stone-950/90 p-8 shadow-2xl backdrop-blur-sm">
+            <div className="relative mx-auto max-w-md rounded-xl border border-orange-500/30 bg-linear-to-b from-stone-900/90 to-stone-950/90 p-8 shadow-2xl backdrop-blur-sm">
               <div className="flex items-center justify-between border-b border-white/10 pb-4">
                 <span className="text-xs font-semibold uppercase tracking-wider text-orange-400">
                   Toko Resmi Situbondo
@@ -105,7 +103,7 @@ export default function OlehHero() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-orange-500 to-amber-500 py-3 text-sm font-semibold text-stone-950 transition-opacity hover:opacity-90">
+                className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-orange-500 to-amber-500 py-3 text-sm font-semibold text-stone-950 transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                 Ambil Paket Best Seller Ini
               </a>
             </div>

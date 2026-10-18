@@ -116,7 +116,7 @@ const BakeryCatalog = () => {
                   href={waLink(`Halo Dapur Roti Nusantara, saya ingin memesan: ${item.name}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg bg-neutral-900 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-amber-600">
+                  className="inline-flex items-center gap-1.5 rounded-lg bg-neutral-900 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-amber-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   <ShoppingBag className="h-3.5 w-3.5" />
                   Pesan
                 </a>

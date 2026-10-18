@@ -145,10 +145,10 @@ export default function KateringPackages() {
                 href={waLink(pkg.waMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-xs font-semibold transition-colors ${
+                className={`mt-6 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-xs font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   pkg.popular
-                    ? "bg-amber-500 text-neutral-950 hover:bg-amber-400"
-                    : "border border-amber-300 text-amber-900 hover:bg-amber-50"
+                    ? "bg-amber-500 text-neutral-950 hover:bg-amber-400 focus-visible:ring-amber-500"
+                    : "border border-amber-300 text-amber-900 hover:bg-amber-50 focus-visible:ring-amber-600"
                 }`}>
                 Pesan Paket Ini
               </a>

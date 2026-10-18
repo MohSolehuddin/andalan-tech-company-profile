@@ -106,7 +106,7 @@ export default function KafeEvents() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-stone-900 px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-amber-700">
+                  className="rounded-lg bg-stone-900 px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900">
                   Daftar / Tanya
                 </a>
               </div>

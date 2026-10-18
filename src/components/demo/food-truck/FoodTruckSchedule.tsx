@@ -105,7 +105,7 @@ export default function FoodTruckSchedule() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-yellow-500 px-5 py-2.5 text-sm font-semibold text-neutral-950 transition-colors hover:bg-yellow-400">
+            className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-yellow-500 px-5 py-2.5 text-sm font-semibold text-neutral-950 transition-colors hover:bg-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-500">
             <Navigation className="h-4 w-4" />
             Ajukan Lokasi
           </a>

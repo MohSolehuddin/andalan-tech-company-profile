@@ -78,7 +78,7 @@ export default function RestoMenu() {
                   href={waLink(`Halo, saya mau pesan ${dish.name}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700">
+                  className="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   Pesan
                 </a>
               </div>

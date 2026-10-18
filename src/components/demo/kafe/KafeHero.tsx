@@ -10,10 +10,8 @@ const highlights = [
 export default function KafeHero() {
   return (
     <section className="relative overflow-hidden bg-stone-950 text-white">
-      {/* Ambient background glow */}
+      {/* Ambient background */}
       <div className="absolute inset-0 bg-linear-to-br from-amber-950/40 via-stone-950 to-stone-900" />
-      <div className="absolute -top-28 -right-28 h-96 w-96 rounded-full bg-amber-600/15 blur-3xl" />
-      <div className="absolute -bottom-28 -left-28 h-96 w-96 rounded-full bg-stone-700/20 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
@@ -38,13 +36,13 @@ export default function KafeHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-amber-500">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-amber-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-500">
               <Coffee className="h-5 w-5" />
               Reservasi Meja via WA
             </a>
             <a
               href="#menu"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
               Lihat Menu Kopi & Pastry
             </a>
           </div>

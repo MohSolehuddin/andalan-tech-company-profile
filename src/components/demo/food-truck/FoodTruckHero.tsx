@@ -11,8 +11,6 @@ export default function FoodTruckHero() {
   return (
     <section className="relative overflow-hidden bg-neutral-950 text-white">
       <div className="absolute inset-0 bg-linear-to-br from-yellow-950/60 via-neutral-950 to-red-950/40" />
-      <div className="absolute -top-24 -right-24 h-80 w-80 rounded-full bg-yellow-500/20 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-red-600/20 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-2">
@@ -38,13 +36,13 @@ export default function FoodTruckHero() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-yellow-500 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-yellow-400">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-yellow-500 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-500">
                 <Truck className="h-5 w-5" />
                 Pesan via WhatsApp
               </a>
               <a
                 href="#jadwal"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
                 <MapPin className="h-5 w-5" />
                 Lihat Jadwal Lokasi
               </a>
@@ -61,8 +59,8 @@ export default function FoodTruckHero() {
           </div>
 
           <div className="relative">
-            <div className="rounded-3xl border border-white/10 bg-linear-to-br from-yellow-500 to-red-600 p-1 shadow-2xl">
-              <div className="rounded-[22px] bg-neutral-950/85 p-8">
+            <div className="rounded-xl border border-white/10 bg-linear-to-br from-yellow-500 to-red-600 p-1 shadow-2xl">
+              <div className="rounded-lg bg-neutral-950/85 p-8">
                 <span className="text-6xl" aria-hidden="true">
                   🚚
                 </span>

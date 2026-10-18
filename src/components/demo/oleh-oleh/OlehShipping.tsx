@@ -28,7 +28,7 @@ export default function OlehShipping() {
   return (
     <section id="pengiriman" className="bg-stone-100 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
-        <div className="rounded-3xl border border-stone-200 bg-white p-8 shadow-sm md:p-12">
+        <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm md:p-12">
           <div className="grid items-center gap-10 lg:grid-cols-12">
             <div className="lg:col-span-5">
               <span className="inline-flex items-center gap-2 rounded-full bg-orange-100 px-3.5 py-1 text-xs font-semibold text-orange-800">
@@ -64,7 +64,7 @@ export default function OlehShipping() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-xl bg-orange-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-orange-500">
+                  className="inline-flex items-center gap-2 rounded-xl bg-orange-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-orange-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-600">
                   <Truck className="h-4 w-4" />
                   Cek Ongkir via WhatsApp
                 </a>

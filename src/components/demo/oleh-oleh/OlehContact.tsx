@@ -26,20 +26,20 @@ export default function OlehContact() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-6 py-3.5 font-semibold text-stone-950 transition-colors hover:bg-orange-400">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-6 py-3.5 font-semibold text-stone-950 transition-colors hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                 <MessageCircle className="h-5 w-5" />
                 Hubungi via WhatsApp
               </a>
               <a
                 href="#katalog"
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10">
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
                 <ShoppingBag className="h-5 w-5" />
                 Pilih Produk Dulu
               </a>
             </div>
           </div>
 
-          <div className="space-y-4 rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8 backdrop-blur-xs">
+          <div className="space-y-4 rounded-xl border border-white/10 bg-white/5 p-6 md:p-8 backdrop-blur-xs">
             <div className="flex items-start gap-4">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-orange-500/20 text-orange-400">
                 <MapPin className="h-5 w-5" />

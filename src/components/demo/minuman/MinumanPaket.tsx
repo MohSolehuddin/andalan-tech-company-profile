@@ -93,7 +93,7 @@ export default function MinumanPaket() {
                   <span className="text-2xl font-bold text-teal-700">
                     {bundle.promoPrice}
                   </span>
-                  <span className="text-sm text-neutral-400 line-through">
+                  <span className="text-sm text-neutral-600 line-through">
                     {bundle.originalPrice}
                   </span>
                 </div>
@@ -125,7 +125,7 @@ export default function MinumanPaket() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 py-3 text-sm font-semibold text-white transition-colors hover:bg-teal-500">
+                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 py-3 text-sm font-semibold text-white transition-colors hover:bg-teal-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-600">
                   <MessageCircle className="h-4 w-4" />
                   Pesan Paket Ini
                 </a>

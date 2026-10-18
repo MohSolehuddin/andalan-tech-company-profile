@@ -67,7 +67,7 @@ export default function TokoKueCustom() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-6 py-3.5 font-semibold text-white transition-all hover:bg-neutral-800">
+                className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-6 py-3.5 font-semibold text-white transition-all hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                 <MessageSquare className="h-5 w-5 text-pink-400" />
                 Konsultasi Custom via WhatsApp
               </a>
@@ -75,7 +75,7 @@ export default function TokoKueCustom() {
           </div>
 
           {/* Right Column: Steps & Preview Box */}
-          <div className="rounded-3xl border border-pink-100 bg-linear-to-br from-pink-50/80 via-rose-50/30 to-amber-50/40 p-8 shadow-xs sm:p-10">
+          <div className="rounded-xl border border-pink-100 bg-linear-to-br from-pink-50/80 via-rose-50/30 to-amber-50/40 p-8 shadow-xs sm:p-10">
             <h3 className="text-xl font-bold text-neutral-900">
               Alur Pemesanan Custom Cake
             </h3>

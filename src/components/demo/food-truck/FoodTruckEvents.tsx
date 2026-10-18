@@ -133,10 +133,10 @@ export default function FoodTruckEvents() {
                 href={waLink(service.waMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors ${
+                className={`mt-6 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   service.popular
-                    ? "bg-yellow-500 text-neutral-950 hover:bg-yellow-400"
-                    : "border border-yellow-300 text-yellow-900 hover:bg-yellow-50"
+                    ? "bg-yellow-500 text-neutral-950 hover:bg-yellow-400 focus-visible:ring-yellow-500"
+                    : "border border-yellow-300 text-yellow-900 hover:bg-yellow-50 focus-visible:ring-yellow-600"
                 }`}>
                 Konsultasi via WhatsApp
               </a>

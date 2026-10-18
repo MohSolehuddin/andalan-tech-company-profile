@@ -101,10 +101,10 @@ export default function WarungPaket() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex items-center justify-center rounded-lg px-5 py-2.5 text-sm font-semibold transition-colors ${
+                className={`mt-6 inline-flex items-center justify-center rounded-lg px-5 py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   paket.popular
-                    ? "bg-red-600 text-white hover:bg-red-500"
-                    : "bg-stone-900 text-white hover:bg-red-600"
+                    ? "bg-red-600 text-white hover:bg-red-500 focus-visible:ring-red-600"
+                    : "bg-stone-900 text-white hover:bg-red-600 focus-visible:ring-stone-900"
                 }`}>
                 Pesan {paket.name}
               </a>

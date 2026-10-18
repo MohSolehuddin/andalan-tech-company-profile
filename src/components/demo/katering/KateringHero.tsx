@@ -12,8 +12,6 @@ export default function KateringHero() {
     <section className="relative overflow-hidden bg-neutral-950 text-white">
       {/* Background gradients */}
       <div className="absolute inset-0 bg-linear-to-br from-amber-950/50 via-neutral-950 to-neutral-900" />
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-amber-500/15 blur-3xl" />
-      <div className="absolute -bottom-32 -left-32 h-96 w-96 rounded-full bg-orange-600/10 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
@@ -33,7 +31,7 @@ export default function KateringHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#paket"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-amber-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-500">
               <Utensils className="h-5 w-5" />
               Lihat Pilihan Paket
             </a>
@@ -43,7 +41,7 @@ export default function KateringHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
               Pesan via WhatsApp
             </a>
           </div>

@@ -50,7 +50,7 @@ export default function MinumanContact() {
         </div>
 
         {/* Action card & Outlet details */}
-        <div className="mt-12 rounded-3xl border border-teal-500/30 bg-linear-to-r from-teal-950 via-neutral-900 to-cyan-950 p-8 md:p-12">
+        <div className="mt-12 rounded-xl border border-teal-500/30 bg-linear-to-r from-teal-950 via-neutral-900 to-teal-950 p-8 md:p-12">
           <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <span className="inline-flex items-center gap-1.5 rounded-full bg-teal-400/10 px-3 py-1 text-xs font-semibold text-teal-300">
@@ -72,7 +72,7 @@ export default function MinumanContact() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-teal-500 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-teal-400">
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-teal-500 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-teal-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-500">
                   <MessageCircle className="h-5 w-5" />
                   Order WhatsApp Sekarang
                 </a>

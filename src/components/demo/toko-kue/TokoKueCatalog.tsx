@@ -134,7 +134,7 @@ export default function TokoKueCatalog() {
               key={cat}
               type="button"
               onClick={() => setSelectedCategory(cat)}
-              className={`rounded-full px-5 py-2 text-sm font-semibold transition-all ${
+              className={`rounded-full px-5 py-2 text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-pink-500 ${
                 selectedCategory === cat
                   ? "bg-pink-600 text-white shadow-xs"
                   : "border border-neutral-200 bg-white text-neutral-700 hover:border-pink-300 hover:text-pink-600"
@@ -167,8 +167,8 @@ export default function TokoKueCatalog() {
                 <h3 className="mt-1 text-base font-bold text-neutral-900 group-hover:text-pink-600">
                   {item.name}
                 </h3>
-                <p className="mt-1.5 text-xs leading-relaxed text-neutral-500">{item.desc}</p>
-                <div className="mt-3 text-xs text-neutral-400">{item.portion}</div>
+                <p className="mt-1.5 text-xs leading-relaxed text-neutral-600">{item.desc}</p>
+                <div className="mt-3 text-xs text-neutral-600">{item.portion}</div>
 
                 <div className="mt-4 pt-3 border-t border-neutral-100 flex items-center justify-between gap-2">
                   <span className="text-base font-bold text-neutral-900">{item.price}</span>
@@ -176,7 +176,7 @@ export default function TokoKueCatalog() {
                     href={waLink(`Halo Manis Kue & Dessert, saya ingin pesan ${item.name} (${item.price}).`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 rounded-lg bg-pink-500 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-pink-600">
+                    className="inline-flex items-center gap-1.5 rounded-lg bg-pink-500 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-pink-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-pink-500">
                     <ShoppingBag className="h-3.5 w-3.5" />
                     Pesan WA
                   </a>
