@@ -8,12 +8,14 @@ import barbershop from "./items/barbershop";
 import bengkel from "./items/bengkel";
 import bimbel from "./items/bimbel";
 import dashboard from "./items/dashboard";
+import dealerMobil from "./items/dealer-mobil";
 import dokterGigi from "./items/dokter-gigi";
 import elektronik from "./items/elektronik";
 import fashion from "./items/fashion";
 import fitness from "./items/fitness";
 import foodTruck from "./items/food-truck";
 import fotografi from "./items/fotografi";
+import homeService from "./items/home-service";
 import jasa from "./items/jasa";
 import kafe from "./items/kafe";
 import katering from "./items/katering";
@@ -22,13 +24,17 @@ import klinikHewan from "./items/klinik-hewan";
 import klinik from "./items/klinik";
 import laundry from "./items/laundry";
 import legal from "./items/legal";
+import logistik from "./items/logistik";
 import minimarket from "./items/minimarket";
 import minuman from "./items/minuman";
+import motor from "./items/motor";
 import olehOleh from "./items/oleh-oleh";
 import optik from "./items/optik";
+import percetakan from "./items/percetakan";
 import perikanan from "./items/perikanan";
 import pesantren from "./items/pesantren";
 import properti from "./items/properti";
+import rentalMobil from "./items/rental-mobil";
 import restoran from "./items/restoran";
 import saas from "./items/saas";
 import salon from "./items/salon";
@@ -41,6 +47,7 @@ import tokoKue from "./items/toko-kue";
 import tokoMadura from "./items/toko-madura";
 import toko from "./items/toko";
 import travel from "./items/travel";
+import umroh from "./items/umroh";
 import warung from "./items/warung";
 import wedding from "./items/wedding";
 
@@ -54,12 +61,14 @@ export const demoItems: DemoItem[] = [
   bengkel,
   bimbel,
   dashboard,
+  dealerMobil,
   dokterGigi,
   elektronik,
   fashion,
   fitness,
   foodTruck,
   fotografi,
+  homeService,
   jasa,
   kafe,
   katering,
@@ -68,13 +77,17 @@ export const demoItems: DemoItem[] = [
   klinik,
   laundry,
   legal,
+  logistik,
   minimarket,
   minuman,
+  motor,
   olehOleh,
   optik,
+  percetakan,
   perikanan,
   pesantren,
   properti,
+  rentalMobil,
   restoran,
   saas,
   salon,
@@ -87,6 +100,7 @@ export const demoItems: DemoItem[] = [
   tokoMadura,
   toko,
   travel,
+  umroh,
   warung,
   wedding,
 ];
