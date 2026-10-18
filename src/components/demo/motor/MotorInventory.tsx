@@ -122,9 +122,9 @@ export default function MotorInventory() {
                 key={cat}
                 type="button"
                 onClick={() => setSelectedCategory(cat)}
-                className={`rounded-full px-5 py-2 text-xs sm:text-sm font-semibold transition-all ${
+                className={`rounded-full px-5 py-2 text-xs sm:text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500 ${
                   selectedCategory === cat
-                    ? "bg-orange-600 text-white shadow-md shadow-orange-600/20"
+                    ? "bg-orange-600 text-white shadow-sm"
                     : "border border-slate-300 bg-white text-slate-700 hover:border-orange-400 hover:text-orange-600"
                 }`}>
                 {cat}
@@ -174,7 +174,7 @@ export default function MotorInventory() {
                     href={waLink(`Halo Motor Jaya Showroom, saya tertarik menanyakan ketersediaan ${motor.name} (${motor.price}). Apakah unit masih tersedia?`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-slate-900 py-2.5 text-xs font-bold text-white transition-colors hover:bg-orange-600">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-slate-900 py-2.5 text-xs font-bold text-white transition-colors hover:bg-orange-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-600">
                     <MessageCircle className="h-4 w-4" />
                     Tanya Unit via WhatsApp
                   </a>

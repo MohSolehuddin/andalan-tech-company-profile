@@ -133,7 +133,7 @@ export default function UmrohSchedules() {
                     href={waLink(`Halo Barokah Umroh & Haji, saya ingin memesan seat untuk keberangkatan tanggal ${item.date} (${item.packageName}).`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-emerald-500">
+                    className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-emerald-600">
                     <MessageCircle className="h-3.5 w-3.5" />
                     Amankan Seat
                   </a>

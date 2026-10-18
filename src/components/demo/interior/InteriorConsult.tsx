@@ -54,7 +54,7 @@ export default function InteriorConsult() {
                 href={waLink("Halo Ruang Interior Studio, saya ingin mulai proyek interior. Ini kondisi ruangan saya:")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-rose-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-rose-400">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-rose-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-rose-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">
                 <MessageCircle className="h-5 w-5" />
                 Konsultasi via WhatsApp
               </a>

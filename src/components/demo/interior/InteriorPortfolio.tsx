@@ -119,7 +119,7 @@ export default function InteriorPortfolio() {
               {/* Card Body */}
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-lg font-bold text-slate-900">{item.name}</h3>
-                <p className="mt-1 flex items-center gap-1.5 text-sm text-slate-500">
+                <p className="mt-1 flex items-center gap-1.5 text-sm text-slate-600">
                   <Ruler className="h-4 w-4 shrink-0 text-rose-600" />
                   {item.tags.join(" · ")}
                 </p>
@@ -131,7 +131,7 @@ export default function InteriorPortfolio() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-rose-500">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-rose-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:ring-offset-2">
                     <MessageCircle className="h-4 w-4" />
                     Tanya Konsep Ini
                   </a>

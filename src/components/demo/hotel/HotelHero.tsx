@@ -10,10 +10,6 @@ const trustMetrics = [
 export default function HotelHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
-      {/* Background ambient gradients without external images */}
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-teal-500/15 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-teal-500/40 bg-teal-500/10 px-4 py-1.5 text-sm font-medium text-teal-300">
@@ -34,13 +30,13 @@ export default function HotelHero() {
               href={waLink("Halo Hotel Nyaman Stay, saya ingin memesan kamar.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-teal-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-teal-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-400">
               <MessageCircle className="h-5 w-5" />
               Pesan Kamar via WhatsApp
             </a>
             <a
               href="#kamar"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <BedDouble className="h-5 w-5 text-teal-400" />
               Lihat Tipe Kamar
             </a>

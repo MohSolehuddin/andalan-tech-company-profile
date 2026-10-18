@@ -13,8 +13,6 @@ export default function UmrohHero() {
     <section className="relative overflow-hidden bg-slate-950 text-white">
       {/* Background ambient gradients */}
       <div className="absolute inset-0 bg-linear-to-br from-emerald-950/50 via-slate-950 to-green-950/40" />
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-emerald-600/15 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-green-500/15 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
@@ -36,13 +34,13 @@ export default function UmrohHero() {
               href={waLink("Halo Barokah Umroh & Haji, saya ingin konsultasi pendaftaran paket umroh.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-500">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-emerald-500">
               <MessageCircle className="h-5 w-5" />
               Konsultasi WhatsApp
             </a>
             <a
               href="#paket"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <Moon className="h-5 w-5 text-emerald-400" />
               Lihat Paket Pilihan
             </a>

@@ -80,7 +80,7 @@ const KontraktorContact = () => {
                     href={waLink(opt.msg)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-stone-300 bg-white px-3 py-2 text-xs font-medium text-stone-800 transition-colors hover:border-yellow-500 hover:bg-yellow-50 hover:text-yellow-950">
+                    className="inline-flex items-center gap-2 rounded-lg border border-stone-300 bg-white px-3 py-2 text-xs font-medium text-stone-800 transition-colors hover:border-yellow-500 hover:bg-yellow-50 hover:text-yellow-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-500 focus-visible:ring-offset-2">
                     <MessageCircle className="h-3.5 w-3.5 text-yellow-600" />
                     <span>{opt.label}</span>
                   </a>
@@ -116,7 +116,7 @@ const KontraktorContact = () => {
                   href={waLink("Halo Bangun Karya Kontraktor, saya ingin berdiskusi langsung mengenai rencana konstruksi saya.")}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-500 px-4 py-2.5 text-xs font-bold text-stone-950 transition-colors hover:bg-yellow-400">
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-500 px-4 py-2.5 text-xs font-bold text-stone-950 transition-colors hover:bg-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2 focus-visible:ring-offset-stone-900">
                   <Phone className="h-3.5 w-3.5" />
                   Hubungi Admin via WhatsApp
                 </a>

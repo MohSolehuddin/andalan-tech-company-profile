@@ -62,7 +62,7 @@ export default function ApartemenTouringBooking() {
                 href={waLink("Halo Huni Apartemen & Kost, saya ingin menjadwalkan survey lokasi untuk unit apartemen/kost.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-indigo-500">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500">
                 <CalendarCheck2 className="h-5 w-5" />
                 Jadwalkan Survey via WA
               </a>
@@ -70,7 +70,7 @@ export default function ApartemenTouringBooking() {
                 href={waLink("Halo Huni Apartemen & Kost, saya dari luar kota dan ingin request Virtual Tour via Video Call.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
                 <MessageCircle className="h-5 w-5 text-indigo-400" />
                 Request Virtual Tour
               </a>

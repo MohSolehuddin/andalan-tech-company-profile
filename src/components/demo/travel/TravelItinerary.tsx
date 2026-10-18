@@ -61,7 +61,7 @@ export default function TravelItinerary() {
               href={waLink("Halo Jelajah Andalan Travel, boleh minta contoh itinerary lengkap paket Bali Escape?")}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center justify-center gap-2 rounded-lg bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-950 transition-colors hover:bg-cyan-400">
+              className="mt-6 inline-flex items-center justify-center gap-2 rounded-lg bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-950 transition-colors hover:bg-cyan-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-cyan-400">
               <MessageCircle className="h-4 w-4" />
               Minta Itinerary Lengkap
             </a>

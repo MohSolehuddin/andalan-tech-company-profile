@@ -53,7 +53,7 @@ export default function RentalBooking() {
                 href={waLink("Halo Sewa Mobil Andalan, saya ingin booking mobil. Ini rencana perjalanan saya:")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-sky-400">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-sky-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-sky-400">
                 <MessageCircle className="h-5 w-5" />
                 Booking via WhatsApp
               </a>

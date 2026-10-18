@@ -56,7 +56,7 @@ export default function HotelLocation() {
                 href={waLink("Halo Hotel Nyaman Stay, saya ingin booking kamar untuk menginap.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-teal-400">
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-teal-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-400">
                 <MessageCircle className="h-5 w-5" />
                 Booking Sekarang via WhatsApp
               </a>

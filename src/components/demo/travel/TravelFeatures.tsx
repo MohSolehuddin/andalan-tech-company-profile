@@ -35,7 +35,7 @@ export default function TravelFeatures() {
             Liburan Nyaman, Perjalanan Terencana
           </h2>
           <p className="mt-3 text-slate-600">
-            Kami percaya liburan terbaik lahir dari persiapan yang matang dan layanan yang bisa diandalkan.
+            Kami memastikan liburan Anda nyaman lewat persiapan matang dan layanan terpercaya.
           </p>
         </div>
 

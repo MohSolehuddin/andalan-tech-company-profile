@@ -29,7 +29,7 @@ const units: RentalUnit[] = [
     bathType: "KM Dalam + Water Heater",
     features: ["Kitchenette & Kulkas", "Smart TV 43 Inch", "Balkon Kota"],
     emoji: "🏢",
-    gradientClass: "from-indigo-800 to-violet-950",
+    gradientClass: "from-indigo-900 to-slate-950",
   },
   {
     id: "kost-putra-executive",
@@ -43,7 +43,7 @@ const units: RentalUnit[] = [
     bathType: "KM Dalam",
     features: ["AC & WiFi 100 Mbps", "Meja Kerja & Lemari", "Parkir Motor Luas"],
     emoji: "🛏️",
-    gradientClass: "from-violet-800 to-indigo-950",
+    gradientClass: "from-slate-800 to-indigo-950",
   },
   {
     id: "kost-putri-queen",
@@ -57,7 +57,7 @@ const units: RentalUnit[] = [
     bathType: "KM Dalam + Shower",
     features: ["CCTV & Penjaga 24 Jam", "Water Heater", "Dapur Bersama"],
     emoji: "🌸",
-    gradientClass: "from-purple-800 to-indigo-950",
+    gradientClass: "from-slate-800 to-indigo-950",
   },
   {
     id: "suite-2br-family",
@@ -99,7 +99,7 @@ const units: RentalUnit[] = [
     bathType: "KM Dalam Modern",
     features: ["High Ceiling Aesthetic", "Workstation Ergonomis", "Smart Door Lock"],
     emoji: "✨",
-    gradientClass: "from-violet-900 to-purple-950",
+    gradientClass: "from-indigo-900 to-slate-950",
   },
 ];
 
@@ -166,7 +166,7 @@ export default function ApartemenListings() {
                 </div>
 
                 <div className="mt-5 border-t border-slate-100 pt-4">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-600">
                     Fasilitas Unggulan:
                   </p>
                   <ul className="mt-2 space-y-1.5 text-xs text-slate-600">
@@ -184,7 +184,7 @@ export default function ApartemenListings() {
                     href={waLink(`Halo Huni Apartemen & Kost, saya tertarik dengan unit "${unit.name}" (${unit.monthlyPrice}). Apakah unit ini masih tersedia?`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-50 py-2.5 text-sm font-semibold text-indigo-700 transition-colors hover:bg-indigo-600 hover:text-white">
+                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-50 py-2.5 text-sm font-semibold text-indigo-700 transition-colors hover:bg-indigo-600 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600">
                     <MessageCircle className="h-4 w-4" />
                     Tanya Unit via WA
                   </a>

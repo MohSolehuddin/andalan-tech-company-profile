@@ -77,7 +77,7 @@ const packages: PackageItem[] = [
     id: "haji-furoda",
     name: "Haji Khusus / Furoda Mujamalah",
     badge: "Tanpa Antre",
-    badgeColor: "bg-purple-100 text-purple-800 border-purple-300",
+    badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-300",
     emoji: "🕌",
     duration: "25-27 Hari (Musim Haji)",
     price: "Rp 285.000.000",
@@ -165,7 +165,7 @@ export default function UmrohPackages() {
                   href={waLink(`Halo Barokah Umroh & Haji, saya berminat mendaftar paket "${pkg.name}". Mohon informasi seat dan jadwalnya.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-600">
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-emerald-700">
                   <MessageCircle className="h-4 w-4" />
                   Konsultasi Paket Ini via WhatsApp
                 </a>

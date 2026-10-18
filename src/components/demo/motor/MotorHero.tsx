@@ -11,10 +11,6 @@ const trustBadges = [
 export default function MotorHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
-      {/* Ambient background glows */}
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-orange-600/20 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-red-600/15 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-7">
@@ -38,13 +34,13 @@ export default function MotorHero() {
                 href={waLink("Halo Motor Jaya Showroom, saya ingin konsultasi pembelian sepeda motor.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-600 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-orange-600/30 transition-all hover:bg-orange-500 hover:shadow-orange-600/40">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-600 px-6 py-3.5 text-sm font-bold text-white shadow-sm transition-all hover:bg-orange-500 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                 <MessageCircle className="h-5 w-5" />
                 Konsultasi WhatsApp
               </a>
               <a
                 href="#stok-motor"
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-white/10">
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
                 Lihat Stok Motor
                 <ChevronRight className="h-4 w-4" />
               </a>
@@ -61,7 +57,7 @@ export default function MotorHero() {
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative rounded-3xl border border-white/10 bg-linear-to-br from-slate-900 to-slate-900/90 p-6 shadow-2xl backdrop-blur-sm">
+            <div className="relative rounded-xl border border-white/10 bg-linear-to-br from-slate-900 to-slate-900/90 p-6 shadow-2xl backdrop-blur-sm">
               <div className="flex items-center justify-between border-b border-white/10 pb-4">
                 <div className="flex items-center gap-2 text-sm font-semibold text-orange-400">
                   <Zap className="h-4 w-4" />
@@ -102,7 +98,7 @@ export default function MotorHero() {
                 href={waLink("Halo Motor Jaya Showroom, saya mau klaim promo DP ringan dan bonus helm/jaket.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-5 block w-full rounded-xl bg-linear-to-r from-orange-600 to-red-600 py-3 text-center text-xs font-bold uppercase tracking-wider text-white transition-opacity hover:opacity-95">
+                className="mt-5 block w-full rounded-xl bg-orange-600 py-3 text-center text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-orange-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500">
                 Klaim Promo via WhatsApp
               </a>
             </div>

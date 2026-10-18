@@ -10,10 +10,6 @@ const trustMetrics = [
 const KontraktorHero = () => {
   return (
     <section className="relative overflow-hidden bg-stone-950 text-white">
-      {/* Background ambient lighting */}
-      <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-yellow-500/15 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-amber-600/10 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-yellow-500/40 bg-yellow-500/10 px-4 py-1.5 text-xs font-semibold text-yellow-300 md:text-sm">
@@ -34,13 +30,13 @@ const KontraktorHero = () => {
               href={waLink("Halo Bangun Karya Kontraktor, saya ingin konsultasi rencana bangun / renovasi bangunan.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-yellow-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-yellow-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-yellow-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-yellow-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-400">
               <MessageCircle className="h-5 w-5" />
               Konsultasi WhatsApp Gratis
             </a>
             <a
               href="#estimasi-rab"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-700 bg-stone-900/60 px-6 py-3 font-semibold text-stone-200 transition-colors hover:bg-stone-800 hover:text-white">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-stone-700 bg-stone-900/60 px-6 py-3 font-semibold text-stone-200 transition-colors hover:bg-stone-800 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-400">
               <Ruler className="h-5 w-5 text-yellow-400" />
               Simulasi Estimasi RAB
             </a>

@@ -60,7 +60,7 @@ const KontraktorProjects = () => {
             href={waLink("Halo Bangun Karya Kontraktor, saya ingin melihat katalog portofolio proyek lengkap.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-xs font-semibold text-yellow-700 hover:text-yellow-800">
+            className="inline-flex items-center gap-2 text-xs font-semibold text-yellow-700 hover:text-yellow-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-600 rounded">
             <MessageCircle className="h-4 w-4" />
             Minta Katalog Portofolio PDF via WA
           </a>
@@ -112,7 +112,7 @@ const KontraktorProjects = () => {
                     href={waLink(`Halo Bangun Karya Kontraktor, saya tertarik ingin bangun/renovasi dengan model seperti: ${proj.title}`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs font-semibold text-stone-900 transition-colors hover:text-yellow-700">
+                    className="inline-flex items-center gap-2 text-xs font-semibold text-stone-900 transition-colors hover:text-yellow-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-500 focus-visible:ring-offset-2 rounded">
                     <MessageCircle className="h-3.5 w-3.5 text-yellow-600" />
                     Konsultasi Model Serupa
                   </a>

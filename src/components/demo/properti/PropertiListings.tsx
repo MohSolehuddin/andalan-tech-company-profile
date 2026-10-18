@@ -79,7 +79,7 @@ const listings: Listing[] = [
     bathrooms: 1,
     landArea: 66,
     buildingArea: 38,
-    gradientClass: "from-emerald-900 to-cyan-950",
+    gradientClass: "from-emerald-900 to-slate-950",
   },
   {
     id: "green-royal-mansion",
@@ -92,7 +92,7 @@ const listings: Listing[] = [
     bathrooms: 2,
     landArea: 112,
     buildingArea: 75,
-    gradientClass: "from-cyan-900 to-teal-950",
+    gradientClass: "from-teal-900 to-slate-950",
   },
 ];
 
@@ -105,7 +105,7 @@ export default function PropertiListings() {
             Daftar Listing
           </p>
           <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">
-            Pilihan Properti Terbaik &amp; Siap Huni
+            Pilihan Properti Pilihan &amp; Siap Huni
           </h2>
           <p className="mt-3 text-slate-600">
             Semua unit telah melewati proses verifikasi legalitas, sertifikat lengkap, dan siap proses KPR.
@@ -153,21 +153,21 @@ export default function PropertiListings() {
                       <Bed className="h-4 w-4 text-teal-600" />
                       {item.bedrooms} KT
                     </span>
-                    <span className="text-[11px] text-slate-400">Kamar</span>
+                    <span className="text-[11px] text-slate-600">Kamar</span>
                   </div>
                   <div className="flex flex-col items-center justify-center gap-1 border-x border-slate-100">
                     <span className="flex items-center gap-1 font-semibold text-slate-900">
                       <Bath className="h-4 w-4 text-teal-600" />
                       {item.bathrooms} KM
                     </span>
-                    <span className="text-[11px] text-slate-400">K. Mandi</span>
+                    <span className="text-[11px] text-slate-600">K. Mandi</span>
                   </div>
                   <div className="flex flex-col items-center justify-center gap-1">
                     <span className="flex items-center gap-1 font-semibold text-slate-900">
                       <Maximize2 className="h-4 w-4 text-teal-600" />
                       {item.buildingArea}/{item.landArea}
                     </span>
-                    <span className="text-[11px] text-slate-400">LB / LT (m²)</span>
+                    <span className="text-[11px] text-slate-600">LB / LT (m²)</span>
                   </div>
                 </div>
 
@@ -179,7 +179,7 @@ export default function PropertiListings() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-500">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-600">
                     <MessageCircle className="h-4 w-4" />
                     Tanya Rumah Ini
                   </a>
