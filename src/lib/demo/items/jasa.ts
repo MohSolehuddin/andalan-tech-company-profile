@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "jasa",
+  category: "Jasa & Profesional",
+  package: "starter",
   name: "Nara Kreatif",
   niche: "Jasa & Personal Brand",
   tagline: "Profil personal brand + konsultasi via WhatsApp",

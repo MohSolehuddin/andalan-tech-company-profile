@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "katering",
+  category: "Kuliner & F&B",
+  package: "bisnis",
   name: "Berkah Rasa Catering",
   niche: "Katering & Kuliner Acara",
   tagline: "Paket katering harian, nasi box & prasmanan + order WhatsApp",

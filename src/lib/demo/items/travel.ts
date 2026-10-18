@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "travel",
+  category: "Properti, Travel & Otomotif",
+  package: "bisnis",
   name: "Jelajah Andalan Travel",
   niche: "Travel & Wisata",
   tagline: "Paket wisata + booking via WhatsApp",

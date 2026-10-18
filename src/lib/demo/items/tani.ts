@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "tani",
+  category: "Retail & Toko",
+  package: "bisnis",
   name: "Tani Makmur Situbondo",
   niche: "Toko Tani & Sarana Pertanian",
   tagline: "Katalog pupuk, benih, alsintan & antar ke sawah",

@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "dashboard",
+  category: "Pendidikan & Teknologi",
+  package: "pro",
   name: "NusaAdmin",
   niche: "Dashboard & Admin Panel",
   tagline: "Demo aplikasi admin + data bisnis realtime",

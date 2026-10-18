@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "legal",
+  category: "Jasa & Profesional",
+  package: "starter",
   name: "Pratama & Co Law Firm",
   niche: "Kantor Hukum & Notaris",
   tagline: "Pendirian usaha, legalitas bisnis, & perizinan terpadu",

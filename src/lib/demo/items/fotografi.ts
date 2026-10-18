@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "fotografi",
+  category: "Jasa & Profesional",
+  package: "starter",
   name: "Lumen Studio",
   niche: "Fotografi & Studio Foto",
   tagline: "Studio foto & dokumentasi momen + booking via WhatsApp",

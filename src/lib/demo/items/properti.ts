@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "properti",
+  category: "Properti, Travel & Otomotif",
+  package: "bisnis",
   name: "Griya Andalan Properti",
   niche: "Properti & Real Estate",
   tagline: "Listing properti + konsultasi KPR via WhatsApp",

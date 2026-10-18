@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "salon",
+  category: "Kesehatan & Kecantikan",
+  package: "starter",
   name: "Glow & Glam Salon",
   niche: "Salon & Kecantikan",
   tagline: "Perawatan rambut & kecantikan + booking WhatsApp",

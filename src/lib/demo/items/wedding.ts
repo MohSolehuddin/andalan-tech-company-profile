@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "wedding",
+  category: "Jasa & Profesional",
+  package: "bisnis",
   name: "Mahligai Wedding Organizer",
   niche: "Wedding Organizer & Event",
   tagline: "Paket pernikahan all-in + konsultasi via WhatsApp",

@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "fitness",
+  category: "Kesehatan & Kecantikan",
+  package: "starter",
   name: "PrimaFit Studio",
   niche: "Gym & Fitness Center",
   tagline: "Membership gym + booking trial via WhatsApp",

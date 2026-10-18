@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "restoran",
+  category: "Kuliner & F&B",
+  package: "starter",
   name: "Rasa Nusantara",
   niche: "Restoran & Kuliner",
   tagline: "Landing page restoran + order WhatsApp",

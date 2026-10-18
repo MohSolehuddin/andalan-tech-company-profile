@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "bengkel",
+  category: "Jasa & Profesional",
+  package: "starter",
   name: "AutoPrima Motor",
   niche: "Bengkel & Otomotif",
   tagline: "Servis kendaraan & booking antrean via WhatsApp",

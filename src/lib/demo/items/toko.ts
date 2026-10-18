@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "toko",
+  category: "Retail & Toko",
+  package: "bisnis",
   name: "TokoKita",
   niche: "Toko Online / UMKM",
   tagline: "Katalog produk + checkout WhatsApp",

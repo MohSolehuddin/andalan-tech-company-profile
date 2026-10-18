@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "pesantren",
+  category: "Pendidikan & Teknologi",
+  package: "bisnis",
   name: "Pondok Pesantren Raudhatul Ulum",
   niche: "Pondok Pesantren & Pendidikan Islam",
   tagline: "Profil pesantren salaf-modern + PPDB santri baru",

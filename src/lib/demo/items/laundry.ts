@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "laundry",
+  category: "Jasa & Profesional",
+  package: "starter",
   name: "Kilat Bersih Laundry",
   niche: "Laundry & Kebersihan",
   tagline: "Antar-jemput cucian + order via WhatsApp",

@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "perikanan",
+  category: "Retail & Toko",
+  package: "bisnis",
   name: "Samudra Situbondo",
   niche: "Supplier Seafood & Hasil Laut",
   tagline: "Ikan segar harian nelayan Situbondo & rantai dingin",

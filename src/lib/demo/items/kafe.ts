@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "kafe",
+  category: "Kuliner & F&B",
+  package: "starter",
   name: "Kopi Titik Temu",
   niche: "Kafe & Coffee Shop",
   tagline: "Menu kopi signature + reservasi via WhatsApp",

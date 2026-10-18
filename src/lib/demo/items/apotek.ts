@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "apotek",
+  category: "Kesehatan & Kecantikan",
+  package: "bisnis",
   name: "Apotek Sehatra",
   niche: "Apotek & Farmasi",
   tagline: "Apotek online + antar obat via WhatsApp",

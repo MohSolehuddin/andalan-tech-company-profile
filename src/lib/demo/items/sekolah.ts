@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "sekolah",
+  category: "Pendidikan & Teknologi",
+  package: "bisnis",
   name: "SMA Cendekia Nusantara",
   niche: "Sekolah & Pendidikan",
   tagline: "Profil sekolah + PPDB via WhatsApp",

@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "saas",
+  category: "Pendidikan & Teknologi",
+  package: "pro",
   name: "KelolaKu",
   niche: "SaaS & Startup",
   tagline: "Landing page SaaS + konversi leads",

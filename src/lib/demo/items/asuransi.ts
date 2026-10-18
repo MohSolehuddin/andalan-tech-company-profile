@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "asuransi",
+  category: "Jasa & Profesional",
+  package: "starter",
   name: "Amanah Proteksi",
   niche: "Asuransi & Perlindungan",
   tagline: "Produk asuransi + konsultasi agen via WhatsApp",

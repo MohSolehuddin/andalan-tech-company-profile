@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "barbershop",
+  category: "Kesehatan & Kecantikan",
+  package: "starter",
   name: "Gents & Blade Barbershop",
   niche: "Barbershop & Grooming",
   tagline: "Potong rambut, cukur & grooming pria + booking antrian WhatsApp",

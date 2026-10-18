@@ -2,6 +2,8 @@ import type { DemoItem } from "../types";
 
 const item: DemoItem = {
   slug: "bimbel",
+  category: "Pendidikan & Teknologi",
+  package: "starter",
   name: "Bimbel Bintang Prestasi",
   niche: "Bimbingan Belajar & Les Privat",
   tagline: "Bimbel SD–SMA & UTBK + daftar trial gratis via WhatsApp",
