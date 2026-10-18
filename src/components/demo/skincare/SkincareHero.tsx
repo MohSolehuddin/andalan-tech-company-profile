@@ -10,15 +10,13 @@ const highlights = [
 export default function SkincareHero() {
   return (
     <section className="relative overflow-hidden bg-neutral-950 text-white">
-      {/* Background Gradient & Glow Effect (Tailwind v4) */}
-      <div className="absolute inset-0 bg-linear-to-br from-fuchsia-950/60 via-neutral-950 to-pink-950/40" />
-      <div className="absolute -top-24 -left-24 h-96 w-96 rounded-full bg-fuchsia-600/20 blur-3xl" />
-      <div className="absolute -bottom-24 -right-24 h-96 w-96 rounded-full bg-pink-600/15 blur-3xl" />
+      {/* Background Gradient (Tailwind v4) */}
+      <div className="absolute inset-0 bg-linear-to-br from-rose-950/60 via-neutral-950 to-pink-950/40" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
-          <span className="inline-flex items-center gap-2 rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-fuchsia-300">
-            <Sparkles className="h-3.5 w-3.5 text-fuchsia-400" />
+          <span className="inline-flex items-center gap-2 rounded-full border border-rose-400/30 bg-rose-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-rose-300">
+            <Sparkles className="h-3.5 w-3.5 text-rose-400" />
             Klinik Estetika &amp; Skincare Medis
           </span>
 
@@ -38,7 +36,7 @@ export default function SkincareHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-fuchsia-600 to-pink-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-fuchsia-500/25 transition-all hover:from-fuchsia-500 hover:to-pink-500 hover:shadow-fuchsia-500/40">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-rose-600 to-pink-600 px-6 py-3.5 font-semibold text-white shadow-sm transition-all hover:from-rose-500 hover:to-pink-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <CalendarCheck className="h-5 w-5" />
               Booking via WhatsApp
             </a>
@@ -48,8 +46,8 @@ export default function SkincareHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white backdrop-blur-xs transition-colors hover:bg-white/10">
-              <MessageCircle className="h-5 w-5 text-fuchsia-400" />
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white backdrop-blur-xs transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
+              <MessageCircle className="h-5 w-5 text-rose-400" />
               Konsultasi Dokter
             </a>
           </div>
@@ -57,7 +55,7 @@ export default function SkincareHero() {
           <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-xs text-neutral-300 sm:text-sm">
             {highlights.map((item) => (
               <span key={item.label} className="inline-flex items-center gap-2">
-                <item.icon className="h-4 w-4 text-fuchsia-400" />
+                <item.icon className="h-4 w-4 text-rose-400" />
                 {item.label}
               </span>
             ))}

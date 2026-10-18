@@ -73,7 +73,7 @@ export default function ApotekProducts() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-lg bg-linear-to-r from-teal-500 to-emerald-600 px-6 py-3 font-semibold text-white transition-opacity hover:opacity-90">
+            className="inline-flex items-center justify-center gap-2 rounded-lg bg-linear-to-r from-teal-500 to-emerald-600 px-6 py-3 font-semibold text-white transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
             <ShoppingBag className="h-5 w-5" />
             Cek Stok via WhatsApp
           </a>

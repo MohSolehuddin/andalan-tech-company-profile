@@ -63,7 +63,7 @@ Mohon info slot antrian yang tersedia ya. Terima kasih!`;
         </div>
         <div className="mt-12 grid gap-8 lg:grid-cols-5">
           {/* Booking Form Card */}
-          <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xs sm:p-8 lg:col-span-3">
+          <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-xs sm:p-8 lg:col-span-3">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3.5 py-1 text-xs font-semibold text-amber-700">
               <Scissors className="h-3.5 w-3.5" />
               Form Booking Antrian
@@ -140,7 +140,7 @@ Mohon info slot antrian yang tersedia ya. Terima kasih!`;
                 href={waLink(bookingMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 font-bold text-neutral-950 transition-colors hover:bg-amber-400">
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-amber-500 px-6 py-3.5 font-bold text-neutral-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <PhoneCall className="h-4 w-4" />
                 Ambil Antrian via WhatsApp
               </a>
@@ -153,7 +153,7 @@ Mohon info slot antrian yang tersedia ya. Terima kasih!`;
 
           {/* Jam Buka & Lokasi */}
           <div className="space-y-6 lg:col-span-2">
-            <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xs">
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-xs">
               <h3 className="inline-flex items-center gap-2 text-lg font-bold text-neutral-900">
                 <Clock className="h-5 w-5 text-amber-600" />
                 Jam Buka
@@ -172,7 +172,7 @@ Mohon info slot antrian yang tersedia ya. Terima kasih!`;
               </div>
             </div>
 
-            <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xs">
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-xs">
               <h3 className="inline-flex items-center gap-2 text-lg font-bold text-neutral-900">
                 <MapPin className="h-5 w-5 text-amber-600" />
                 Lokasi Barbershop

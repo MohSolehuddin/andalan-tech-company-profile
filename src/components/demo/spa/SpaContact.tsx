@@ -20,7 +20,7 @@ export default function SpaContact() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-lime-400 px-6 py-3 font-semibold text-emerald-950 transition-colors hover:bg-lime-300">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-lime-400 px-6 py-3 font-semibold text-emerald-950 transition-colors hover:bg-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Chat WhatsApp
             </a>

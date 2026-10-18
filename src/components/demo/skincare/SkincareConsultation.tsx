@@ -48,7 +48,7 @@ export default function SkincareConsultation() {
     <section id="konsultasi" className="bg-neutral-900 px-4 py-20 text-white">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="inline-block rounded-full bg-fuchsia-900/60 border border-fuchsia-400/30 px-3 py-1 text-xs font-semibold text-fuchsia-300">
+          <span className="inline-block rounded-full bg-rose-900/60 border border-rose-400/30 px-3 py-1 text-xs font-semibold text-rose-300">
             Alur Perawatan
           </span>
           <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
@@ -66,10 +66,10 @@ export default function SkincareConsultation() {
             <div
               key={step.num}
               className="relative rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs">
-              <span className="text-2xl font-black text-fuchsia-400/40">
+              <span className="text-2xl font-black text-rose-400/40">
                 {step.num}
               </span>
-              <div className="mt-4 flex h-10 w-10 items-center justify-center rounded-lg bg-fuchsia-500/20 text-fuchsia-300">
+              <div className="mt-4 flex h-10 w-10 items-center justify-center rounded-lg bg-rose-500/20 text-rose-300">
                 <step.icon className="h-5 w-5" />
               </div>
               <h3 className="mt-4 text-base font-bold text-white">
@@ -83,10 +83,10 @@ export default function SkincareConsultation() {
         </div>
 
         {/* Doctors & WA Callout */}
-        <div className="mt-16 rounded-2xl border border-fuchsia-500/30 bg-linear-to-br from-fuchsia-950/40 via-neutral-950 to-pink-950/30 p-8 md:p-10">
+        <div className="mt-16 rounded-2xl border border-rose-500/30 bg-linear-to-br from-rose-950/40 via-neutral-950 to-pink-950/30 p-8 md:p-10">
           <div className="grid gap-8 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-7">
-              <span className="text-xs font-semibold uppercase tracking-wider text-fuchsia-400">
+              <span className="text-xs font-semibold uppercase tracking-wider text-rose-400">
                 Dokter Praktik Kami
               </span>
               <h3 className="mt-2 text-2xl font-bold text-white">
@@ -98,12 +98,12 @@ export default function SkincareConsultation() {
                     key={doc.name}
                     className="rounded-xl border border-white/10 bg-white/5 p-4">
                     <div className="flex items-center gap-2">
-                      <UserCheck className="h-4 w-4 text-fuchsia-400 shrink-0" />
+                      <UserCheck className="h-4 w-4 text-rose-400 shrink-0" />
                       <p className="font-semibold text-white text-sm">
                         {doc.name}
                       </p>
                     </div>
-                    <p className="mt-1 text-xs font-medium text-fuchsia-300">
+                    <p className="mt-1 text-xs font-medium text-rose-300">
                       {doc.role}
                     </p>
                     <p className="mt-2 text-xs text-neutral-400">
@@ -134,7 +134,7 @@ export default function SkincareConsultation() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-5 inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-emerald-500">
+                className="mt-5 inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-4 w-4" />
                 Chat Dokter via WhatsApp
               </a>

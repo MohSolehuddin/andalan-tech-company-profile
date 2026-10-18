@@ -11,8 +11,6 @@ export default function SpaHero() {
   return (
     <section className="relative overflow-hidden bg-emerald-950 text-white">
       <div className="absolute inset-0 bg-linear-to-br from-emerald-950 via-emerald-950/90 to-lime-950/70" />
-      <div className="absolute -top-24 -right-24 h-80 w-80 rounded-full bg-lime-400/10 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-emerald-400/10 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
@@ -36,7 +34,7 @@ export default function SpaHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-lime-400 px-6 py-3 font-semibold text-emerald-950 transition-colors hover:bg-lime-300">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-lime-400 px-6 py-3 font-semibold text-emerald-950 transition-colors hover:bg-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Booking via WhatsApp
             </a>

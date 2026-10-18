@@ -11,8 +11,6 @@ export default function FitnessHero() {
   return (
     <section className="relative overflow-hidden bg-neutral-950 text-white">
       <div className="absolute inset-0 bg-linear-to-br from-orange-950/30 via-neutral-950 to-neutral-900" />
-      <div className="absolute -top-32 right-0 h-96 w-96 rounded-full bg-orange-600/10 blur-3xl" />
-      <div className="absolute -bottom-20 left-10 h-72 w-72 rounded-full bg-red-600/10 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
@@ -39,7 +37,7 @@ export default function FitnessHero() {
               href={waLink("Halo PrimaFit Studio, saya ingin klaim 1-Day Free Trial.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-orange-500 to-red-600 px-6 py-3 font-semibold text-white shadow-lg shadow-orange-950/40 transition-transform hover:scale-[1.02] active:scale-[0.98]">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-orange-500 to-red-600 px-6 py-3 font-semibold text-white shadow-sm transition-transform hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <ShieldCheck className="h-5 w-5" />
               Klaim Free Trial 1 Hari
             </a>

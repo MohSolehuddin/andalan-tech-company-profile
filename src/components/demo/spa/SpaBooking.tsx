@@ -75,7 +75,7 @@ Mohon info ketersediaan slotnya ya. Terima kasih!`;
           ))}
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-3xl border border-lime-400/30 bg-white/5 p-6 sm:p-10 backdrop-blur-xs">
+        <div className="mx-auto mt-12 max-w-3xl rounded-xl border border-lime-400/30 bg-white/5 p-6 sm:p-10 backdrop-blur-xs">
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label className="block text-xs font-medium text-lime-200">
@@ -180,7 +180,7 @@ Mohon info ketersediaan slotnya ya. Terima kasih!`;
               href={waLink(bookingMessage)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-lime-400 px-6 py-3.5 font-bold text-emerald-950 transition-colors hover:bg-lime-300 sm:w-auto">
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-lime-400 px-6 py-3.5 font-bold text-emerald-950 transition-colors hover:bg-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:w-auto">
               <PhoneCall className="h-4 w-4" />
               Kirim Booking via WhatsApp
             </a>

@@ -7,8 +7,8 @@ export default function SkincareBooking() {
       <div className="container mx-auto max-w-5xl">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-fuchsia-500/10 border border-fuchsia-400/20 px-3 py-1 text-xs font-semibold text-fuchsia-300">
-              <Sparkles className="h-3.5 w-3.5 text-fuchsia-400" /> Reservasi Cepat
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-500/10 border border-rose-400/20 px-3 py-1 text-xs font-semibold text-rose-300">
+              <Sparkles className="h-3.5 w-3.5 text-rose-400" /> Reservasi Cepat
             </span>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
               Siap Rasakan Perubahan Nyata Kulit Anda?
@@ -26,7 +26,7 @@ export default function SkincareBooking() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-fuchsia-600 to-pink-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-fuchsia-600/30 transition-all hover:from-fuchsia-500 hover:to-pink-500">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-rose-600 to-pink-600 px-6 py-3.5 font-semibold text-white shadow-sm transition-all hover:from-rose-500 hover:to-pink-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <CalendarCheck className="h-5 w-5" />
                 Booking Jadwal via WhatsApp
               </a>
@@ -40,20 +40,20 @@ export default function SkincareBooking() {
             <h3 className="text-lg font-bold text-white">Lokasi &amp; Kontak Klinik</h3>
 
             <div className="flex items-start gap-3">
-              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-fuchsia-400" />
+              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-rose-400" />
               <div>
                 <p className="text-sm font-semibold text-white">Alamat Klinik</p>
                 <p className="text-xs text-neutral-300">
                   Jl. Boulevard Estetika No. 18, Surabaya, Jawa Timur
                 </p>
-                <span className="mt-1 inline-block text-[11px] text-fuchsia-300">
+                <span className="mt-1 inline-block text-[11px] text-rose-300">
                   (Tersedia area parkir luas &amp; ruang tunggu private)
                 </span>
               </div>
             </div>
 
             <div className="flex items-start gap-3 border-t border-white/10 pt-4">
-              <Clock className="mt-0.5 h-5 w-5 shrink-0 text-fuchsia-400" />
+              <Clock className="mt-0.5 h-5 w-5 shrink-0 text-rose-400" />
               <div>
                 <p className="text-sm font-semibold text-white">Jam Praktik</p>
                 <p className="text-xs text-neutral-300">
@@ -66,7 +66,7 @@ export default function SkincareBooking() {
             </div>
 
             <div className="flex items-start gap-3 border-t border-white/10 pt-4">
-              <Phone className="mt-0.5 h-5 w-5 shrink-0 text-fuchsia-400" />
+              <Phone className="mt-0.5 h-5 w-5 shrink-0 text-rose-400" />
               <div>
                 <p className="text-sm font-semibold text-white">Hotline &amp; Customer Care</p>
                 <p className="text-xs text-neutral-300">+62 877 4596 8545</p>
