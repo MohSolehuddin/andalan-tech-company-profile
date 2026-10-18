@@ -42,7 +42,7 @@ export default function DemoLayout({
       <div className="border-t border-neutral-200 bg-neutral-900 px-4 py-3 text-white">
         <div className="container mx-auto flex flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left text-xs sm:text-sm">
           <p className="text-neutral-300">
-            Suka tampilan ini? Website seperti ini mulai {firstPrice} (perpanjang {renewalPrice}/tahun) ·{" "}
+            Suka tampilan ini? Website seperti ini mulai {firstPrice} (perpanjangan {renewalPrice}/tahun) ·{" "}
             <Link href="/paket" className="underline hover:text-white font-medium">
               Lihat paket
             </Link>

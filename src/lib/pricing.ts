@@ -93,3 +93,18 @@ export function formatIDR(n: number): string {
 export function tierById(id: PackageTier): PackageInfo | undefined {
   return PACKAGE_TIERS.find((tier) => tier.id === id);
 }
+
+export function tierBadgeClass(id: PackageTier): string {
+  switch (id) {
+    case "starter":
+      return "bg-neutral-100 text-neutral-800 border-neutral-300";
+    case "bisnis":
+      return "bg-amber-50 text-amber-950 border-amber-300";
+    case "pro":
+      return "bg-blue-950 text-white border-blue-900";
+    case "custom":
+      return "bg-purple-100 text-purple-900 border-purple-300";
+    default:
+      return "bg-neutral-100 text-neutral-800 border-neutral-300";
+  }
+}
