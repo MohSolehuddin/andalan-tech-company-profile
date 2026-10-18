@@ -81,7 +81,7 @@ export default function MinumanTopping() {
         </div>
 
         {/* Sugar & Ice customization guide */}
-        <div className="mt-12 rounded-2xl bg-linear-to-r from-teal-900 to-cyan-900 p-8 text-white">
+        <div className="mt-12 rounded-2xl bg-linear-to-r from-teal-950 to-neutral-900 p-8 text-white">
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div className="max-w-xl">
               <div className="flex items-center gap-2 text-sm font-medium text-teal-200">
@@ -119,7 +119,7 @@ export default function MinumanTopping() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-teal-400 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-teal-300">
+              className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-teal-400 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-400">
               <Sparkles className="h-4 w-4" />
               Tanya Kombinasi Favorit
             </a>

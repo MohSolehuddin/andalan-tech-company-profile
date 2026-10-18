@@ -11,8 +11,6 @@ export default function TokoKueHero() {
   return (
     <section className="relative overflow-hidden bg-neutral-950 text-white">
       <div className="absolute inset-0 bg-linear-to-br from-pink-950/70 via-neutral-950 to-rose-950/50" />
-      <div className="absolute -top-32 -left-32 h-96 w-96 rounded-full bg-pink-500/20 blur-3xl" />
-      <div className="absolute -bottom-32 -right-32 h-96 w-96 rounded-full bg-rose-500/15 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
@@ -38,13 +36,13 @@ export default function TokoKueHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-pink-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-pink-500/25 transition-all hover:bg-pink-600 hover:shadow-pink-500/40">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-pink-500 px-6 py-3.5 font-semibold text-white shadow-sm transition-all hover:bg-pink-600 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-pink-500">
               <Heart className="h-5 w-5 fill-current" />
               Pesan via WhatsApp
             </a>
             <a
               href="#katalog"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
               Lihat Katalog Menu
             </a>
           </div>

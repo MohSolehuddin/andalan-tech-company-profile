@@ -70,7 +70,7 @@ export default function AyamOutlets() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm font-semibold text-red-600 hover:underline">
+                  className="rounded-sm text-sm font-semibold text-red-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500">
                   Tanya lokasi
                 </a>
               </div>

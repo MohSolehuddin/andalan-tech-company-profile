@@ -85,7 +85,7 @@ export default function OlehHampers() {
           {hampers.map((hamper) => (
             <div
               key={hamper.id}
-              className={`relative flex flex-col rounded-3xl border p-8 transition-all duration-300 ${
+              className={`relative flex flex-col rounded-xl border p-8 transition-all duration-300 ${
                 hamper.popular
                   ? "border-orange-500 bg-stone-950 text-white shadow-xl ring-2 ring-orange-500/50"
                   : "border-stone-200 bg-stone-50 text-stone-900 shadow-xs hover:border-orange-300"
@@ -158,10 +158,10 @@ export default function OlehHampers() {
                 href={waLink(hamper.waText)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold transition-all ${
+                className={`mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   hamper.popular
-                    ? "bg-linear-to-r from-orange-500 to-amber-500 text-stone-950 hover:opacity-90"
-                    : "bg-stone-900 text-white hover:bg-orange-600"
+                    ? "bg-linear-to-r from-orange-500 to-amber-500 text-stone-950 hover:opacity-90 focus-visible:ring-orange-500"
+                    : "bg-stone-900 text-white hover:bg-orange-600 focus-visible:ring-stone-900"
                 }`}>
                 <HeartHandshake className="h-4 w-4" />
                 Pesan Paket Ini via WA

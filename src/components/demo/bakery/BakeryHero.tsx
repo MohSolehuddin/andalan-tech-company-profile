@@ -21,8 +21,6 @@ const BakeryHero = () => {
     <section className="relative overflow-hidden bg-neutral-950 text-white">
       {/* Background ambient warmth with Tailwind v4 gradients */}
       <div className="absolute inset-0 bg-linear-to-b from-amber-950/60 via-neutral-950/90 to-neutral-950" />
-      <div className="absolute -top-32 -left-32 h-96 w-96 rounded-full bg-amber-500/10 blur-3xl" />
-      <div className="absolute top-1/2 -right-32 h-96 w-96 rounded-full bg-orange-600/10 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="mx-auto max-w-3xl text-center">
@@ -54,13 +52,13 @@ const BakeryHero = () => {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-amber-500 to-orange-500 px-6 py-3.5 font-semibold text-neutral-950 shadow-lg shadow-amber-500/20 transition-all hover:from-amber-400 hover:to-orange-400 sm:w-auto">
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-linear-to-r from-amber-500 to-orange-500 px-6 py-3.5 font-semibold text-neutral-950 shadow-sm transition-all hover:from-amber-400 hover:to-orange-400 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-500 sm:w-auto">
               <Croissant className="h-5 w-5" />
               Pesan Roti via WhatsApp
             </a>
             <a
               href="#katalog"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white backdrop-blur-xs transition-colors hover:bg-white/10 sm:w-auto">
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white backdrop-blur-xs transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white sm:w-auto">
               Lihat Menu & Harga
             </a>
           </div>

@@ -1,71 +1,83 @@
 # Ringkasan Perubahan: ANDALAN-62
 
 ## Judul
-Design Pass (human-grade-web-design) pada Website Utama dan Halaman Paket
+Design Pass (human-grade-web-design) untuk 10 Demo Kategori Kuliner & F&B
 
 ## Deskripsi
-Melakukan pembersihan dan perbaikan antarmuka (design pass) berbasis panduan `human-grade-web-design` pada halaman utama (landing page) dan rute paket (`/paket`) Andalan Tech untuk menghilangkan pola desain generik/AI cliches:
-1. **Hero (`src/components/Hero.tsx`)**:
-   - Menghilangkan teks gradien `bg-clip-text bg-linear-to-r from-primary to-accent`, menyederhanakannya menjadi solid `text-primary`.
-   - Mengganti glow shadow `shadow-(--glow-primary)` pada tombol CTA dengan drop-shadow netral `shadow-sm hover:shadow-md`.
-   - Menambahkan state fokus aksesibilitas `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2` pada seluruh tombol utama.
-2. **Benefits (`src/components/Benefits.tsx`)**:
-   - Mengubah judul beraksen gradien menjadi solid `text-primary`.
-   - Menghilangkan `hover:shadow-(--glow-primary)` dan menggantinya dengan bayangan netral `hover:shadow-md`.
-   - Menstandarkan sudut kartu ke `rounded-xl`.
-3. **Pricing (`src/components/Pricing.tsx`)**:
-   - Mengubah judul "Transparan" beraksen gradien menjadi solid `text-primary`.
-   - Mengganti colored glow shadow `shadow-(--glow-primary)` pada paket highlight menjadi netral `shadow-md`.
-   - Menstandarkan sudut kontainer ke `rounded-xl` serta menambahkan ring fokus keyboard pada tombol aksi.
-4. **Portfolio (`src/components/Portfolio.tsx`)**:
-   - Mengubah teks gradien judul menjadi solid `text-primary`.
-   - Menghapus 2 elemen div dekoratif blur blob (`blur-3xl` beraksen `bg-accent/10` dan `bg-primary/10`) pada banner penawaran khusus.
-   - Menyederhanakan latar banner menjadi `bg-card border border-border shadow-xs` dengan sudut `rounded-xl`.
-   - Mengganti glow shadow pada kartu demo dan tombol CTA banner menjadi netral `hover:shadow-md`, serta tombol banner memakai warna solid dengan ring fokus.
-5. **Contact (`src/components/Contact.tsx`)**:
-   - Mengubah judul menjadi solid `text-primary`.
-   - Mengganti `hover:shadow-(--glow-primary)` pada kartu kontak informasi menjadi netral `hover:shadow-md`.
-   - Menambahkan ring fokus aksesibel pada tautan WhatsApp dan Email.
-   - Mengubah tombol submit formulir dari gradien dan glow menjadi solid primary dengan `shadow-sm hover:shadow-md focus-visible:ring-2`.
-6. **Footer (`src/components/Footer.tsx`)**:
-   - Menghapus buzzword "teknologi terdepan", menggantinya dengan kalimat konkret: "Jasa pembuatan website cepat, stabil, dan teroptimasi SEO dengan Next.js untuk bisnis Anda."
-   - Menghapus baris komentar teks gradien lama.
-   - Menambahkan ring fokus `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs` pada seluruh tautan navigasi footer.
-7. **Particle (`src/components/Particle.tsx`)**:
-   - Mengurangi densitas partikel dari 80 node menjadi 30 node untuk menjaga keterbacaan teks dan performa rendering.
-   - Menurunkan opasitas partikel dari `bg-primary/30` ke `bg-primary/15` agar efek latar belakang lebih halus dan tidak menutupi hierarki teks.
-8. **Halaman Beranda (`src/app/page.tsx`)**:
-   - Membungkus seksi utama dalam elemen landmark semantik `<main>` untuk aksesibilitas navigasi layar.
-9. **Halaman Paket (`src/app/paket/page.tsx`)**:
-   - Meningkatkan rasio kontras teks label (`text-neutral-500` -> `text-neutral-600`) di atas latar kartu putih sesuai standar WCAG AA.
-   - Mengubah kontainer CTA penutup dari `rounded-3xl` menjadi `rounded-xl`.
-   - Menambahkan ring fokus keyboard `focus-visible:ring-2` pada navigasi atas, tombol kartu paket, dan tombol CTA penutup.
+Melakukan audit dan pembersihan estetika "AI slop" sesuai standar panduan `human-grade-web-design` pada 10 halaman demo portofolio kategori Kuliner & F&B:
+1. `/demo/restoran` (Rasa Nusantara)
+2. `/demo/kafe` (Kopi Titik Temu)
+3. `/demo/katering` (Berkah Rasa Catering)
+4. `/demo/bakery` (Dapur Roti Nusantara)
+5. `/demo/warung` (Warung Sederhana Jaya)
+6. `/demo/toko-kue` (Manis Kue & Dessert)
+7. `/demo/food-truck` (Roda Rasa Food Truck)
+8. `/demo/oleh-oleh` (Oleh-Oleh Khas Situbondo)
+9. `/demo/ayam-goreng` (Ayam Geprek Mantap)
+10. `/demo/minuman` (Segar Boba & Juice)
+
+## Perbaikan yang Diterapkan
+- **R1 (Hapus blur blob dekoratif)**: Menghapus elemen `div` blur hiasan murni tanpa konten (`blur-2xl`, `blur-3xl`) pada hero dan banner section di `KafeHero`, `KateringHero`, `BakeryHero`, `WarungHero`, `TokoKueHero`, `TokoKueOrderWA`, `FoodTruckHero`, dan `OlehHero`.
+- **R2 (Netralkan colored drop-shadow)**: Mengganti drop shadow berwarna (seperti `shadow-amber-500/20`, `shadow-pink-500/25`) menjadi drop shadow netral (`shadow-sm`, `hover:shadow-md`) di `BakeryHero` dan `TokoKueHero`.
+- **R3 (Koreksi radius rounded-3xl)**: Mengubah `rounded-3xl` menjadi `rounded-xl` di seluruh container kartu/section pada `BakeryContact`, `BakeryPackages`, `TokoKueCustom`, `TokoKueOrderWA`, `FoodTruckHero`, `OlehContact`, `OlehHampers`, `OlehHero`, `OlehShipping`, dan `MinumanContact`.
+- **R4 (Perbaikan kontras teks abu di latar terang)**: Memperbaiki kontras teks abu muda (`text-neutral-400` -> `text-neutral-600`) pada latar terang di `TokoKueCatalog` dan `MinumanPaket`. Teks abu di latar gelap dipertahankan sesuai aturan.
+- **R5 (Eliminasi warna neon)**: Menetralkan aksen neon `cyan` pada `MinumanHero`, `MinumanTopping`, dan `MinumanContact` ke variasi tema netral/teal (`to-teal-950/30`, `from-teal-950 to-neutral-900`, `from-teal-950 via-neutral-900 to-teal-950`).
+- **R6 (State fokus interaktif)**: Menambahkan utilitas aksesibilitas fokus keyboard (`focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ...`) pada seluruh tombol utama, CTA WhatsApp, tombol filter, dan tautan navigasi di 10 demo.
+- **R7 (Audit copy buzzword)**: Memastikan copy tetap natural, lugas, spesifik, dan bebas dari buzzword tanpa mengubah data maupun fakta bisnis.
 
 ## File yang Diubah
-1. `src/components/Hero.tsx`
-2. `src/components/Benefits.tsx`
-3. `src/components/Pricing.tsx`
-4. `src/components/Portfolio.tsx`
-5. `src/components/Contact.tsx`
-6. `src/components/Footer.tsx`
-7. `src/components/Particle.tsx`
-8. `src/app/page.tsx`
-9. `src/app/paket/page.tsx`
-10. `docs/CHANGES/ANDALAN-62.md`
-
-## Catatan
-- Tidak ada penambahan dependensi baru.
-- Tidak mengubah data harga, slug rute, fakta bisnis, atau struktur routing.
-- Tidak menyentuh file di luar lingkup tugas (tidak menyentuh `schema/`, `tests/setup/`, `AGENTS.md`, atau dokumentasi lain).
-- Tidak ada push ke remote git repository.
+1. `src/components/demo/restoran/RestoHero.tsx`
+2. `src/components/demo/restoran/RestoMenu.tsx`
+3. `src/components/demo/restoran/RestoContact.tsx`
+4. `src/components/demo/kafe/KafeHero.tsx`
+5. `src/components/demo/kafe/KafeMenu.tsx`
+6. `src/components/demo/kafe/KafeEvents.tsx`
+7. `src/components/demo/kafe/KafeContact.tsx`
+8. `src/components/demo/katering/KateringHero.tsx`
+9. `src/components/demo/katering/KateringPackages.tsx`
+10. `src/components/demo/katering/KateringContact.tsx`
+11. `src/components/demo/bakery/BakeryHero.tsx`
+12. `src/components/demo/bakery/BakeryCatalog.tsx`
+13. `src/components/demo/bakery/BakeryPackages.tsx`
+14. `src/components/demo/bakery/BakeryContact.tsx`
+15. `src/components/demo/warung/WarungHero.tsx`
+16. `src/components/demo/warung/WarungMenu.tsx`
+17. `src/components/demo/warung/WarungPaket.tsx`
+18. `src/components/demo/warung/WarungAntar.tsx`
+19. `src/components/demo/warung/WarungContact.tsx`
+20. `src/components/demo/toko-kue/TokoKueHero.tsx`
+21. `src/components/demo/toko-kue/TokoKueCatalog.tsx`
+22. `src/components/demo/toko-kue/TokoKueCustom.tsx`
+23. `src/components/demo/toko-kue/TokoKueOrderWA.tsx`
+24. `src/components/demo/food-truck/FoodTruckHero.tsx`
+25. `src/components/demo/food-truck/FoodTruckMenu.tsx`
+26. `src/components/demo/food-truck/FoodTruckSchedule.tsx`
+27. `src/components/demo/food-truck/FoodTruckEvents.tsx`
+28. `src/components/demo/food-truck/FoodTruckContact.tsx`
+29. `src/components/demo/oleh-oleh/OlehHero.tsx`
+30. `src/components/demo/oleh-oleh/OlehCatalog.tsx`
+31. `src/components/demo/oleh-oleh/OlehHampers.tsx`
+32. `src/components/demo/oleh-oleh/OlehShipping.tsx`
+33. `src/components/demo/oleh-oleh/OlehContact.tsx`
+34. `src/components/demo/ayam-goreng/AyamHero.tsx`
+35. `src/components/demo/ayam-goreng/AyamMenu.tsx`
+36. `src/components/demo/ayam-goreng/AyamPromo.tsx`
+37. `src/components/demo/ayam-goreng/AyamOutlets.tsx`
+38. `src/components/demo/ayam-goreng/AyamContact.tsx`
+39. `src/components/demo/minuman/MinumanHero.tsx`
+40. `src/components/demo/minuman/MinumanMenu.tsx`
+41. `src/components/demo/minuman/MinumanTopping.tsx`
+42. `src/components/demo/minuman/MinumanPaket.tsx`
+43. `src/components/demo/minuman/MinumanContact.tsx`
+44. `docs/CHANGES/ANDALAN-62.md`
 
 ## Verifikasi
-- `npm test` dijalankan di foreground dan dilaporkan persis:
+- `npm test`:
   ```
   npm error Missing script: "test"
   npm error
   npm error To see a list of scripts, run:
   npm error   npm run
-  npm error A complete log of this run can be found in: /home/msytc/.npm/_logs/2026-10-18T07_43_46_875Z-debug-0.log
+  npm error A complete log of this run can be found in: /home/msytc/.npm/_logs/2026-10-18T07_39_11_309Z-debug-0.log
   ```
-- `pnpm install --frozen-lockfile && pnpm build` dijalankan di foreground dan berhasil sukses dengan exit code 0 (seluruh 67 halaman statis ter-prerender tanpa error).
+- `pnpm install --frozen-lockfile && pnpm build`: Berhasil tanpa error (exit code 0).

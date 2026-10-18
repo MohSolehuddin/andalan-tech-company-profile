@@ -66,7 +66,7 @@ export default function OlehCatalog() {
               key={cat}
               type="button"
               onClick={() => setSelectedCat(cat)}
-              className={`rounded-full px-5 py-2 text-sm font-medium transition-all ${
+              className={`rounded-full px-5 py-2 text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orange-500 ${
                 selectedCat === cat
                   ? "bg-orange-600 text-white shadow-sm"
                   : "border border-stone-200 bg-white text-stone-700 hover:border-orange-300"
@@ -123,7 +123,7 @@ export default function OlehCatalog() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-stone-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-600">
+                    className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-stone-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900">
                     <ShoppingBag className="h-4 w-4" />
                     Pesan via WhatsApp
                   </a>

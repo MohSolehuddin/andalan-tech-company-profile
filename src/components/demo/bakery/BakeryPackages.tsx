@@ -77,7 +77,7 @@ const BakeryPackages = () => {
           {packages.map((pkg) => (
             <div
               key={pkg.title}
-              className={`relative flex flex-col justify-between rounded-3xl p-7 transition-all ${
+              className={`relative flex flex-col justify-between rounded-xl p-7 transition-all ${
                 pkg.popular
                   ? "border-2 border-amber-500 bg-linear-to-b from-amber-500/5 to-white shadow-lg"
                   : "border border-neutral-200 bg-white hover:border-amber-300 hover:shadow-md"
@@ -130,10 +130,10 @@ const BakeryPackages = () => {
                   href={waLink(pkg.waMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex w-full items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold transition-all ${
+                  className={`flex w-full items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     pkg.popular
-                      ? "bg-amber-500 text-neutral-950 hover:bg-amber-400"
-                      : "bg-neutral-900 text-white hover:bg-neutral-800"
+                      ? "bg-amber-500 text-neutral-950 hover:bg-amber-400 focus-visible:ring-amber-500"
+                      : "bg-neutral-900 text-white hover:bg-neutral-800 focus-visible:ring-neutral-900"
                   }`}>
                   <Gift className="h-4 w-4" />
                   Pesan Paket via WA
