@@ -16,12 +16,17 @@ import fitness from "./items/fitness";
 import foodTruck from "./items/food-truck";
 import fotografi from "./items/fotografi";
 import homeService from "./items/home-service";
+import hotel from "./items/hotel";
+import interior from "./items/interior";
 import jasa from "./items/jasa";
 import kafe from "./items/kafe";
 import katering from "./items/katering";
 import kelontong from "./items/kelontong";
 import klinikHewan from "./items/klinik-hewan";
 import klinik from "./items/klinik";
+import kontraktor from "./items/kontraktor";
+import kursusBahasa from "./items/kursus-bahasa";
+import kursusIt from "./items/kursus-it";
 import laundry from "./items/laundry";
 import legal from "./items/legal";
 import logistik from "./items/logistik";
@@ -30,6 +35,7 @@ import minuman from "./items/minuman";
 import motor from "./items/motor";
 import olehOleh from "./items/oleh-oleh";
 import optik from "./items/optik";
+import paud from "./items/paud";
 import percetakan from "./items/percetakan";
 import perikanan from "./items/perikanan";
 import pesantren from "./items/pesantren";
@@ -39,6 +45,7 @@ import restoran from "./items/restoran";
 import saas from "./items/saas";
 import salon from "./items/salon";
 import sekolah from "./items/sekolah";
+import sewaApartemen from "./items/sewa-apartemen";
 import skincare from "./items/skincare";
 import spa from "./items/spa";
 import tani from "./items/tani";
@@ -69,12 +76,17 @@ export const demoItems: DemoItem[] = [
   foodTruck,
   fotografi,
   homeService,
+  hotel,
+  interior,
   jasa,
   kafe,
   katering,
   kelontong,
   klinikHewan,
   klinik,
+  kontraktor,
+  kursusBahasa,
+  kursusIt,
   laundry,
   legal,
   logistik,
@@ -83,6 +95,7 @@ export const demoItems: DemoItem[] = [
   motor,
   olehOleh,
   optik,
+  paud,
   percetakan,
   perikanan,
   pesantren,
@@ -92,6 +105,7 @@ export const demoItems: DemoItem[] = [
   saas,
   salon,
   sekolah,
+  sewaApartemen,
   skincare,
   spa,
   tani,
