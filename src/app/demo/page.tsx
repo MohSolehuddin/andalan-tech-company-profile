@@ -59,10 +59,14 @@ export default function DemoIndexPage() {
                     href={`/demo/${demo.slug}`}
                     className={`group flex flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg ${demo.ring}`}>
                     <div
-                      className={`flex h-40 items-center justify-center bg-linear-to-br ${demo.accentBg}`}>
-                      <span className="text-6xl" aria-hidden="true">
-                        {demo.emoji}
-                      </span>
+                      className={`relative h-40 overflow-hidden border-b border-neutral-200 bg-linear-to-br ${demo.accentBg}`}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={`/demo/preview/${demo.slug}.webp`}
+                        alt={`Pratinjau website ${demo.name}`}
+                        loading="lazy"
+                        className="h-full w-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
+                      />
                     </div>
                     <div className="flex flex-1 flex-col p-6">
                       <div className="flex items-center justify-between gap-2">
