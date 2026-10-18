@@ -30,7 +30,7 @@ export default function AsuransiHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#produk"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-teal-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-teal-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <ShieldCheck className="h-5 w-5" />
               Lihat Produk
             </a>
@@ -38,7 +38,7 @@ export default function AsuransiHero() {
               href={waLink("Halo Amanah Proteksi, saya mau konsultasi asuransi.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Konsultasi via WhatsApp
             </a>
           </div>

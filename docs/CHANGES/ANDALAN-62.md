@@ -1,83 +1,54 @@
 # Ringkasan Perubahan: ANDALAN-62
 
 ## Judul
-Design Pass (Human-Grade Web Design) untuk 10 Demo Kategori "Retail & Toko"
+Design Pass Human-Grade untuk 10 Demo Kategori "Jasa & Profesional"
 
 ## Deskripsi
-Melakukan design pass berbasis skill `human-grade-web-design` untuk 10 demo kategori "Retail & Toko" (`toko`, `tani`, `perikanan`, `toko-madura`, `kelontong`, `minimarket`, `fashion`, `elektronik`, `bangunan`, `toko-emas`) guna mengeliminasi estetika AI-generated cliches dan meningkatkan ergonomi serta aksesibilitas antarmuka pengguna tanpa mengubah data, fakta, slug, atau struktur navigasi.
+Merapikan estetika "AI slop" pada 10 halaman demo kategori jasa & profesional
+(`jasa`, `legal`, `asuransi`, `laundry`, `bengkel`, `fotografi`, `wedding`,
+`home-service`, `percetakan`, `logistik`) tanpa mengubah data/fakta, slug,
+struktur, maupun dependency. Perbaikan bersifat mekanis sesuai skill
+`human-grade-web-design`:
 
-Rincian perbaikan yang diterapkan:
-1. **R1 (Hapus Decorative Blur Blob)**:
-   - Menghapus elemen dekoratif ambient blur blob (`blur-3xl`) murni hiasan pada `src/components/demo/tani/TaniHero.tsx`.
-2. **R2 (Netralkan Drop Shadow)**:
-   - Memverifikasi dan mempertahankan bayangan kartu/tombol pada skala netral (`shadow-xs`, `shadow-sm`, `hover:shadow-md`) tanpa colored drop-shadow saturated.
-3. **R3 (Radius Sudut Proporsional)**:
-   - Memastikan tidak ada penggunaan `rounded-3xl` berlebihan; seluruh container menggunakan radius proporsional (`rounded-xl` / `rounded-2xl`).
-4. **R4 (Kontras Teks WCAG AA di Latar Terang)**:
-   - Mengoreksi teks abu terlalu muda di latar terang (`text-*-400` dan `text-*-500`) menjadi `text-*-600` untuk memenuhi standar rasio kontras WCAG AA (>= 4.5:1) pada `TaniProducts`, `MinimarketPromo`, `TokoCatalog`, `PerikananProducts`, `TokoMaduraCatalog`, `TokoMaduraGrosir`, `KelontongProduk`, `KelontongContact`, `MinimarketCatalog`, `BangunanCatalog`, `TokoEmasRates`, dan `TokoEmasCollection`.
-5. **R5 (Netralkan Latar/Aksen Besar Warna Neon)**:
-   - Mengganti latar dan gradien neon violet/purple jenuh pada demo `fashion` (`FashionHero`, `FashionOrder`, `FashionContact`, `FashionKoleksi`, `FashionKatalog`) menjadi palet netral urban yang elegan (`bg-neutral-950`, `bg-neutral-900`, `bg-neutral-50`, `text-neutral-900`).
-   - Membersihkan gradien ungu/violet dari background `TokoHero` (`from-indigo-900/40 via-indigo-950 to-slate-950`).
-   - Membersihkan glow cyan berlebihan pada background `PerikananHero` (`from-slate-900 via-slate-950 to-slate-950`).
-6. **R6 (State Fokus Aksesibilitas)**:
-   - Menambahkan state fokus keyboard standar (`focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2`) pada seluruh tombol filter kategori dan tautan tombol CTA WhatsApp di 10 demo.
-7. **R7 (Eliminasi Buzzword Copy)**:
-   - Mengganti kalimat buzzword menjadi deskripsi konkret dan spesifik:
-     - `TaniServices.tsx`: "Solusi Menyeluruh untuk Pertanian Anda" -> "Layanan Lengkap untuk Pertanian Anda"
-     - `TaniProducts.tsx`: "jaminan mutu terbaik" -> "jaminan mutu teruji"
-     - `TokoMaduraFeatures.tsx`: "Solusi Kebutuhan Harian Tanpa Ribet" -> "Belanja Kebutuhan Harian Cepat & Praktis"
-     - `TokoMaduraGrosir.tsx`: "Harga Grosir Terbaik" -> "Harga Grosir Terjangkau"
-     - `ElektronikHero.tsx`: "Solusi Kebutuhan Elektronik Rumah Tangga Berkualitas" -> "Perangkat Elektronik Rumah Tangga Bergaransi Resmi"
-     - `TokoEmasServices.tsx`: "Solusi menyeluruh dari pembuatan cincin pernikahan..." -> "Layanan lengkap dari pembuatan cincin pernikahan..."
+- **R1 (blur blob)**: Menghapus 2 div dekoratif `blur-3xl` di `WeddingHero`
+  (blob fuchsia & rose tanpa konten).
+- **R2 (colored drop-shadow)**: `shadow-lg shadow-orange-500/*` pada CTA
+  `PercetakanHero` dan `PercetakanContact` diganti `shadow-sm`.
+- **R3 (`rounded-3xl` → `rounded-xl`)**: 5 titik pada `LaundryContact`,
+  `LaundryOrder`, `BengkelBooking`, `BengkelTestimonials`, `PercetakanContact`.
+- **R4 (kontras teks)**: `text-*-400` di latar terang dinaikkan ke `-600`
+  (`LegalProcess` tahap, ikon `LegalTeam`, label "Sudah Termasuk"
+  `WeddingPackages`, harga coret `BengkelBooking`). Teks di latar gelap
+  dibiarkan.
+- **R5 (warna neon)**: Aksen fuchsia/purple/violet di halaman wedding diganti
+  rose (aksen yang sudah ada di komponen), `cyan` di `home-service` diganti
+  `sky` (aksen yang sudah ada), gradien neon di `JasaPortfolio`/`FotoGallery`
+  diganti aksen netral/aksen eksisting.
+- **R6 (focus state)**: Semua tombol/link CTA pada 10 halaman ditambah
+  `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2`
+  (termasuk tombol filter portofolio dan tombol pilih paket).
+- **R7 (copy buzzword)**: "secara seamless" (testimoni wedding), "tanpa batas
+  gradasi" (harga percetakan), dan "bebas batas" (spesifikasi DTF) diganti
+  kalimat konkret dan spesifik.
 
-## File yang Diubah
-1. `src/components/demo/toko/TokoHero.tsx`
-2. `src/components/demo/toko/TokoCatalog.tsx`
-3. `src/components/demo/toko/TokoContact.tsx`
-4. `src/components/demo/tani/TaniHero.tsx`
-5. `src/components/demo/tani/TaniProducts.tsx`
-6. `src/components/demo/tani/TaniServices.tsx`
-7. `src/components/demo/tani/TaniContact.tsx`
-8. `src/components/demo/perikanan/PerikananHero.tsx`
-9. `src/components/demo/perikanan/PerikananProducts.tsx`
-10. `src/components/demo/perikanan/PerikananContact.tsx`
-11. `src/components/demo/toko-madura/TokoMaduraHero.tsx`
-12. `src/components/demo/toko-madura/TokoMaduraFeatures.tsx`
-13. `src/components/demo/toko-madura/TokoMaduraCatalog.tsx`
-14. `src/components/demo/toko-madura/TokoMaduraGrosir.tsx`
-15. `src/components/demo/toko-madura/TokoMaduraContact.tsx`
-16. `src/components/demo/kelontong/KelontongHero.tsx`
-17. `src/components/demo/kelontong/KelontongProduk.tsx`
-18. `src/components/demo/kelontong/KelontongPaket.tsx`
-19. `src/components/demo/kelontong/KelontongContact.tsx`
-20. `src/components/demo/minimarket/MinimarketHero.tsx`
-21. `src/components/demo/minimarket/MinimarketPromo.tsx`
-22. `src/components/demo/minimarket/MinimarketCatalog.tsx`
-23. `src/components/demo/minimarket/MinimarketBranches.tsx`
-24. `src/components/demo/fashion/FashionHero.tsx`
-25. `src/components/demo/fashion/FashionKoleksi.tsx`
-26. `src/components/demo/fashion/FashionKatalog.tsx`
-27. `src/components/demo/fashion/FashionOrder.tsx`
-28. `src/components/demo/fashion/FashionContact.tsx`
-29. `src/components/demo/elektronik/ElektronikHero.tsx`
-30. `src/components/demo/elektronik/ElektronikCatalog.tsx`
-31. `src/components/demo/elektronik/ElektronikFeatures.tsx`
-32. `src/components/demo/elektronik/ElektronikContact.tsx`
-33. `src/components/demo/bangunan/BangunanHero.tsx`
-34. `src/components/demo/bangunan/BangunanCatalog.tsx`
-35. `src/components/demo/bangunan/BangunanDelivery.tsx`
-36. `src/components/demo/bangunan/BangunanContact.tsx`
-37. `src/components/demo/toko-emas/TokoEmasHero.tsx`
-38. `src/components/demo/toko-emas/TokoEmasRates.tsx`
-39. `src/components/demo/toko-emas/TokoEmasCollection.tsx`
-40. `src/components/demo/toko-emas/TokoEmasServices.tsx`
-41. `src/components/demo/toko-emas/TokoEmasContact.tsx`
-42. `docs/CHANGES/ANDALAN-62.md`
+## File yang Diubah (42 file, hanya di dalam scope)
+1. `src/components/demo/jasa/JasaHero.tsx`, `JasaContact.tsx`, `JasaPortfolio.tsx`
+2. `src/components/demo/legal/LegalHero.tsx`, `LegalContact.tsx`, `LegalProcess.tsx`, `LegalTeam.tsx`
+3. `src/components/demo/asuransi/AsuransiHero.tsx`, `AsuransiProducts.tsx`, `AsuransiSteps.tsx`, `AsuransiContact.tsx`
+4. `src/components/demo/laundry/LaundryHero.tsx`, `LaundryContact.tsx`, `LaundryOrder.tsx`, `LaundryPricing.tsx`, `LaundryServices.tsx`
+5. `src/components/demo/bengkel/BengkelHero.tsx`, `BengkelContact.tsx`, `BengkelServices.tsx`, `BengkelBooking.tsx`, `BengkelTestimonials.tsx`
+6. `src/components/demo/fotografi/FotoHero.tsx`, `FotoContact.tsx`, `FotoPackages.tsx`, `FotoGallery.tsx`
+7. `src/components/demo/wedding/WeddingHero.tsx`, `WeddingContact.tsx`, `WeddingServices.tsx`, `WeddingPackages.tsx`, `WeddingGallery.tsx`
+8. `src/components/demo/home-service/HomeServiceHero.tsx`, `HomeServiceBooking.tsx`, `HomeServicePackages.tsx`, `HomeServiceServices.tsx`, `HomeServiceWhy.tsx`
+9. `src/components/demo/percetakan/PercetakanHero.tsx`, `PercetakanPricing.tsx`, `PercetakanServices.tsx`, `PercetakanContact.tsx`
+10. `src/components/demo/logistik/LogistikHero.tsx`, `LogistikEstimasi.tsx`, `LogistikContact.tsx`
+
+File `src/app/demo/*/page.tsx` pada 10 kategori tidak diubah (tidak memuat
+pelanggaran). Tidak ada perubahan pada schema, tests/setup, AGENTS.md, data
+slug, maupun dependency.
 
 ## Catatan
-- Tidak ada file di luar lingkup yang disentuh (tidak menyentuh `schema/`, `tests/setup/`, `AGENTS.md`, atau demo di luar kategori "Retail & Toko").
-- Tidak ada commit git dan tidak ada push ke remote.
-- Tidak ada penambahan dependensi baru.
+- Tidak ada git commit dan tidak ada push ke remote.
 
 ## Verifikasi
 - `npm test` dijalankan di foreground dan dilaporkan persis:
@@ -85,7 +56,14 @@ Rincian perbaikan yang diterapkan:
   npm error Missing script: "test"
   npm error
   npm error To see a list of scripts, run:
+  npm error
   npm error   npm run
-  npm error A complete log of this run can be found in: /home/msytc/.npm/_logs/2026-10-18T07_51_26_436Z-debug-0.log
+  npm error A complete log of this run can be found in: /home/msytc/.npm/_logs/2026-10-18T07_43_20_643Z-debug-0.log
   ```
-- `pnpm install --frozen-lockfile && pnpm build` dijalankan dan sukses (exit code 0).
+  (repo tidak memiliki skrip test di package.json)
+- `pnpm install --frozen-lockfile` sukses (429ms), lalu `pnpm build` exit 0:
+  `✓ Compiled successfully in 21.9s`, `✓ Generating static pages (67/67) in 7.0s`,
+  seluruh rute `/demo/*` (termasuk 10 kategori di scope) ter-prerender statis.
+- `pnpm lint` masih gagal karena 2 error pre-existing DI LUAR scope
+  (`src/components/Particle.tsx` setState-in-effect, `OlehContact.tsx` `<a>`
+  internal), tidak ada error baru pada file scope.

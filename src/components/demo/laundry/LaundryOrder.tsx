@@ -79,7 +79,7 @@ Mohon dikonfirmasi ya. Terima kasih!`;
           ))}
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-3xl border border-white/10 bg-white/5 p-8">
+        <div className="mx-auto mt-12 max-w-3xl rounded-xl border border-white/10 bg-white/5 p-8">
           <div className="text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-sky-400/15 px-3 py-1 text-xs font-medium text-sky-200">
               <ClipboardList className="h-3.5 w-3.5" />
@@ -181,7 +181,7 @@ Mohon dikonfirmasi ya. Terima kasih!`;
               href={waLink(orderMessage)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-sky-400 px-6 py-3.5 font-bold text-sky-950 transition-colors hover:bg-sky-300 sm:w-auto">
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-sky-400 px-6 py-3.5 font-bold text-sky-950 transition-colors hover:bg-sky-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:w-auto">
               <CalendarCheck className="h-5 w-5" />
               Kirim Order via WhatsApp
             </a>

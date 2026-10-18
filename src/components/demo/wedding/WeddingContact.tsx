@@ -7,8 +7,8 @@ export default function WeddingContact() {
       <div className="container mx-auto max-w-5xl">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-fuchsia-400/40 bg-fuchsia-500/10 px-3.5 py-1 text-xs font-medium text-fuchsia-300">
-              <HeartHandshake className="h-3.5 w-3.5 text-fuchsia-300" />
+            <span className="inline-flex items-center gap-2 rounded-full border border-rose-400/40 bg-rose-500/10 px-3.5 py-1 text-xs font-medium text-rose-300">
+              <HeartHandshake className="h-3.5 w-3.5 text-rose-300" />
               Konsultasi & Food Tasting Gratis
             </span>
             <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
@@ -24,7 +24,7 @@ export default function WeddingContact() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 rounded-lg bg-fuchsia-600 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-fuchsia-500">
+                className="inline-flex items-center gap-2.5 rounded-lg bg-rose-600 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-rose-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-5 w-5" />
                 Konsultasi Gratis via WhatsApp
               </a>
@@ -33,7 +33,7 @@ export default function WeddingContact() {
 
           <div className="space-y-4 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xs">
             <div className="flex items-start gap-3.5">
-              <MapPin className="mt-1 h-5 w-5 shrink-0 text-fuchsia-400" />
+              <MapPin className="mt-1 h-5 w-5 shrink-0 text-rose-400" />
               <div>
                 <p className="font-semibold text-white">Kantor & Galeri</p>
                 <p className="mt-0.5 text-sm text-neutral-300">
@@ -42,14 +42,14 @@ export default function WeddingContact() {
               </div>
             </div>
             <div className="flex items-start gap-3.5">
-              <Phone className="mt-1 h-5 w-5 shrink-0 text-fuchsia-400" />
+              <Phone className="mt-1 h-5 w-5 shrink-0 text-rose-400" />
               <div>
                 <p className="font-semibold text-white">Layanan WhatsApp</p>
                 <p className="mt-0.5 text-sm text-neutral-300">+62 877 4596 8545</p>
               </div>
             </div>
             <div className="flex items-start gap-3.5">
-              <Clock className="mt-1 h-5 w-5 shrink-0 text-fuchsia-400" />
+              <Clock className="mt-1 h-5 w-5 shrink-0 text-rose-400" />
               <div>
                 <p className="font-semibold text-white">Jam Operasional & Janji Temu</p>
                 <p className="mt-0.5 text-sm text-neutral-300">

@@ -20,7 +20,7 @@ export default function FotoContact() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-zinc-100 px-6 py-3 font-semibold text-zinc-900 transition-colors hover:bg-white">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-zinc-100 px-6 py-3 font-semibold text-zinc-900 transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Booking via WhatsApp
             </a>

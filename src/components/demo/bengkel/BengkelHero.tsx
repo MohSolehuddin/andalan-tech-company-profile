@@ -29,13 +29,13 @@ export default function BengkelHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#booking"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-500">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Calendar className="h-5 w-5" />
               Booking Jadwal Servis
             </a>
             <a
               href="#layanan"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Lihat Layanan & Biaya
             </a>
           </div>

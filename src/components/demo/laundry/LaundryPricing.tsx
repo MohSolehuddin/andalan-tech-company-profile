@@ -93,7 +93,7 @@ export default function LaundryPricing() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-sky-600 px-5 py-3 font-semibold text-white transition-colors hover:bg-sky-500">
+              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-sky-600 px-5 py-3 font-semibold text-white transition-colors hover:bg-sky-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Tanya Harga via WhatsApp
             </a>

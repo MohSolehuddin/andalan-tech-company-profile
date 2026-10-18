@@ -14,7 +14,7 @@ const shots: Shot[] = [
   { id: 3, title: "Kopi Lokal Nusantara", category: "Produk", emoji: "☕", gradient: "from-neutral-500 to-zinc-800" },
   { id: 4, title: "Panggung Kelulusan", category: "Wisuda", emoji: "🎓", gradient: "from-sky-400 to-indigo-600" },
   { id: 5, title: "Lari Pagi Komunitas", category: "Event", emoji: "🏃", gradient: "from-emerald-400 to-teal-600" },
-  { id: 6, title: "Keluarga Ceria", category: "Studio", emoji: "👨‍👩‍👧", gradient: "from-rose-400 to-fuchsia-600" },
+  { id: 6, title: "Keluarga Ceria", category: "Studio", emoji: "👨‍👩‍👧", gradient: "from-rose-400 to-orange-600" },
   { id: 7, title: "Detail Bunga & Cincin", category: "Wedding", emoji: "🌸", gradient: "from-pink-300 to-rose-500" },
   { id: 8, title: "Sepatu Brand Lokal", category: "Produk", emoji: "👟", gradient: "from-slate-500 to-zinc-900" },
 ];

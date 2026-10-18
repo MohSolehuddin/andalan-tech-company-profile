@@ -33,7 +33,7 @@ export default function BengkelTestimonials() {
     <section className="bg-zinc-50 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         {/* Stats */}
-        <div className="grid grid-cols-2 gap-6 rounded-3xl border border-zinc-200 bg-white p-8 shadow-xs md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-6 rounded-xl border border-zinc-200 bg-white p-8 shadow-xs md:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-3xl font-extrabold text-red-600 md:text-4xl">

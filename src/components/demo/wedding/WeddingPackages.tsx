@@ -59,7 +59,7 @@ export default function WeddingPackages() {
     <section id="paket" className="bg-white px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-fuchsia-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-rose-600">
             Paket Pernikahan
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -76,11 +76,11 @@ export default function WeddingPackages() {
               key={pkg.name}
               className={`relative flex flex-col rounded-2xl border bg-white p-7 shadow-sm transition-all hover:shadow-md ${
                 pkg.popular
-                  ? "border-fuchsia-600 ring-2 ring-fuchsia-600"
+                  ? "border-rose-600 ring-2 ring-rose-600"
                   : "border-neutral-200"
               }`}>
               {pkg.popular && (
-                <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-fuchsia-600 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-white shadow-xs">
+                <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-rose-600 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-white shadow-xs">
                   Paling Populer
                 </span>
               )}
@@ -95,13 +95,13 @@ export default function WeddingPackages() {
               </div>
 
               <div className="mt-6 border-t border-neutral-100 pt-6">
-                <p className="text-xs font-semibold uppercase tracking-wider text-neutral-400">
+                <p className="text-xs font-semibold uppercase tracking-wider text-neutral-600">
                   Sudah Termasuk:
                 </p>
                 <ul className="mt-4 flex-1 space-y-3 text-sm text-neutral-700">
                   {pkg.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-2.5">
-                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-fuchsia-600" />
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-rose-600" />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -115,10 +115,10 @@ export default function WeddingPackages() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center rounded-lg px-4 py-3 text-sm font-semibold transition-colors ${
+                  className={`inline-flex w-full items-center justify-center rounded-lg px-4 py-3 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     pkg.popular
-                      ? "bg-fuchsia-600 text-white hover:bg-fuchsia-500"
-                      : "border border-neutral-300 text-neutral-800 hover:border-fuchsia-500 hover:text-fuchsia-600"
+                      ? "bg-rose-600 text-white hover:bg-rose-500"
+                      : "border border-neutral-300 text-neutral-800 hover:border-rose-500 hover:text-rose-600"
                   }`}>
                   Pilih Paket {pkg.name.split(" ")[0]}
                 </a>

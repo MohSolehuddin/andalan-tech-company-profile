@@ -63,15 +63,15 @@ export default function LegalTeam() {
 
               <div className="mt-5 space-y-2 border-t border-slate-100 pt-4 text-xs text-slate-600">
                 <div className="flex items-center gap-2">
-                  <GraduationCap className="h-4 w-4 text-slate-400" />
+                  <GraduationCap className="h-4 w-4 text-slate-600" />
                   <span>{member.specialty}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Award className="h-4 w-4 text-slate-400" />
+                  <Award className="h-4 w-4 text-slate-600" />
                   <span>{member.experience}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <ShieldCheck className="h-4 w-4 text-slate-400" />
+                  <ShieldCheck className="h-4 w-4 text-slate-600" />
                   <span className="font-medium text-slate-700">
                     {member.badge}
                   </span>
