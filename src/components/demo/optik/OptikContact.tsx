@@ -20,7 +20,7 @@ export default function OptikContact() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-indigo-400 px-6 py-3 font-semibold text-indigo-950 transition-colors hover:bg-indigo-300">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-indigo-400 px-6 py-3 font-semibold text-indigo-950 transition-colors hover:bg-indigo-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Order via WhatsApp
             </a>

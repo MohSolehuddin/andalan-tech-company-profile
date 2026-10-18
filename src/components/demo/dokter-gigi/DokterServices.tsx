@@ -81,7 +81,7 @@ export default function DokterServices() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm font-semibold text-neutral-700 underline underline-offset-2 hover:text-sky-700">
+                  className="text-sm font-semibold text-neutral-700 underline underline-offset-2 hover:text-sky-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   Tanya
                 </a>
               </div>

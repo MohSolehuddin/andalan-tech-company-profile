@@ -86,7 +86,7 @@ export default function FitnessTrainers() {
                     <span>{t.cert}</span>
                   </div>
                   <div className="flex items-start gap-2">
-                    <t.icon className="mt-0.5 h-3.5 w-3.5 shrink-0 text-neutral-400" />
+                    <t.icon className="mt-0.5 h-3.5 w-3.5 shrink-0 text-neutral-600" />
                     <span>{t.specialty}</span>
                   </div>
                 </div>

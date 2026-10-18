@@ -79,7 +79,7 @@ export default function SpaServices() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-lime-600">
+                  className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-lime-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <Droplets className="h-4 w-4" />
                   Pesan
                 </a>

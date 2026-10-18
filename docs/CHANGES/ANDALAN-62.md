@@ -1,83 +1,47 @@
 # Ringkasan Perubahan: ANDALAN-62
 
 ## Judul
-Design Pass (human-grade-web-design) untuk 10 Demo Kategori Kuliner & F&B
+Design Pass Human-Grade untuk 10 Demo Kategori Kesehatan & Kecantikan
 
 ## Deskripsi
-Melakukan audit dan pembersihan estetika "AI slop" sesuai standar panduan `human-grade-web-design` pada 10 halaman demo portofolio kategori Kuliner & F&B:
-1. `/demo/restoran` (Rasa Nusantara)
-2. `/demo/kafe` (Kopi Titik Temu)
-3. `/demo/katering` (Berkah Rasa Catering)
-4. `/demo/bakery` (Dapur Roti Nusantara)
-5. `/demo/warung` (Warung Sederhana Jaya)
-6. `/demo/toko-kue` (Manis Kue & Dessert)
-7. `/demo/food-truck` (Roda Rasa Food Truck)
-8. `/demo/oleh-oleh` (Oleh-Oleh Khas Situbondo)
-9. `/demo/ayam-goreng` (Ayam Geprek Mantap)
-10. `/demo/minuman` (Segar Boba & Juice)
+Melakukan perbaikan desain mekanis (tanpa mengubah data, fakta, slug, struktur, atau dependency) pada 10 demo kategori Kesehatan & Kecantikan: `klinik`, `apotek`, `salon`, `barbershop`, `fitness`, `dokter-gigi`, `klinik-hewan`, `spa`, `skincare`, dan `optik`. Perbaikan mengikuti skill `human-grade-web-design`:
 
-## Perbaikan yang Diterapkan
-- **R1 (Hapus blur blob dekoratif)**: Menghapus elemen `div` blur hiasan murni tanpa konten (`blur-2xl`, `blur-3xl`) pada hero dan banner section di `KafeHero`, `KateringHero`, `BakeryHero`, `WarungHero`, `TokoKueHero`, `TokoKueOrderWA`, `FoodTruckHero`, dan `OlehHero`.
-- **R2 (Netralkan colored drop-shadow)**: Mengganti drop shadow berwarna (seperti `shadow-amber-500/20`, `shadow-pink-500/25`) menjadi drop shadow netral (`shadow-sm`, `hover:shadow-md`) di `BakeryHero` dan `TokoKueHero`.
-- **R3 (Koreksi radius rounded-3xl)**: Mengubah `rounded-3xl` menjadi `rounded-xl` di seluruh container kartu/section pada `BakeryContact`, `BakeryPackages`, `TokoKueCustom`, `TokoKueOrderWA`, `FoodTruckHero`, `OlehContact`, `OlehHampers`, `OlehHero`, `OlehShipping`, dan `MinumanContact`.
-- **R4 (Perbaikan kontras teks abu di latar terang)**: Memperbaiki kontras teks abu muda (`text-neutral-400` -> `text-neutral-600`) pada latar terang di `TokoKueCatalog` dan `MinumanPaket`. Teks abu di latar gelap dipertahankan sesuai aturan.
-- **R5 (Eliminasi warna neon)**: Menetralkan aksen neon `cyan` pada `MinumanHero`, `MinumanTopping`, dan `MinumanContact` ke variasi tema netral/teal (`to-teal-950/30`, `from-teal-950 to-neutral-900`, `from-teal-950 via-neutral-900 to-teal-950`).
-- **R6 (State fokus interaktif)**: Menambahkan utilitas aksesibilitas fokus keyboard (`focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ...`) pada seluruh tombol utama, CTA WhatsApp, tombol filter, dan tautan navigasi di 10 demo.
-- **R7 (Audit copy buzzword)**: Memastikan copy tetap natural, lugas, spesifik, dan bebas dari buzzword tanpa mengubah data maupun fakta bisnis.
+1. **R1 (blur blob)**: Menghapus 12 elemen dekoratif `blur-3xl` berupa blob absolute tanpa konten pada hero `SalonHero`, `BarbershopHero`, `FitnessHero`, `SpaHero`, dan `SkincareHero` (komentar "Background ambient lighting" ikut dirapikan; gradien latar tetap dipertahankan).
+2. **R2 (colored shadow)**: Mengganti drop-shadow berwarna (`shadow-lg shadow-orange-950/40`, `shadow-xl shadow-orange-950/20`, `shadow-md shadow-orange-900/30`, `shadow-lg shadow-fuchsia-500/25`, `shadow-lg shadow-fuchsia-600/30`) menjadi netral (`shadow-sm`) di `FitnessHero`, `FitnessPricing`, `FitnessContact`, `SkincareHero`, dan `SkincareBooking`.
+3. **R3 (rounded-3xl)**: Mengganti seluruh `rounded-3xl` menjadi `rounded-xl` pada kartu paket/tabel/booking (`SalonPriceList`, `SalonTestimonials`, `SalonBooking`, `BarbershopPricing`, `BarbershopContact`, `FitnessPricing`, `FitnessContact`, `SpaPackages`, `SpaBooking`).
+4. **R4 (kontras)**: Menaikkan teks abu terlalu muda di latar terang dari `text-neutral-400` menjadi `text-neutral-600` (`SalonPriceList`, `BarbershopPricing`, `FitnessTrainers`, `SpaPackages`). Teks pada latar gelap dibiarkan sesuai aturan.
+5. **R5 (warna neon)**: Mengganti aksen fuchsia (neon) di seluruh komponen `skincare` menjadi rose yang lebih grounded; gradient fuchsia-ke-pink kini rose-ke-pink, badge/ikon/border/ring fuchsia menjadi rose. Tidak ada purple/violet/cyan tersisa di lingkup ini.
+6. **R6 (state fokus)**: Menambahkan `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2` pada tombol/link CTA utama di seluruh 10 demo (hero, katalog layanan/produk, paket harga, form booking/antrian, kontak).
+7. **R7 (buzzword)**: Audit copy tidak menemukan kata buzzword terlarang; tidak ada perubahan teks/isi.
 
-## File yang Diubah
-1. `src/components/demo/restoran/RestoHero.tsx`
-2. `src/components/demo/restoran/RestoMenu.tsx`
-3. `src/components/demo/restoran/RestoContact.tsx`
-4. `src/components/demo/kafe/KafeHero.tsx`
-5. `src/components/demo/kafe/KafeMenu.tsx`
-6. `src/components/demo/kafe/KafeEvents.tsx`
-7. `src/components/demo/kafe/KafeContact.tsx`
-8. `src/components/demo/katering/KateringHero.tsx`
-9. `src/components/demo/katering/KateringPackages.tsx`
-10. `src/components/demo/katering/KateringContact.tsx`
-11. `src/components/demo/bakery/BakeryHero.tsx`
-12. `src/components/demo/bakery/BakeryCatalog.tsx`
-13. `src/components/demo/bakery/BakeryPackages.tsx`
-14. `src/components/demo/bakery/BakeryContact.tsx`
-15. `src/components/demo/warung/WarungHero.tsx`
-16. `src/components/demo/warung/WarungMenu.tsx`
-17. `src/components/demo/warung/WarungPaket.tsx`
-18. `src/components/demo/warung/WarungAntar.tsx`
-19. `src/components/demo/warung/WarungContact.tsx`
-20. `src/components/demo/toko-kue/TokoKueHero.tsx`
-21. `src/components/demo/toko-kue/TokoKueCatalog.tsx`
-22. `src/components/demo/toko-kue/TokoKueCustom.tsx`
-23. `src/components/demo/toko-kue/TokoKueOrderWA.tsx`
-24. `src/components/demo/food-truck/FoodTruckHero.tsx`
-25. `src/components/demo/food-truck/FoodTruckMenu.tsx`
-26. `src/components/demo/food-truck/FoodTruckSchedule.tsx`
-27. `src/components/demo/food-truck/FoodTruckEvents.tsx`
-28. `src/components/demo/food-truck/FoodTruckContact.tsx`
-29. `src/components/demo/oleh-oleh/OlehHero.tsx`
-30. `src/components/demo/oleh-oleh/OlehCatalog.tsx`
-31. `src/components/demo/oleh-oleh/OlehHampers.tsx`
-32. `src/components/demo/oleh-oleh/OlehShipping.tsx`
-33. `src/components/demo/oleh-oleh/OlehContact.tsx`
-34. `src/components/demo/ayam-goreng/AyamHero.tsx`
-35. `src/components/demo/ayam-goreng/AyamMenu.tsx`
-36. `src/components/demo/ayam-goreng/AyamPromo.tsx`
-37. `src/components/demo/ayam-goreng/AyamOutlets.tsx`
-38. `src/components/demo/ayam-goreng/AyamContact.tsx`
-39. `src/components/demo/minuman/MinumanHero.tsx`
-40. `src/components/demo/minuman/MinumanMenu.tsx`
-41. `src/components/demo/minuman/MinumanTopping.tsx`
-42. `src/components/demo/minuman/MinumanPaket.tsx`
-43. `src/components/demo/minuman/MinumanContact.tsx`
-44. `docs/CHANGES/ANDALAN-62.md`
+## File yang Diubah (41 file komponen)
+1. `src/components/demo/klinik/KlinikHero.tsx`, `KlinikContact.tsx` — state fokus CTA.
+2. `src/components/demo/apotek/ApotekHero.tsx`, `ApotekProducts.tsx`, `ApotekContact.tsx` — state fokus CTA.
+3. `src/components/demo/salon/SalonHero.tsx`, `SalonServices.tsx`, `SalonPriceList.tsx`, `SalonTestimonials.tsx`, `SalonBooking.tsx` — hapus blob, rounded-xl, kontras, state fokus.
+4. `src/components/demo/barbershop/BarbershopHero.tsx`, `BarbershopServices.tsx`, `BarbershopPricing.tsx`, `BarbershopTeam.tsx`, `BarbershopContact.tsx` — hapus blob, rounded-xl, kontras, state fokus.
+5. `src/components/demo/fitness/FitnessHero.tsx`, `FitnessPricing.tsx`, `FitnessTrainers.tsx`, `FitnessContact.tsx` — hapus blob, shadow netral, rounded-xl, kontras, state fokus.
+6. `src/components/demo/dokter-gigi/DokterHero.tsx`, `DokterServices.tsx`, `DokterSchedule.tsx`, `DokterBooking.tsx` — state fokus CTA.
+7. `src/components/demo/klinik-hewan/VetHero.tsx`, `VetServices.tsx`, `VetProducts.tsx`, `VetContact.tsx` — state fokus CTA.
+8. `src/components/demo/spa/SpaHero.tsx`, `SpaServices.tsx`, `SpaPackages.tsx`, `SpaBooking.tsx`, `SpaContact.tsx` — hapus blob, rounded-xl, kontras, state fokus.
+9. `src/components/demo/skincare/SkincareHero.tsx`, `SkincareTreatments.tsx`, `SkincarePricing.tsx`, `SkincareConsultation.tsx`, `SkincareBooking.tsx` — hapus blob, aksen fuchsia ke rose, shadow netral, state fokus.
+10. `src/components/demo/optik/OptikHero.tsx`, `OptikCatalog.tsx`, `OptikPromo.tsx`, `OptikContact.tsx` — state fokus CTA.
+
+File `src/app/demo/<slug>/page.tsx` (10 halaman) tidak perlu diubah; tidak ada pelanggaran aturan di dalamnya.
+
+## Catatan
+- Tidak mengubah data/fakta/harga/teks, slug, struktur komponen, atau dependency.
+- Hanya file di lingkup tugas yang disentuh; `schema/`, `tests/setup/`, `AGENTS.md`, dan docs lain tidak diubah.
+- Tidak ada git commit dan tidak ada push ke remote.
 
 ## Verifikasi
-- `npm test`:
+- `npm test` dijalankan di foreground dan dilaporkan persis:
   ```
   npm error Missing script: "test"
   npm error
   npm error To see a list of scripts, run:
   npm error   npm run
-  npm error A complete log of this run can be found in: /home/msytc/.npm/_logs/2026-10-18T07_39_11_309Z-debug-0.log
+  npm error A complete log of this run can be found in: /home/msytc/.npm/_logs/2026-10-18T07_43_41_325Z-debug-0.log
   ```
-- `pnpm install --frozen-lockfile && pnpm build`: Berhasil tanpa error (exit code 0).
+  (repo tidak memiliki skrip test di package.json)
+- `pnpm install --frozen-lockfile && pnpm build` dijalankan di foreground dan berhasil hijau (exit code 0, `✓ Compiled successfully in 17.7s`, `✓ Generating static pages (67/67) in 4.1s`, seluruh rute demo termasuk 10 demo kategori ini ter-prerender statis tanpa error).
+- `pnpm lint` menunjukkan 15 masalah yang seluruhnya sudah ada sebelumnya (pre-existing) di file di luar lingkup tugas; tidak ada masalah pada file yang diubah.

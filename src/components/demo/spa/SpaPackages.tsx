@@ -60,7 +60,7 @@ export default function SpaPackages() {
           {packages.map((pkg) => (
             <div
               key={pkg.name}
-              className={`relative flex flex-col justify-between rounded-3xl p-6 transition-all ${
+              className={`relative flex flex-col justify-between rounded-xl p-6 transition-all ${
                 pkg.popular
                   ? "border-2 border-lime-500 bg-lime-50/40 shadow-lg md:-translate-y-2"
                   : "border border-neutral-200 bg-white"
@@ -88,7 +88,7 @@ export default function SpaPackages() {
                   <span className="text-3xl font-extrabold text-neutral-900">
                     {pkg.price}
                   </span>
-                  <span className="text-xs text-neutral-400">/ orang</span>
+                  <span className="text-xs text-neutral-600">/ orang</span>
                 </div>
 
                 <ul className="mt-6 space-y-3 border-t border-neutral-100 pt-6">
@@ -110,7 +110,7 @@ export default function SpaPackages() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold transition-colors ${
+                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     pkg.popular
                       ? "bg-lime-600 text-white hover:bg-lime-500"
                       : "bg-emerald-900 text-white hover:bg-lime-600"

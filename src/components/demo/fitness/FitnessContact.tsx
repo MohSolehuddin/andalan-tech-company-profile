@@ -23,14 +23,14 @@ export default function FitnessContact() {
                 href={waLink("Halo PrimaFit Studio, saya ingin daftar uji coba gratis 1 hari.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-orange-500 to-red-600 px-6 py-3 font-semibold text-white shadow-lg shadow-orange-950/40 transition-transform hover:scale-[1.02] active:scale-[0.98]">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-orange-500 to-red-600 px-6 py-3 font-semibold text-white shadow-sm transition-transform hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <ShieldCheck className="h-5 w-5" />
                 Daftar Free Trial via WhatsApp
               </a>
             </div>
           </div>
 
-          <div className="space-y-5 rounded-3xl border border-neutral-800 bg-neutral-900/80 p-6 sm:p-8">
+          <div className="space-y-5 rounded-xl border border-neutral-800 bg-neutral-900/80 p-6 sm:p-8">
             <div className="flex items-start gap-4">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-orange-500/10 text-orange-400">
                 <MapPin className="h-5 w-5" />

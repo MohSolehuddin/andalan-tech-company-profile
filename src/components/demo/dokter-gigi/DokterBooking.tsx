@@ -20,7 +20,7 @@ export default function DokterBooking() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-sky-400 px-6 py-3 font-semibold text-sky-950 transition-colors hover:bg-sky-300">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-sky-400 px-6 py-3 font-semibold text-sky-950 transition-colors hover:bg-sky-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <CalendarCheck className="h-5 w-5" />
               Booking via WhatsApp
             </a>

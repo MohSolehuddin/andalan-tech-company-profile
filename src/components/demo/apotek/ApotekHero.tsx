@@ -33,7 +33,7 @@ export default function ApotekHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-400 px-6 py-3 font-semibold text-teal-950 transition-colors hover:bg-teal-300">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-400 px-6 py-3 font-semibold text-teal-950 transition-colors hover:bg-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Tanya Pesan via WhatsApp
             </a>

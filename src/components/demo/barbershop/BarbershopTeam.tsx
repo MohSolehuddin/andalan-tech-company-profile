@@ -86,7 +86,7 @@ export default function BarbershopTeam() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-semibold text-neutral-950 transition-colors hover:bg-amber-400">
+                  className="mt-3 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-semibold text-neutral-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <Star className="h-4 w-4" />
                   Booking Barber Ini
                 </a>

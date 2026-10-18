@@ -79,7 +79,7 @@ Mohon info ketersediaan slotnya ya. Terima kasih!`;
         </div>
 
         {/* Booking Form Card */}
-        <div className="mx-auto mt-12 max-w-3xl rounded-3xl border border-rose-500/30 bg-white/5 p-6 sm:p-10 backdrop-blur-xs">
+        <div className="mx-auto mt-12 max-w-3xl rounded-xl border border-rose-500/30 bg-white/5 p-6 sm:p-10 backdrop-blur-xs">
           <div className="text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-500/20 px-3.5 py-1 text-xs font-semibold text-rose-300">
               <Sparkles className="h-3.5 w-3.5" />
@@ -198,7 +198,7 @@ Mohon info ketersediaan slotnya ya. Terima kasih!`;
               href={waLink(bookingMessage)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-rose-500 px-6 py-3.5 font-bold text-white transition-colors hover:bg-rose-400 sm:w-auto">
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-rose-500 px-6 py-3.5 font-bold text-white transition-colors hover:bg-rose-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:w-auto">
               <PhoneCall className="h-4 w-4" />
               Kirim Janji Temu via WhatsApp
             </a>

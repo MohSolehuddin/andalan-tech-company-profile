@@ -75,7 +75,7 @@ export default function SalonPriceList() {
           {packages.map((pkg) => (
             <div
               key={pkg.name}
-              className={`relative flex flex-col justify-between rounded-3xl p-6 transition-all ${
+              className={`relative flex flex-col justify-between rounded-xl p-6 transition-all ${
                 pkg.popular
                   ? "border-2 border-rose-500 bg-rose-50/40 shadow-lg md:-translate-y-2"
                   : "border border-neutral-200 bg-white"
@@ -96,7 +96,7 @@ export default function SalonPriceList() {
                   <span className="text-3xl font-extrabold text-neutral-900">
                     {pkg.price}
                   </span>
-                  <span className="text-xs text-neutral-400 line-through">
+                  <span className="text-xs text-neutral-600 line-through">
                     {pkg.originalPrice}
                   </span>
                 </div>
@@ -118,7 +118,7 @@ export default function SalonPriceList() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center rounded-xl py-3 text-sm font-semibold transition-colors ${
+                  className={`inline-flex w-full items-center justify-center rounded-xl py-3 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     pkg.popular
                       ? "bg-rose-600 text-white hover:bg-rose-500"
                       : "bg-neutral-900 text-white hover:bg-rose-600"

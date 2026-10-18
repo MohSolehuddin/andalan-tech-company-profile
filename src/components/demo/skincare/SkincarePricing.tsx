@@ -88,12 +88,12 @@ export default function SkincarePricing() {
               key={plan.name}
               className={`relative flex flex-col justify-between rounded-2xl border p-6 transition-all ${
                 plan.popular
-                  ? "border-fuchsia-500 bg-linear-to-b from-fuchsia-50/40 via-white to-pink-50/30 shadow-lg ring-2 ring-fuchsia-400"
+                  ? "border-rose-500 bg-linear-to-b from-rose-50/40 via-white to-pink-50/30 shadow-lg ring-2 ring-rose-400"
                   : "border-neutral-200 bg-white shadow-xs hover:border-neutral-300 hover:shadow-md"
               }`}>
               {plan.popular && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="inline-flex items-center gap-1 rounded-full bg-linear-to-r from-fuchsia-600 to-pink-600 px-3 py-0.5 text-xs font-bold text-white shadow-xs">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-linear-to-r from-rose-600 to-pink-600 px-3 py-0.5 text-xs font-bold text-white shadow-xs">
                     <Sparkles className="h-3 w-3" /> Paling Favorit
                   </span>
                 </div>
@@ -113,7 +113,7 @@ export default function SkincarePricing() {
                 <ul className="mt-6 space-y-2.5 border-t border-neutral-100 pt-4 text-xs text-neutral-700">
                   {plan.features.map((feat) => (
                     <li key={feat} className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-fuchsia-600" />
+                      <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-rose-600" />
                       <span>{feat}</span>
                     </li>
                   ))}
@@ -127,9 +127,9 @@ export default function SkincarePricing() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-2.5 text-xs font-semibold transition-all ${
+                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-2.5 text-xs font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     plan.popular
-                      ? "bg-linear-to-r from-fuchsia-600 to-pink-600 text-white shadow-md hover:from-fuchsia-500 hover:to-pink-500"
+                      ? "bg-linear-to-r from-rose-600 to-pink-600 text-white shadow-md hover:from-rose-500 hover:to-pink-500"
                       : "bg-neutral-900 text-white hover:bg-neutral-800"
                   }`}>
                   <MessageCircle className="h-4 w-4" />
