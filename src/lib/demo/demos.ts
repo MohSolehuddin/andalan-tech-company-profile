@@ -1,4 +1,5 @@
 import type { DemoItem } from "./types";
+import agency from "./items/agency";
 import apotek from "./items/apotek";
 import asuransi from "./items/asuransi";
 import ayamGoreng from "./items/ayam-goreng";
@@ -20,6 +21,7 @@ import hotel from "./items/hotel";
 import interior from "./items/interior";
 import jasa from "./items/jasa";
 import kafe from "./items/kafe";
+import kampus from "./items/kampus";
 import katering from "./items/katering";
 import kelontong from "./items/kelontong";
 import klinikHewan from "./items/klinik-hewan";
@@ -59,6 +61,7 @@ import warung from "./items/warung";
 import wedding from "./items/wedding";
 
 export const demoItems: DemoItem[] = [
+  agency,
   apotek,
   asuransi,
   ayamGoreng,
@@ -80,6 +83,7 @@ export const demoItems: DemoItem[] = [
   interior,
   jasa,
   kafe,
+  kampus,
   katering,
   kelontong,
   klinikHewan,
