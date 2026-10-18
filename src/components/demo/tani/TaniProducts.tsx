@@ -17,7 +17,7 @@ interface Product {
 const products: Product[] = [
   { id: 1, name: "Benih Padi Inpari 32 Bersertifikat", category: "Benih", price: "Rp 115.000 / 5 kg", desc: "Benih resmi label biru, anakan produktif, tahan rebah & toleran wereng.", emoji: "🌾", gradient: "from-emerald-700 to-green-900" },
   { id: 2, name: "Benih Jagung Hibrida P35 Singa", category: "Benih", price: "Rp 135.000 / kg", desc: "Varietas unggulan petani Situbondo. Tongkol besar seragam & rendemen tinggi.", emoji: "🌽", gradient: "from-amber-600 to-yellow-800" },
-  { id: 3, name: "Pupuk NPK Mutiara 16-16-16", category: "Pupuk", price: "Rp 18.000 / kg", desc: "Formula seimbang slow-release mempercepat pertumbuhan daun dan buah.", emoji: "🌱", gradient: "from-blue-700 to-cyan-900" },
+  { id: 3, name: "Pupuk NPK Mutiara 16-16-16", category: "Pupuk", price: "Rp 18.000 / kg", desc: "Formula seimbang slow-release mempercepat pertumbuhan daun dan buah.", emoji: "🌱", gradient: "from-blue-700 to-teal-900" },
   { id: 4, name: "Pupuk Organik Granul Petrobio", category: "Pupuk", price: "Rp 65.000 / sak (40 kg)", desc: "Menyuburkan struktur tanah sawah, kaya unsur hara makro & mikro alami.", emoji: "🪴", gradient: "from-stone-700 to-emerald-950" },
   { id: 5, name: "Insektisida Prevathon 50 SC", category: "Pestisida & Herbisida", price: "Rp 88.000 / 100 ml", desc: "Efektif membasmi hama penggerek batang padi, sundep, dan ulat grayak.", emoji: "🧪", gradient: "from-red-700 to-rose-950" },
   { id: 6, name: "Herbisida Kontak Gramoxone 276 SL", category: "Pestisida & Herbisida", price: "Rp 98.000 / liter", desc: "Pengendali gulma daun lebar & rumput liar pada lahan sawah olah tanah.", emoji: "💧", gradient: "from-teal-700 to-emerald-950" },

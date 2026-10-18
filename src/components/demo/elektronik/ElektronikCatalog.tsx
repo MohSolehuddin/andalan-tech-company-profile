@@ -44,7 +44,7 @@ const products: Product[] = [
     cicilan: "Rp 300 rb/bln",
     specs: ["Hemat Listrik (100 Watt)", "No Frost & Anti Bau", "Garansi Kompresor 10 Tahun"],
     emoji: "🧊",
-    gradient: "from-cyan-800 to-slate-900",
+    gradient: "from-sky-800 to-slate-900",
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ const products: Product[] = [
     cicilan: "Rp 333 rb/bln",
     specs: ["Super Fast Cooling", "Filter Udara Antibakteri", "Garansi Kompresor 5 Tahun"],
     emoji: "💨",
-    gradient: "from-blue-800 to-cyan-900",
+    gradient: "from-blue-800 to-teal-900",
   },
   {
     id: 6,
