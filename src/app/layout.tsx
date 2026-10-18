@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -12,10 +12,46 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.APP_DOMAIN || "https://andalan.tech";
+
 export const metadata: Metadata = {
-  title: "Jasa pembuatan web & digitalisasi ~ Andalan Tech",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Jasa Pembuatan Website Cepat & SEO — Andalan Tech",
+    template: "%s | Andalan Tech",
+  },
   description:
-    "Kami andalan tech menyediakan jasa pembuatan website dengan ke unggulan di kecepatan dan SEO web, jadi web yang kami buat akan mudah ter index di mesin pencari, selain itu server dan layanan lainnya akan kami urus termasuk pemantauan terhadap masalah pada web, jadi anda bisa duduk santai percayakan urusan teknis kepada kami",
+    "Andalan Tech menyediakan jasa pembuatan website modern yang cepat dan SEO-friendly. Server, hosting, SSL, dan monitoring kami urus — Anda fokus ke bisnis.",
+  keywords: [
+    "jasa pembuatan website",
+    "web development Indonesia",
+    "jasa SEO",
+    "Next.js",
+    "company profile",
+    "e-commerce",
+    "landing page",
+  ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: siteUrl,
+    siteName: "Andalan Tech",
+    title: "Jasa Pembuatan Website Cepat & SEO — Andalan Tech",
+    description:
+      "Website modern, cepat, dan SEO-friendly. Server & maintenance kami urus penuh.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jasa Pembuatan Website Cepat & SEO — Andalan Tech",
+    description:
+      "Website modern, cepat, dan SEO-friendly. Server & maintenance kami urus penuh.",
+  },
+  robots: { index: true, follow: true },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0b1f4b",
 };
 
 export default function RootLayout({
@@ -24,7 +60,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}

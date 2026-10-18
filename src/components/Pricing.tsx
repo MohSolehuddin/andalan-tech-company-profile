@@ -80,10 +80,13 @@ const Pricing = () => {
                 </ul>
 
                 <Button
+                  asChild
                   className="w-full"
                   variant={tier.highlighted ? "default" : "secondary"}
                   size="lg">
-                  {tier.price === "Custom" ? "Hubungi Kami" : "Pilih Paket"}
+                  <a href="#contact">
+                    {tier.price === "Custom" ? "Hubungi Kami" : "Pilih Paket"}
+                  </a>
                 </Button>
               </div>
             </div>

@@ -29,6 +29,8 @@ type ContactFormValues = z.infer<typeof contactSchema>;
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
@@ -42,13 +44,25 @@ const Contact = () => {
   });
 
   const onSubmit = async (data: ContactFormValues) => {
+    setIsSubmitting(true);
+    setStatus("idle");
+    setErrorMessage("");
     try {
-      setIsSubmitting(true);
-      await sendEmail(data);
-      form.reset();
+      const result = await sendEmail(data);
+      if (result.ok) {
+        form.reset();
+        setStatus("success");
+      } else {
+        setErrorMessage(result.error);
+        setStatus("error");
+      }
+    } catch {
+      setErrorMessage(
+        "Terjadi kesalahan tak terduga. Silakan coba lagi atau hubungi kami via WhatsApp."
+      );
+      setStatus("error");
+    } finally {
       setIsSubmitting(false);
-    } catch (e) {
-      console.log(e);
     }
   };
 
@@ -188,8 +202,8 @@ const Contact = () => {
                     <FormItem>
                       <FormLabel>Jenis Layanan</FormLabel>
                       <Select
-                        onValueChange={field.onChange}
-                        defaultValue={field.value}>
+                        value={field.value}
+                        onValueChange={field.onChange}>
                         <FormControl>
                           <SelectTrigger className="w-full">
                             <SelectValue placeholder="Pilih layanan" />
@@ -228,6 +242,20 @@ const Contact = () => {
                     </FormItem>
                   )}
                 />
+
+                <div aria-live="polite" role="status">
+                  {status === "success" && (
+                    <p className="rounded-md border border-primary/30 bg-primary/5 px-4 py-3 text-sm font-medium text-primary">
+                      Terima kasih! Pesan Anda sudah terkirim. Kami akan segera
+                      menghubungi Anda.
+                    </p>
+                  )}
+                  {status === "error" && (
+                    <p className="rounded-md border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm font-medium text-destructive">
+                      {errorMessage}
+                    </p>
+                  )}
+                </div>
 
                 <Button
                   type="submit"

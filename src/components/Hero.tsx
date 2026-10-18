@@ -29,11 +29,18 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button size="lg" className="text-lg px-8 shadow-(--glow-primary)">
-              Mulai Proyek
+            <Button
+              asChild
+              size="lg"
+              className="text-lg px-8 shadow-(--glow-primary)">
+              <a href="#contact">Mulai Proyek</a>
             </Button>
-            <Button size="lg" variant="secondary" className="text-lg px-8">
-              Lihat Portfolio
+            <Button
+              asChild
+              size="lg"
+              variant="secondary"
+              className="text-lg px-8">
+              <a href="#portfolio">Lihat Portfolio</a>
             </Button>
           </div>
 

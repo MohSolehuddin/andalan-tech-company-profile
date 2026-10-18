@@ -26,22 +26,22 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Layanan</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors">
                   Web Development
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors">
                   E-Commerce
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors">
                   SEO Optimization
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors">
                   Maintenance
                 </a>
               </li>
@@ -52,22 +52,18 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Perusahaan</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#benefits" className="hover:text-primary transition-colors">
                   Tentang Kami
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#portfolio" className="hover:text-primary transition-colors">
                   Portfolio
                 </a>
               </li>
+              {/* Blog belum tersedia — aktifkan tautan saat halaman blog siap */}
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#contact" className="hover:text-primary transition-colors">
                   Kontak
                 </a>
               </li>
@@ -88,7 +84,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 Andalan Tech. All rights reserved.
+              © {new Date().getFullYear()} Andalan Tech. All rights reserved.
             </p>{" "}
           </div>
         </div>

@@ -14,7 +14,8 @@ export default function AnimatedParticles() {
   const [particles, setParticles] = useState<Particle[]>([]);
 
   useEffect(() => {
-    const newParticles = Array.from({ length: 200 }, (_, i) => ({
+    // Keep the node count modest — 200 animated nodes hurt mobile load time.
+    const newParticles = Array.from({ length: 80 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 3,
@@ -26,7 +27,9 @@ export default function AnimatedParticles() {
   }, []);
 
   return (
-    <div className="absolute inset-0 bg-gradient to-100% from-background via-background to-card overflow-hidden">
+    <div
+      aria-hidden="true"
+      className="pointer-events-none absolute inset-0 bg-linear-to-b from-background via-background to-card overflow-hidden">
       {particles.map((particle) => (
         <div
           key={particle.id}
