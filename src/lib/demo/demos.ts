@@ -225,6 +225,8 @@ export const demoItems: DemoItem[] = [
     accentText: "text-indigo-600",
     ring: "hover:border-indigo-400",
     highlights: ["Kelas kecil max 8", "Tryout & laporan rutin", "Trial gratis via WhatsApp"],
+  },
+  {
     slug: "wedding",
     name: "Mahligai Wedding Organizer",
     niche: "Wedding Organizer & Event",
@@ -236,6 +238,8 @@ export const demoItems: DemoItem[] = [
     accentText: "text-fuchsia-600",
     ring: "hover:border-fuchsia-400",
     highlights: ["Paket all-in pernikahan", "Dekorasi & catering", "Konsultasi WhatsApp"],
+  },
+  {
     slug: "katering",
     name: "Berkah Rasa Catering",
     niche: "Katering & Kuliner Acara",
@@ -247,6 +251,8 @@ export const demoItems: DemoItem[] = [
     accentText: "text-amber-600",
     ring: "hover:border-amber-400",
     highlights: ["Katering harian & acara", "Nasi box & snack box", "Order via WhatsApp"],
+  },
+  {
     slug: "asuransi",
     name: "Amanah Proteksi",
     niche: "Asuransi & Perlindungan",
