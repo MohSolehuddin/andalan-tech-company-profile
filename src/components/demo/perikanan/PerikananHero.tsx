@@ -10,7 +10,7 @@ const points = [
 export default function PerikananHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
-      <div className="absolute inset-0 bg-linear-to-br from-cyan-600/30 via-slate-950 to-blue-900/40" />
+      <div className="absolute inset-0 bg-linear-to-br from-slate-900 via-slate-950 to-slate-950" />
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-cyan-400/40 bg-cyan-400/10 px-4 py-1.5 text-sm font-medium text-cyan-200">
@@ -30,7 +30,7 @@ export default function PerikananHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#produk"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-cyan-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-cyan-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-cyan-400">
               <ShieldCheck className="h-5 w-5" />
               Lihat Katalog Produk
             </a>
@@ -38,7 +38,7 @@ export default function PerikananHero() {
               href={waLink("Halo Samudra Situbondo, saya ingin tanya harga grosir seafood dan ketersediaan stok hari ini.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               Konsultasi via WhatsApp
             </a>
           </div>

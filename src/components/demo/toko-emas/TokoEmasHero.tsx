@@ -31,7 +31,7 @@ export default function TokoEmasHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#koleksi"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-yellow-500 to-amber-600 px-6 py-3 font-semibold text-neutral-950 transition-all hover:brightness-110">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-yellow-500 to-amber-600 px-6 py-3 font-semibold text-neutral-950 transition-all hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-500">
               <Gem className="h-4 w-4" />
               Lihat Koleksi
             </a>
@@ -41,7 +41,7 @@ export default function TokoEmasHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               <MessageCircle className="h-4 w-4 text-emerald-400" />
               Konsultasi WhatsApp
             </a>

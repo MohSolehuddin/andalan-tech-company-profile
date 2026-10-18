@@ -75,7 +75,7 @@ export default function ElektronikFeatures() {
               href={waLink("Halo Elektronik Jaya Abadi, saya butuh jadwal layanan servis atau pemasangan elektronik.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center justify-center rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-500">
+              className="inline-flex shrink-0 items-center justify-center rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
               Jadwalkan Servis via WhatsApp
             </a>
           </div>

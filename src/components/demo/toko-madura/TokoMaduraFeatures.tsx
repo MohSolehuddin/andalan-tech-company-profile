@@ -32,7 +32,7 @@ export default function TokoMaduraFeatures() {
             Kenapa Belanja di Sini?
           </p>
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-neutral-900 md:text-4xl">
-            Solusi Kebutuhan Harian Tanpa Ribet
+            Belanja Kebutuhan Harian Cepat &amp; Praktis
           </h2>
           <p className="mt-3 text-neutral-600">
             Karakter khas Toko Madura: lengkap, ramah, selalu siap 24 jam dengan

@@ -102,7 +102,7 @@ export default function MinimarketBranches() {
                 href={waLink(`Halo Minimart Sejahtera, saya ingin pesan antar dari ${branch.name}.`)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-red-600 px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-red-500">
+                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-red-600 px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-400">
                 <MessageCircle className="h-4 w-4" />
                 Pesan dari Cabang Ini
               </a>

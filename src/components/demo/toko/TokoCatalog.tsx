@@ -55,7 +55,7 @@ export default function TokoCatalog() {
               key={category}
               type="button"
               onClick={() => setActive(category)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500 ${
                 active === category
                   ? "bg-indigo-600 text-white"
                   : "border border-neutral-200 bg-white text-neutral-700 hover:border-indigo-400"
@@ -77,7 +77,7 @@ export default function TokoCatalog() {
                 </span>
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <span className="text-xs uppercase tracking-wide text-neutral-500">
+                <span className="text-xs uppercase tracking-wide text-neutral-600">
                   {product.category}
                 </span>
                 <h3 className="mt-1 font-bold text-neutral-900">
@@ -92,7 +92,7 @@ export default function TokoCatalog() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   <ShoppingBag className="h-4 w-4" />
                   Beli via WhatsApp
                 </a>

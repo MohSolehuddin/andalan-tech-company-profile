@@ -22,7 +22,7 @@ export default function TaniContact() {
                 href={waLink("Halo Tani Makmur Situbondo, saya ingin pesan sarana pertanian dan tanya pengiriman ke sawah.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-green-600 to-lime-600 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-green-500 hover:to-lime-500">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-green-600 to-lime-600 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-green-500 hover:to-lime-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-500">
                 <MessageCircle className="h-5 w-5" />
                 Chat WhatsApp Sekarang
               </a>

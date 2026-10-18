@@ -22,7 +22,7 @@ export default function ElektronikHero() {
             Elektronik Jaya Abadi
           </h1>
           <p className="mt-3 text-lg font-medium text-blue-200">
-            Solusi Kebutuhan Elektronik Rumah Tangga Berkualitas
+            Perangkat Elektronik Rumah Tangga Bergaransi Resmi
           </p>
           <p className="mt-3 text-sm sm:text-base leading-relaxed text-slate-300">
             Pusat produk TV, kulkas, pendingin ruangan (AC), dan mesin cuci original bergaransi resmi. Nikmati kemudahan belanja langsung pesan via WhatsApp dengan promo cicilan 0%.
@@ -31,7 +31,7 @@ export default function ElektronikHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#katalog"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-500">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
               Lihat Katalog Produk
               <ArrowRight className="h-4 w-4" />
             </a>
@@ -39,7 +39,7 @@ export default function ElektronikHero() {
               href={waLink("Halo Elektronik Jaya Abadi, saya ingin konsultasi dan tanya promo elektronik.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-700 bg-slate-900/60 px-6 py-3 font-semibold text-slate-200 transition-colors hover:bg-slate-800 hover:text-white">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-700 bg-slate-900/60 px-6 py-3 font-semibold text-slate-200 transition-colors hover:bg-slate-800 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-400">
               <MessageCircle className="h-4 w-4 text-emerald-400" />
               Chat WhatsApp
             </a>

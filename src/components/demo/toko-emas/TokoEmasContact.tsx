@@ -26,7 +26,7 @@ export default function TokoEmasContact() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-yellow-500 to-amber-600 px-6 py-3.5 font-semibold text-neutral-950 transition-all hover:brightness-110">
+                className="inline-flex items-center gap-2 rounded-xl bg-linear-to-r from-yellow-500 to-amber-600 px-6 py-3.5 font-semibold text-neutral-950 transition-all hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-500">
                 <MessageCircle className="h-5 w-5" />
                 Chat WhatsApp Sekarang
               </a>

@@ -21,7 +21,7 @@ export default function ElektronikContact() {
                 href={waLink("Halo Elektronik Jaya Abadi, saya ingin konsultasi rekomendasi produk elektronik.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-500">
+                className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
                 <MessageCircle className="h-5 w-5 text-emerald-300" />
                 Chat Customer Service
               </a>

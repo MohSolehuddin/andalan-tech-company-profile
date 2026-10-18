@@ -51,7 +51,7 @@ export default function TokoEmasRates() {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 text-xs text-neutral-500">
+          <div className="flex items-center gap-2 text-xs text-neutral-600">
             <Clock className="h-4 w-4 text-amber-600" />
             <span>Update: Hari ini, 09.00 WIB (Mengikuti acuan pasar)</span>
           </div>
@@ -107,7 +107,7 @@ export default function TokoEmasRates() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-amber-700 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-amber-800">
+              className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-amber-700 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-amber-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-700">
               <MessageCircle className="h-3.5 w-3.5" />
               Tanya Harga via WhatsApp
             </a>

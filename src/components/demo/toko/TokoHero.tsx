@@ -10,7 +10,7 @@ const points = [
 export default function TokoHero() {
   return (
     <section className="relative overflow-hidden bg-indigo-950 text-white">
-      <div className="absolute inset-0 bg-linear-to-br from-indigo-600/30 via-indigo-950 to-violet-900/40" />
+      <div className="absolute inset-0 bg-linear-to-br from-indigo-900/40 via-indigo-950 to-slate-950" />
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-indigo-400/40 bg-indigo-400/10 px-4 py-1.5 text-sm text-indigo-200">
@@ -29,7 +29,7 @@ export default function TokoHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#katalog"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-indigo-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-indigo-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-indigo-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-400">
               <ShoppingBag className="h-5 w-5" />
               Lihat Katalog
             </a>
@@ -37,7 +37,7 @@ export default function TokoHero() {
               href={waLink("Halo TokoKita, saya mau tanya produk.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               Tanya via WhatsApp
             </a>
           </div>

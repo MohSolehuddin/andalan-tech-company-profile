@@ -29,7 +29,7 @@ export default function BangunanHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#katalog"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-amber-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-400">
               <Boxes className="h-5 w-5" />
               Lihat Material
             </a>
@@ -37,7 +37,7 @@ export default function BangunanHero() {
               href={waLink("Halo Toko Bangunan Kokoh, saya mau order material.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white/50">
               Order via WhatsApp
             </a>
           </div>

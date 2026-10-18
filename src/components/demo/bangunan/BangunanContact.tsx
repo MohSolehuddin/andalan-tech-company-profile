@@ -18,7 +18,7 @@ export default function BangunanContact() {
               href={waLink("Halo Toko Bangunan Kokoh, saya mau order material untuk proyek.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-amber-400">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 font-semibold text-stone-950 transition-colors hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-400">
               <MessageCircle className="h-5 w-5" />
               Chat WhatsApp
             </a>

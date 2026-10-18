@@ -55,7 +55,7 @@ export default function TaniProducts() {
             Kebutuhan Tani Lengkap &amp; Siap Kirim
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600">
-            Pilih kebutuhan pertanian Anda dengan jaminan mutu terbaik, stok asli terdaftar, dan harga bersahabat.
+            Pilih kebutuhan pertanian Anda dengan jaminan mutu teruji, stok asli terdaftar, dan harga bersahabat.
           </p>
         </div>
 
@@ -66,7 +66,7 @@ export default function TaniProducts() {
               key={cat}
               type="button"
               onClick={() => setSelectedCategory(cat)}
-              className={`rounded-full px-4 py-2 text-xs sm:text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-xs sm:text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-600 ${
                 selectedCategory === cat
                   ? "bg-green-700 text-white shadow-xs"
                   : "border border-slate-200 bg-white text-slate-700 hover:border-green-400"
@@ -95,12 +95,12 @@ export default function TaniProducts() {
                 <h3 className="mt-2 text-base font-bold text-slate-900">
                   {item.name}
                 </h3>
-                <p className="mt-1 text-xs text-slate-500 leading-relaxed">
+                <p className="mt-1 text-xs text-slate-600 leading-relaxed">
                   {item.desc}
                 </p>
                 <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
                   <div>
-                    <span className="text-[11px] text-slate-400">Harga Estimasi</span>
+                    <span className="text-[11px] text-slate-600">Harga Estimasi</span>
                     <p className="font-bold text-green-700">{item.price}</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export default function TaniProducts() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2.5 text-xs sm:text-sm font-semibold text-white transition-colors hover:bg-green-700">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2.5 text-xs sm:text-sm font-semibold text-white transition-colors hover:bg-green-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900">
                   <ShoppingBag className="h-4 w-4" />
                   Pesan via WhatsApp
                 </a>

@@ -15,14 +15,14 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: "Kaos Oversize Basic", price: "Rp 89.000", category: "Atasan", sizes: ["S", "M", "L", "XL"], emoji: "👕", gradient: "from-violet-400 to-purple-500" },
+  { id: 1, name: "Kaos Oversize Basic", price: "Rp 89.000", category: "Atasan", sizes: ["S", "M", "L", "XL"], emoji: "👕", gradient: "from-slate-700 to-neutral-900" },
   { id: 2, name: "Kemeja Flanel Kotak", price: "Rp 159.000", category: "Atasan", sizes: ["M", "L", "XL", "XXL"], emoji: "👔", gradient: "from-rose-400 to-pink-500" },
   { id: 3, name: "Polo Distro Stripe", price: "Rp 129.000", category: "Atasan", sizes: ["S", "M", "L", "XL"], emoji: "🎽", gradient: "from-sky-400 to-blue-500" },
   { id: 4, name: "Cargo Pants Ripstop", price: "Rp 219.000", category: "Bawahan", sizes: ["28", "30", "32", "34"], emoji: "👖", gradient: "from-emerald-400 to-teal-500" },
   { id: 5, name: "Celana Jogger Fleece", price: "Rp 179.000", category: "Bawahan", sizes: ["S", "M", "L", "XL"], emoji: "🩳", gradient: "from-slate-400 to-slate-600" },
   { id: 6, name: "Jaket Varsity Nusantara", price: "Rp 289.000", category: "Outer", sizes: ["M", "L", "XL"], emoji: "🧥", gradient: "from-amber-400 to-orange-500" },
-  { id: 7, name: "Tote Bag Kanvas", price: "Rp 75.000", category: "Aksesoris", sizes: ["All size"], emoji: "👜", gradient: "from-cyan-400 to-sky-500" },
-  { id: 8, name: "Topi Trucker Logo", price: "Rp 69.000", category: "Aksesoris", sizes: ["All size"], emoji: "🧢", gradient: "from-fuchsia-400 to-pink-500" },
+  { id: 7, name: "Tote Bag Kanvas", price: "Rp 75.000", category: "Aksesoris", sizes: ["All size"], emoji: "👜", gradient: "from-stone-600 to-neutral-800" },
+  { id: 8, name: "Topi Trucker Logo", price: "Rp 69.000", category: "Aksesoris", sizes: ["All size"], emoji: "🧢", gradient: "from-zinc-700 to-neutral-900" },
 ];
 
 const categories = ["Semua", "Atasan", "Bawahan", "Outer", "Aksesoris"];
@@ -42,7 +42,7 @@ export default function FashionKatalog() {
     <section id="katalog" className="bg-neutral-50 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-violet-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-neutral-700">
             Katalog
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -59,10 +59,10 @@ export default function FashionKatalog() {
               key={category}
               type="button"
               onClick={() => setActive(category)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900 ${
                 active === category
-                  ? "bg-violet-600 text-white"
-                  : "border border-neutral-200 bg-white text-neutral-700 hover:border-violet-400"
+                  ? "bg-neutral-900 text-white"
+                  : "border border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400"
               }`}>
               {category}
             </button>
@@ -81,13 +81,13 @@ export default function FashionKatalog() {
                 </span>
               </div>
               <div className="flex flex-1 flex-col p-5">
-                <span className="text-xs uppercase tracking-wide text-neutral-500">
+                <span className="text-xs uppercase tracking-wide text-neutral-600">
                   {product.category}
                 </span>
                 <h3 className="mt-1 font-bold text-neutral-900">
                   {product.name}
                 </h3>
-                <p className="mt-1 text-lg font-bold text-violet-600">
+                <p className="mt-1 text-lg font-bold text-neutral-900">
                   {product.price}
                 </p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
@@ -105,7 +105,7 @@ export default function FashionKatalog() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-900">
                   <ShoppingBag className="h-4 w-4" />
                   Pesan via WhatsApp
                 </a>

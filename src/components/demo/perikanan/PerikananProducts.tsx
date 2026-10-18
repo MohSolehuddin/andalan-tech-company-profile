@@ -142,7 +142,7 @@ export default function PerikananProducts() {
               key={category}
               type="button"
               onClick={() => setActive(category)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-cyan-600 ${
                 active === category
                   ? "bg-cyan-700 text-white shadow-xs"
                   : "border border-slate-200 bg-white text-slate-700 hover:border-cyan-400"
@@ -170,14 +170,14 @@ export default function PerikananProducts() {
                 <h3 className="mt-1 text-lg font-bold text-slate-900">
                   {item.name}
                 </h3>
-                <p className="mt-1 text-xs text-slate-500">
+                <p className="mt-1 text-xs text-slate-600">
                   {item.spec}
                 </p>
                 <div className="mt-3 flex items-baseline gap-1">
                   <span className="text-2xl font-bold text-cyan-800">
                     {item.price}
                   </span>
-                  <span className="text-xs text-slate-500 font-medium">
+                  <span className="text-xs text-slate-600 font-medium">
                     {item.unit}
                   </span>
                 </div>
@@ -187,7 +187,7 @@ export default function PerikananProducts() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-5 inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-cyan-700">
+                  className="mt-5 inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-cyan-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900">
                   <MessageCircle className="h-4 w-4" />
                   Order via WhatsApp
                 </a>
