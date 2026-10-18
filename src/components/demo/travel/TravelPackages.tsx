@@ -25,7 +25,7 @@ const travelPackages: TravelPackage[] = [
     includes: "Hotel 3★ + Transport + Guide",
     badge: "Best Seller",
     emoji: "🌊",
-    gradientClass: "from-cyan-700 to-blue-950",
+    gradientClass: "from-teal-700 to-blue-950",
   },
   {
     id: "bromo-sunrise",
@@ -49,7 +49,7 @@ const travelPackages: TravelPackage[] = [
     includes: "Hotel 3★ + Bus + Tiket Candi",
     badge: "Ramah Keluarga",
     emoji: "🏛️",
-    gradientClass: "from-cyan-800 to-blue-950",
+    gradientClass: "from-teal-800 to-blue-950",
   },
   {
     id: "lombok-gili",
@@ -61,7 +61,7 @@ const travelPackages: TravelPackage[] = [
     includes: "Hotel 4★ + Boat + Guide",
     badge: "Honeymoon Favorit",
     emoji: "🏝️",
-    gradientClass: "from-blue-700 to-cyan-950",
+    gradientClass: "from-blue-700 to-teal-950",
   },
   {
     id: "labuan-bajo-sailing",
@@ -73,7 +73,7 @@ const travelPackages: TravelPackage[] = [
     includes: "Kapal Phinisi + Full Board",
     badge: "Trip Premium",
     emoji: "⛵",
-    gradientClass: "from-cyan-900 to-slate-900",
+    gradientClass: "from-teal-900 to-slate-900",
   },
   {
     id: "raja-ampat-explorer",
@@ -85,7 +85,7 @@ const travelPackages: TravelPackage[] = [
     includes: "Resort + Speedboat + Ranger",
     badge: "Ekspedisi Spesial",
     emoji: "🐠",
-    gradientClass: "from-blue-900 to-cyan-950",
+    gradientClass: "from-blue-900 to-teal-950",
   },
 ];
 

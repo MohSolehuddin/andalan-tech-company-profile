@@ -24,7 +24,7 @@ const products: SeafoodProduct[] = [
     unit: "/ kg",
     emoji: "🐟",
     spec: "Size 500-800 gr/ekor, hidup/segar es",
-    gradient: "from-cyan-500 to-blue-600",
+    gradient: "from-teal-500 to-blue-600",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ const products: SeafoodProduct[] = [
     unit: "/ kg",
     emoji: "🦑",
     spec: "Size sedang 15-20 cm, kulit utuh & kenyal",
-    gradient: "from-violet-400 to-indigo-600",
+    gradient: "from-indigo-400 to-indigo-600",
   },
   {
     id: 7,
@@ -104,7 +104,7 @@ const products: SeafoodProduct[] = [
     unit: "/ 1 kg pack",
     emoji: "🧊",
     spec: "Skinless boneless, glazing 15%, vacuum pack",
-    gradient: "from-blue-400 to-cyan-600",
+    gradient: "from-blue-400 to-teal-600",
   },
 ];
 

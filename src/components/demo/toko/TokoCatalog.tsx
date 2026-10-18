@@ -19,9 +19,9 @@ const products: Product[] = [
   { id: 3, name: "Jaket Hoodie", price: "Rp 189.000", category: "Pakaian", emoji: "🧥", gradient: "from-slate-400 to-slate-600" },
   { id: 4, name: "Sneakers Kanvas", price: "Rp 250.000", category: "Sepatu", emoji: "👟", gradient: "from-emerald-400 to-teal-500" },
   { id: 5, name: "Sandal Kulit", price: "Rp 95.000", category: "Sepatu", emoji: "🩴", gradient: "from-amber-400 to-orange-500" },
-  { id: 6, name: "Tas Kanvas", price: "Rp 120.000", category: "Aksesoris", emoji: "🎒", gradient: "from-violet-400 to-purple-500" },
-  { id: 7, name: "Topi Baseball", price: "Rp 65.000", category: "Aksesoris", emoji: "🧢", gradient: "from-cyan-400 to-sky-500" },
-  { id: 8, name: "Gelang Rajut", price: "Rp 35.000", category: "Aksesoris", emoji: "📿", gradient: "from-fuchsia-400 to-pink-500" },
+  { id: 6, name: "Tas Kanvas", price: "Rp 120.000", category: "Aksesoris", emoji: "🎒", gradient: "from-indigo-400 to-indigo-600" },
+  { id: 7, name: "Topi Baseball", price: "Rp 65.000", category: "Aksesoris", emoji: "🧢", gradient: "from-teal-400 to-sky-500" },
+  { id: 8, name: "Gelang Rajut", price: "Rp 35.000", category: "Aksesoris", emoji: "📿", gradient: "from-pink-400 to-rose-600" },
 ];
 
 const categories = ["Semua", "Pakaian", "Sepatu", "Aksesoris"];
