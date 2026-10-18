@@ -14,14 +14,19 @@ const files = fs
   .filter((f) => f.endsWith(".ts") && f !== "index.ts")
   .sort();
 
+const toIdent = (name) =>
+  name
+    .replace(/[-_](\w)/g, (_, c) => c.toUpperCase())
+    .replace(/[^A-Za-z0-9_$]/g, "");
+
 const imports = files.map((file) => {
   const name = path.basename(file, ".ts");
-  return `import ${name} from "./items/${name}";`;
+  return `import ${toIdent(name)} from "./items/${name}";`;
 });
 
 const arrayEntries = files.map((file) => {
   const name = path.basename(file, ".ts");
-  return `  ${name},`;
+  return `  ${toIdent(name)},`;
 });
 
 const content = `import type { DemoItem } from "./types";
