@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -25,6 +26,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Layanan</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>
+                <Link href="/paket" className="hover:text-primary transition-colors">
+                  Paket &amp; Harga
+                </Link>
+              </li>
               <li>
                 <a href="#pricing" className="hover:text-primary transition-colors">
                   Web Development
