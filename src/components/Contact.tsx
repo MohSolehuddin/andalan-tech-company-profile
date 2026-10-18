@@ -72,7 +72,7 @@ const Contact = () => {
         <div className="text-center mb-12 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Hubungi{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
+            <span className="text-primary">
               Kami
             </span>
           </h2>
@@ -85,7 +85,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Info Cards */}
           <div className="space-y-6 animate-fade-in-up">
-            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-(--glow-primary) transition-all">
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                   <MessageSquare className="w-6 h-6 text-accent" />
@@ -99,14 +99,14 @@ const Contact = () => {
                     href="https://wa.me/6287745968545"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-accent hover:underline font-medium">
+                    className="text-accent hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded-xs">
                     +62 877 4596 8545
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-(--glow-primary) transition-all">
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                   <Mail className="w-6 h-6 text-primary" />
@@ -118,14 +118,14 @@ const Contact = () => {
                   </p>
                   <a
                     href="mailto:hello@andalan.tech"
-                    className="text-primary hover:underline font-medium">
+                    className="text-primary hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                     hello@andalan.tech
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-(--glow-primary) transition-all">
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                   <MapPin className="w-6 h-6 text-accent" />
@@ -260,7 +260,7 @@ const Contact = () => {
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full bg-linear-to-r from-primary to-accent text-white hover:shadow-(--glow-primary) transition-all"
+                  className="w-full shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
                   disabled={isSubmitting}>
                   {isSubmitting ? (
                     "Mengirim..."

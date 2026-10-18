@@ -46,21 +46,21 @@ export default function PaketPage() {
         <div className="container mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <Link
             href="/"
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-neutral-600 transition-colors hover:text-neutral-900">
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-neutral-600 transition-colors hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 rounded-sm">
             <ArrowLeft className="h-4 w-4" />
             Kembali ke Beranda
           </Link>
           <div className="flex items-center gap-3">
             <Link
               href="/demo"
-              className="text-xs font-semibold uppercase tracking-wider text-neutral-600 transition-colors hover:text-neutral-900">
+              className="text-xs font-semibold uppercase tracking-wider text-neutral-600 transition-colors hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 rounded-sm">
               Lihat Demo
             </Link>
             <a
               href={waLink("Halo, saya ingin tanya seputar paket website Andalan Tech")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-full bg-neutral-900 px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-neutral-800">
+              className="inline-flex items-center gap-1.5 rounded-full bg-neutral-900 px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2">
               <MessageCircle className="h-3.5 w-3.5" />
               WhatsApp
             </a>
@@ -103,7 +103,7 @@ export default function PaketPage() {
               )}
 
               <div className="flex-1">
-                <div className="text-xs font-semibold uppercase tracking-wider text-neutral-500">
+                <div className="text-xs font-semibold uppercase tracking-wider text-neutral-600">
                   Paket
                 </div>
                 <h2 className="mt-1 text-2xl font-bold text-neutral-900">
@@ -114,7 +114,7 @@ export default function PaketPage() {
                 </p>
 
                 <div className="mt-5 border-t border-b border-neutral-100 py-4">
-                  <div className="text-xs text-neutral-500">Buat pertama:</div>
+                  <div className="text-xs text-neutral-600">Buat pertama:</div>
                   <div className="text-2xl font-bold text-neutral-900">
                     {formatIDR(tier.firstPrice)}
                   </div>
@@ -124,7 +124,7 @@ export default function PaketPage() {
                 </div>
 
                 <div className="mt-5">
-                  <div className="text-xs font-semibold uppercase tracking-wider text-neutral-500 mb-3">
+                  <div className="text-xs font-semibold uppercase tracking-wider text-neutral-600 mb-3">
                     Fitur Termasuk:
                   </div>
                   <ul className="space-y-2.5">
@@ -145,7 +145,7 @@ export default function PaketPage() {
                   href={waLink(`Halo, saya tertarik paket ${tier.name}`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-xs font-semibold transition-all ${
+                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-xs font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 focus-visible:ring-offset-2 ${
                     tier.popular
                       ? "bg-neutral-900 text-white hover:bg-neutral-800 shadow-sm"
                       : "bg-neutral-100 text-neutral-900 hover:bg-neutral-200 border border-neutral-200"
@@ -214,7 +214,7 @@ export default function PaketPage() {
                 key={idx}
                 className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-xs">
                 <h3 className="flex items-center gap-2 text-sm sm:text-base font-bold text-neutral-900">
-                  <HelpCircle className="h-4 w-4 shrink-0 text-neutral-500" />
+                  <HelpCircle className="h-4 w-4 shrink-0 text-neutral-600" />
                   {faq.q}
                 </h3>
                 <p className="mt-2 text-xs sm:text-sm leading-relaxed text-neutral-600 pl-6">
@@ -227,7 +227,7 @@ export default function PaketPage() {
 
         {/* CTA Penutup */}
         <div className="mt-20">
-          <div className="rounded-3xl border border-neutral-800 bg-linear-to-br from-neutral-950 via-neutral-900 to-neutral-950 p-8 sm:p-12 text-center text-white shadow-xl">
+          <div className="rounded-xl border border-neutral-800 bg-linear-to-br from-neutral-950 via-neutral-900 to-neutral-950 p-8 sm:p-12 text-center text-white shadow-xl">
             <h2 className="text-2xl font-bold sm:text-3xl">
               Konsultasikan Website Impian Anda
             </h2>
@@ -239,13 +239,13 @@ export default function PaketPage() {
                 href={waLink("Halo, saya ingin konsultasi paket website untuk bisnis saya")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-xs sm:text-sm font-semibold text-neutral-950 transition-all hover:bg-neutral-100 shadow-md">
+                className="inline-flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-xs sm:text-sm font-semibold text-neutral-950 transition-all hover:bg-neutral-100 shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-950">
                 <MessageCircle className="h-4 w-4" />
                 Konsultasi Gratis via WhatsApp
               </a>
               <Link
                 href="/demo"
-                className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-5 py-2.5 text-xs sm:text-sm font-semibold text-white transition-all hover:bg-white/10">
+                className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-5 py-2.5 text-xs sm:text-sm font-semibold text-white transition-all hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-950">
                 Lihat Contoh Website <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
