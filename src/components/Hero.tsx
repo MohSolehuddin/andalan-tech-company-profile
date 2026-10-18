@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary border border-border">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm text-muted-foreground">
+            <span className="text-sm font-medium text-neutral-800">
               Kecepatan Instan • SEO 98+
             </span>
           </div>
@@ -23,7 +23,7 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-neutral-700 max-w-2xl mx-auto text-left sm:text-center leading-relaxed">
             Kami membangun website modern dengan Next.js dan Vercel. Performa
             maksimal, deploy otomatis, server terkelola penuh.
           </p>
@@ -38,8 +38,8 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              variant="secondary"
-              className="text-lg px-8 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+              variant="outline"
+              className="text-lg px-8 border-primary text-primary hover:bg-primary/5 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <a href="#portfolio">Lihat Portfolio</a>
             </Button>
           </div>
@@ -49,19 +49,19 @@ const Hero = () => {
               <div className="text-3xl md:text-4xl font-bold text-primary">
                 98+
               </div>
-              <div className="text-sm text-muted-foreground">SEO Score</div>
+              <div className="text-sm font-medium text-neutral-700">SEO Score</div>
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold text-primary">
                 {"<2s"}
               </div>
-              <div className="text-sm text-muted-foreground">Load Time</div>
+              <div className="text-sm font-medium text-neutral-700">Load Time</div>
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold text-primary">
                 24/7
               </div>
-              <div className="text-sm text-muted-foreground">Uptime</div>
+              <div className="text-sm font-medium text-neutral-700">Uptime</div>
             </div>
           </div>
         </div>
