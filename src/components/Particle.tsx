@@ -14,8 +14,8 @@ export default function AnimatedParticles() {
   const [particles, setParticles] = useState<Particle[]>([]);
 
   useEffect(() => {
-    // Keep the node count modest — 200 animated nodes hurt mobile load time.
-    const newParticles = Array.from({ length: 80 }, (_, i) => ({
+    // Keep node count minimal so it does not distract from text or hurt performance
+    const newParticles = Array.from({ length: 30 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 3,
@@ -33,7 +33,7 @@ export default function AnimatedParticles() {
       {particles.map((particle) => (
         <div
           key={particle.id}
-          className="absolute w-1 h-1 bg-primary/30 rounded-full animate-particle"
+          className="absolute w-1 h-1 bg-primary/15 rounded-full animate-particle"
           style={{
             left: `${particle.left}%`,
             top: `${particle.top}%`,

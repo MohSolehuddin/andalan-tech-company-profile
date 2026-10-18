@@ -15,7 +15,7 @@ const Pricing = () => {
         <div className="text-center mb-16 space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold">
             Paket Harga{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
+            <span className="text-primary">
               Transparan
             </span>
           </h2>
@@ -50,10 +50,10 @@ const Pricing = () => {
           {currentPricing.map((tier, index) => (
             <div
               key={index}
-              className={`relative p-8 rounded-2xl border transition-all duration-300 ${
+              className={`relative p-8 rounded-xl border transition-all duration-300 ${
                 tier.highlighted
-                  ? "border-primary bg-card scale-105 shadow-(--glow-primary)"
-                  : "border-border bg-card/50 hover:border-primary/50"
+                  ? "border-primary bg-card scale-105 shadow-md"
+                  : "border-border bg-card/50 hover:border-primary/50 shadow-xs hover:shadow-sm"
               }`}>
               {tier.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-sm font-semibold">
@@ -81,7 +81,7 @@ const Pricing = () => {
 
                 <Button
                   asChild
-                  className="w-full"
+                  className="w-full shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
                   variant={tier.highlighted ? "default" : "secondary"}
                   size="lg">
                   <a href="#contact">

@@ -14,12 +14,9 @@ const Footer = () => {
               height={80}
               width={300}
             />
-            {/* <h3 className="text-xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
-              Andalan Tech
-            </h3> */}
             <p className="text-sm text-muted-foreground">
-              Membangun website modern dengan teknologi terdepan untuk bisnis
-              Anda.
+              Jasa pembuatan website cepat, stabil, dan teroptimasi SEO dengan
+              Next.js untuk bisnis Anda.
             </p>
           </div>
 
@@ -27,27 +24,27 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Layanan</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href="/paket" className="hover:text-primary transition-colors">
+                <Link href="/paket" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   Paket &amp; Harga
                 </Link>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   Web Development
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   E-Commerce
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   SEO Optimization
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-primary transition-colors">
+                <a href="#pricing" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   Maintenance
                 </a>
               </li>
@@ -58,18 +55,18 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Perusahaan</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#benefits" className="hover:text-primary transition-colors">
+                <a href="#benefits" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   Tentang Kami
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-primary transition-colors">
+                <a href="#portfolio" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   Portfolio
                 </a>
               </li>
               {/* Blog belum tersedia — aktifkan tautan saat halaman blog siap */}
               <li>
-                <a href="#contact" className="hover:text-primary transition-colors">
+                <a href="#contact" className="hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-xs">
                   Kontak
                 </a>
               </li>

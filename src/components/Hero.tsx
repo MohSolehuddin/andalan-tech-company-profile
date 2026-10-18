@@ -18,7 +18,7 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             Website Anda,{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
+            <span className="text-primary">
               Secepat Kilat
             </span>
           </h1>
@@ -32,14 +32,14 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              className="text-lg px-8 shadow-(--glow-primary)">
+              className="text-lg px-8 shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <a href="#contact">Mulai Proyek</a>
             </Button>
             <Button
               asChild
               size="lg"
               variant="secondary"
-              className="text-lg px-8">
+              className="text-lg px-8 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <a href="#portfolio">Lihat Portfolio</a>
             </Button>
           </div>

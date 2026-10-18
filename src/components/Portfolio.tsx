@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div className="text-center mb-12 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Portfolio{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
+            <span className="text-primary">
               Kami
             </span>
           </h2>
@@ -27,7 +27,7 @@ const Portfolio = () => {
             <Link
               key={demo.slug}
               href={`/demo/${demo.slug}`}
-              className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all duration-300 hover:-translate-y-2 hover:shadow-(--glow-primary)">
+              className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <div
                 className={`flex h-44 items-center justify-center bg-linear-to-br ${demo.accentBg}`}>
                 <span className="text-6xl" aria-hidden="true">
@@ -65,10 +65,8 @@ const Portfolio = () => {
         </div>
 
         {/* Special Offer Banner */}
-        <div className="mt-16 relative overflow-hidden rounded-2xl bg-linear-to-r from-primary/20 via-accent/20 to-primary/20 p-8 border border-primary/30 animate-fade-in-up">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
-          <div className="relative z-10 text-center space-y-4">
+        <div className="mt-16 rounded-xl bg-card p-8 border border-border shadow-xs animate-fade-in-up">
+          <div className="text-center space-y-4">
             <div className="flex items-center justify-center gap-2 text-accent">
               <Sparkles className="w-6 h-6 animate-pulse" />
               <Zap className="w-6 h-6 animate-pulse" />
@@ -84,7 +82,7 @@ const Portfolio = () => {
             <Button
               asChild
               size="lg"
-              className="bg-linear-to-r from-primary to-accent text-white hover:shadow-(--glow-primary) transition-all">
+              className="shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <a href="#contact">Mulai Proyek Anda</a>
             </Button>
           </div>

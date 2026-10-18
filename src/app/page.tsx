@@ -8,11 +8,13 @@ import Pricing from "@/components/Pricing";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Hero />
-      <Benefits />
-      <Pricing />
-      <Portfolio />
-      <Contact />
+      <main>
+        <Hero />
+        <Benefits />
+        <Pricing />
+        <Portfolio />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );
