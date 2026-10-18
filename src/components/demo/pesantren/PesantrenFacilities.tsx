@@ -58,7 +58,7 @@ const gallery = [
     title: "Muhadharah & Khitobah 3 Bahasa",
     category: "Pengembangan Diri",
     desc: "Latihan pidato santri dalam bahasa Arab, Inggris, dan Indonesia.",
-    gradient: "bg-linear-to-br from-emerald-900 to-cyan-950",
+    gradient: "bg-linear-to-br from-emerald-900 to-teal-950",
   },
   {
     title: "Bahtsul Masail & Diskusi Fiqih",

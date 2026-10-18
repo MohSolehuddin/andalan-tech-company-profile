@@ -6,7 +6,7 @@ export const BimbelContact = () => {
     <section className="bg-indigo-950 px-4 py-20 text-white">
       <div className="container mx-auto max-w-6xl">
         {/* Banner CTA Trial */}
-        <div className="rounded-3xl bg-linear-to-r from-indigo-900 via-indigo-800 to-sky-900 p-8 md:p-12 text-center border border-sky-400/20 shadow-2xl">
+        <div className="rounded-xl bg-linear-to-r from-indigo-900 via-indigo-800 to-sky-900 p-8 md:p-12 text-center border border-sky-400/20 shadow-sm">
           <span className="inline-flex items-center gap-2 rounded-full bg-sky-400/20 px-4 py-1.5 text-xs font-semibold text-sky-300">
             Khusus Pendaftar Bulan Ini
           </span>
@@ -24,7 +24,7 @@ export const BimbelContact = () => {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-400 px-8 py-3.5 font-bold text-indigo-950 transition-all hover:bg-sky-300 shadow-lg shadow-sky-400/20">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-400 px-8 py-3.5 font-bold text-indigo-950 transition-all hover:bg-sky-300 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Klaim Trial Gratis via WhatsApp
             </a>

@@ -12,21 +12,19 @@ const SaasHero = () => {
     <section className="relative overflow-hidden bg-slate-950 py-20 text-white md:py-28">
       {/* Background radial & linear gradient */}
       <div className="absolute inset-0 bg-linear-to-b from-blue-950/40 via-slate-950 to-slate-950" />
-      <div className="absolute -top-40 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
-      <div className="absolute top-1/2 -right-20 h-80 w-80 rounded-full bg-cyan-500/15 blur-3xl" />
 
       <div className="container relative z-10 mx-auto max-w-6xl px-4">
         <div className="grid items-center gap-12 lg:grid-cols-12">
           {/* Kolom Kiri: Teks & CTA */}
           <div className="lg:col-span-7">
             <span className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-1.5 text-xs font-semibold text-blue-300 md:text-sm">
-              <Sparkles className="h-4 w-4 text-cyan-400" />
+              <Sparkles className="h-4 w-4 text-blue-400" />
               Platform SaaS & Operasional Modern #1
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               Otomasi Alur Kerja,{" "}
-              <span className="bg-linear-to-r from-blue-400 via-cyan-400 to-teal-300 bg-clip-text text-transparent">
+              <span className="text-blue-400">
                 Tingkatkan Efisiensi
               </span>{" "}
               Tim Bisnis.
@@ -45,13 +43,13 @@ const SaasHero = () => {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-blue-500/25 transition-all hover:from-blue-600 hover:to-cyan-600 hover:shadow-cyan-500/30">
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 font-semibold text-white shadow-sm transition-colors hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageSquare className="h-5 w-5" />
                 Coba Demo via WhatsApp
               </a>
               <a
                 href="#harga"
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900/60 px-6 py-3.5 font-semibold text-slate-200 transition-colors hover:bg-slate-800">
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900/60 px-6 py-3.5 font-semibold text-slate-200 transition-colors hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 Lihat Paket Harga <ArrowRight className="h-4 w-4" />
               </a>
             </div>
@@ -59,7 +57,7 @@ const SaasHero = () => {
             <div className="mt-10 grid grid-cols-3 gap-4 border-t border-slate-800 pt-6">
               {metrics.map((item) => (
                 <div key={item.label}>
-                  <div className="text-xl font-bold text-cyan-400 sm:text-2xl">
+                  <div className="text-xl font-bold text-blue-400 sm:text-2xl">
                     {item.value}
                   </div>
                   <div className="mt-1 text-xs text-slate-400 sm:text-sm">
@@ -99,7 +97,7 @@ const SaasHero = () => {
                     Rp 148.500.000
                   </div>
                   <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-slate-800">
-                    <div className="h-full w-4/5 rounded-full bg-linear-to-r from-blue-500 to-cyan-400" />
+                    <div className="h-full w-4/5 rounded-full bg-blue-500" />
                   </div>
                 </div>
 
@@ -117,7 +115,7 @@ const SaasHero = () => {
                 </div>
 
                 <div className="flex items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-950/30 p-3 text-xs text-blue-200">
-                  <Sparkles className="h-4 w-4 text-cyan-400 shrink-0" />
+                  <Sparkles className="h-4 w-4 text-blue-400 shrink-0" />
                   <span>AI otomatis menyusun 3 laporan mingguan untuk tim Anda.</span>
                 </div>
               </div>

@@ -10,9 +10,6 @@ const trustBadges = [
 export const PaudHero = () => {
   return (
     <section className="relative overflow-hidden bg-rose-950 text-white">
-      <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-rose-500/20 blur-3xl" />
-      <div className="absolute -bottom-32 -left-16 h-80 w-80 rounded-full bg-pink-400/10 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-rose-400/30 bg-rose-400/10 px-4 py-1.5 text-sm text-rose-200">
@@ -35,13 +32,13 @@ export const PaudHero = () => {
               href={waLink("Halo PAUD Ceria & Daycare, saya ingin tanya info pendaftaran dan trial class untuk anak.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-rose-500 to-pink-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-rose-950/40 transition-all hover:brightness-110">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-rose-500 to-pink-500 px-6 py-3.5 font-semibold text-white shadow-sm transition-all hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Tanya Pendaftaran via WA
             </a>
             <a
               href="#program"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Sparkles className="h-4 w-4 text-amber-300" />
               Lihat Program Edukasi
             </a>

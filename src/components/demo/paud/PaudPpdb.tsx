@@ -98,7 +98,7 @@ export const PaudPpdb = () => {
                   href={waLink(`Halo PAUD Ceria, saya ingin mendaftar di ${wave.name}. Mohon rincian biaya pendaftarannya.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-rose-700">
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-rose-600 px-4 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-rose-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <MessageCircle className="h-4 w-4" />
                   Klaim Promo via WhatsApp
                 </a>
@@ -108,7 +108,7 @@ export const PaudPpdb = () => {
         </div>
 
         {/* Testimoni Singkat Orang Tua */}
-        <div className="mt-12 rounded-3xl border border-rose-200 bg-linear-to-r from-rose-100/70 via-pink-50 to-amber-50 p-6 md:p-8">
+        <div className="mt-12 rounded-xl border border-rose-200 bg-linear-to-r from-rose-100/70 via-pink-50 to-amber-50 p-6 md:p-8">
           <p className="text-neutral-800 italic leading-relaxed md:text-lg">
             &ldquo;Anak saya dulu sangat pemalu dan susah lepas dari orang tua. Sejak masuk di PAUD Ceria &amp; Daycare, gurunya sangat telaten mendampingi. Sekarang dia mandiri, ceria, dan selalu antusias bangun pagi untuk sekolah.&rdquo;
           </p>

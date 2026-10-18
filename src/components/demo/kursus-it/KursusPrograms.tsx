@@ -42,7 +42,7 @@ const programs: ProgramItem[] = [
     ],
     duration: "10 Sesi (20 Jam)",
     level: "Pemula s/d Menengah",
-    gradientClass: "from-indigo-600 to-violet-800",
+    gradientClass: "from-indigo-600 to-indigo-800",
   },
   {
     id: "web",
@@ -57,7 +57,7 @@ const programs: ProgramItem[] = [
     ],
     duration: "12 Sesi (24 Jam)",
     level: "Pemula (Tanpa background IT)",
-    gradientClass: "from-violet-700 to-blue-900",
+    gradientClass: "from-indigo-700 to-blue-900",
   },
   {
     id: "coding-anak",
@@ -118,7 +118,7 @@ export default function KursusPrograms() {
                 <p className="text-sm font-medium text-slate-700">{prog.tagline}</p>
 
                 <div className="mt-4 flex-1">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-600">
                     Fokus Pembelajaran:
                   </p>
                   <ul className="mt-2 space-y-2 text-sm text-slate-600">
@@ -138,7 +138,7 @@ export default function KursusPrograms() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-indigo-500">
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                     <MessageCircle className="h-4 w-4" />
                     Tanya Program Ini via WhatsApp
                   </a>

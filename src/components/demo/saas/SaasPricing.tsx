@@ -28,7 +28,7 @@ const plans = [
     popular: true,
     features: [
       "Hingga 15 anggota tim",
-      "Automasi alur kerja tanpa batas",
+      "Jumlah automasi alur kerja tidak dibatasi",
       "Dasbor analitik & ekspor laporan",
       "Integrasi notifikasi WhatsApp",
       "Pencadangan cloud harian otomatis",
@@ -37,7 +37,7 @@ const plans = [
     ctaText: "Mulai Paket Pro Bisnis",
     ctaMsg: "Halo KelolaKu, saya ingin mencoba paket Pro Bisnis.",
     btnStyle:
-      "bg-linear-to-r from-blue-600 to-cyan-500 text-white hover:from-blue-700 hover:to-cyan-600 shadow-md shadow-blue-500/20",
+      "bg-blue-600 text-white hover:bg-blue-700 shadow-sm",
   },
   {
     name: "Custom Enterprise",
@@ -46,7 +46,7 @@ const plans = [
     period: "",
     popular: false,
     features: [
-      "Anggota tim tanpa batasan",
+      "Jumlah anggota tim tidak dibatasi",
       "Private cloud / on-premise deployment",
       "Custom integrasi API & webhook internal",
       "SLA jaminan uptime 99.99%",
@@ -81,14 +81,14 @@ const SaasPricing = () => {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`relative flex flex-col rounded-3xl border p-8 transition-all duration-300 ${
+              className={`relative flex flex-col rounded-xl border p-8 transition-all duration-300 ${
                 plan.popular
                   ? "border-blue-500 bg-linear-to-b from-blue-50/50 to-white shadow-xl ring-2 ring-blue-500/20"
                   : "border-slate-200 bg-white shadow-sm hover:shadow-md"
               }`}>
               {plan.popular && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-linear-to-r from-blue-600 to-cyan-500 px-4 py-1 text-xs font-semibold text-white shadow-sm">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-600 px-4 py-1 text-xs font-semibold text-white shadow-sm">
                     <Sparkles className="h-3.5 w-3.5" /> Paling Populer
                   </span>
                 </div>
@@ -111,7 +111,7 @@ const SaasPricing = () => {
 
                 <div className="my-6 border-t border-slate-100" />
 
-                <div className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                <div className="text-xs font-semibold uppercase tracking-wider text-slate-600">
                   Fasilitas Termasuk:
                 </div>
 
@@ -130,7 +130,7 @@ const SaasPricing = () => {
                   href={waLink(plan.ctaMsg)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold transition-all ${plan.btnStyle}`}>
+                  className={`inline-flex w-full items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${plan.btnStyle}`}>
                   {plan.ctaText}
                 </a>
               </div>

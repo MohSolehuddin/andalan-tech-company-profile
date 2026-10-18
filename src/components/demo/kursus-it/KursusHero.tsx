@@ -11,9 +11,6 @@ const trustPoints = [
 export default function KursusHero() {
   return (
     <section className="relative overflow-hidden bg-indigo-950 text-white">
-      <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
-      <div className="absolute -bottom-32 -left-16 h-80 w-80 rounded-full bg-blue-500/15 blur-3xl" />
-
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-indigo-400/30 bg-indigo-500/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-indigo-200">
@@ -26,7 +23,7 @@ export default function KursusHero() {
           </h1>
 
           <p className="mt-4 text-base leading-relaxed text-indigo-100/90 sm:text-lg">
-            Kuasai keahlian digital masa depan mulai dari aplikasi perkantoran, desain grafis,
+            Kuasai keahlian digital yang dicari industri mulai dari aplikasi perkantoran, desain grafis,
             pengembangan website, hingga coding anak. Pendekatan praktik intensif, bimbingan satu per satu,
             dan sertifikat resmi siap kerja.
           </p>
@@ -36,13 +33,13 @@ export default function KursusHero() {
               href={waLink("Halo Kode Kursus Komputer & IT, saya ingin konsultasi pendaftaran kelas.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-500 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-indigo-400">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-500 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-indigo-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Daftar via WhatsApp
             </a>
             <a
               href="#program"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-xs transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-xs transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Lihat Pilihan Program
             </a>
           </div>

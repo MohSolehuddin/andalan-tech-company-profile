@@ -48,7 +48,7 @@ export default function KursusModes() {
               key={mode.name}
               className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-md">
               <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-blue-500 to-cyan-600">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-blue-500 to-blue-700">
                   <mode.icon className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -76,7 +76,7 @@ export default function KursusModes() {
             Butuh ritme khusus? Tersedia kelas privat dan program perusahaan
             dengan jadwal fleksibel.
           </p>
-          <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold text-cyan-200">
+          <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold text-blue-200">
             <Users className="h-4 w-4" />
             Privat &amp; Corporate
           </span>

@@ -94,7 +94,7 @@ export const PaudFacilities = () => {
         </div>
 
         {/* Jadwal Operasional & Belajar */}
-        <div className="mt-16 rounded-3xl bg-neutral-900 p-8 text-white md:p-10">
+        <div className="mt-16 rounded-xl bg-neutral-900 p-8 text-white md:p-10">
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <div>
               <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-500/20 px-3 py-1 text-xs font-semibold text-rose-300">

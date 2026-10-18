@@ -92,7 +92,7 @@ export const PaudPrograms = () => {
                   href={waLink(`Halo PAUD Ceria, saya mau tanya detail kurikulum untuk ${program.name}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-rose-600 hover:text-rose-700">
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-rose-600 hover:text-rose-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <Users className="h-4 w-4" />
                   Tanya silabus &amp; kuota program →
                 </a>

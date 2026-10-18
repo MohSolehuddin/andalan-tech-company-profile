@@ -33,23 +33,23 @@ const DashboardDemoPage = () => {
               </div>
 
               <div className="flex items-center gap-2.5">
-                <label className="hidden items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-xs text-slate-400 md:flex">
+                <label className="hidden items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-xs text-slate-600 md:flex">
                   <Search className="h-4 w-4" />
                   <input
                     type="text"
                     placeholder="Cari pesanan, produk..."
-                    className="w-44 bg-transparent outline-none placeholder:text-slate-400"
+                    className="w-44 bg-transparent outline-none placeholder:text-slate-600"
                   />
                 </label>
                 <button
                   type="button"
-                  className="relative rounded-xl border border-slate-200 bg-white p-2.5 text-slate-500 transition-colors hover:bg-slate-50">
+                  className="relative rounded-xl border border-slate-200 bg-white p-2.5 text-slate-500 transition-colors hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <Bell className="h-4 w-4" />
                   <span className="absolute -top-1 -right-1 h-3.5 w-3.5 rounded-full border-2 border-white bg-rose-500" />
                 </button>
                 <button
                   type="button"
-                  className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-3.5 py-2.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-indigo-700">
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-3.5 py-2.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <Plus className="h-4 w-4" />
                   <span className="hidden sm:inline">Produk Baru</span>
                 </button>

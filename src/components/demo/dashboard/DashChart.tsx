@@ -44,7 +44,7 @@ const DashChart = () => {
                   : "bg-slate-200 group-hover:bg-indigo-200"
               }`}
             />
-            <span className="text-[10px] font-medium text-slate-400">
+            <span className="text-[10px] font-medium text-slate-600">
               {month.label}
             </span>
           </div>

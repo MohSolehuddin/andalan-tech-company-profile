@@ -61,7 +61,7 @@ const SaasFeatures = () => {
           {features.map((item) => (
             <div
               key={item.title}
-              className="group relative rounded-2xl border border-slate-200/80 bg-white p-7 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-500/5">
+              className="group relative rounded-2xl border border-slate-200/80 bg-white p-7 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-md">
               <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white">
                 <item.icon className="h-6 w-6" />
               </div>

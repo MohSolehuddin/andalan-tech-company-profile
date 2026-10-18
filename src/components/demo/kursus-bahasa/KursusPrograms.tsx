@@ -49,7 +49,7 @@ export default function KursusPrograms() {
             <div
               key={program.name}
               className="flex flex-col rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-md">
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br from-blue-500 to-cyan-600 text-2xl">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br from-blue-500 to-blue-700 text-2xl">
                 <span aria-hidden>{program.emoji}</span>
               </div>
               <div className="mt-4 flex items-center gap-2">

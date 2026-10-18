@@ -179,7 +179,7 @@ export default function PesantrenPpdb() {
             href={waLink("Halo Panitia PPDB Pondok Pesantren Raudhatul Ulum Situbondo, saya ingin konsultasi pendaftaran santri baru.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-600 px-6 py-3.5 font-semibold text-white shadow-sm transition-colors hover:bg-emerald-500">
+            className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-600 px-6 py-3.5 font-semibold text-white shadow-sm transition-colors hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
             <MessageCircle className="h-5 w-5" />
             Tanya PPDB via WhatsApp
           </a>

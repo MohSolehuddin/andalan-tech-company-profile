@@ -72,9 +72,9 @@ export const BimbelPricing = () => {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`relative flex flex-col justify-between rounded-3xl border p-6 sm:p-8 transition-shadow ${
+              className={`relative flex flex-col justify-between rounded-xl border p-6 sm:p-8 transition-shadow ${
                 plan.popular
-                  ? "border-indigo-600 bg-neutral-950 text-white shadow-xl shadow-indigo-950/20"
+                  ? "border-indigo-600 bg-neutral-950 text-white shadow-sm"
                   : "border-neutral-200 bg-white text-neutral-900 hover:shadow-lg"
               }`}>
               {plan.popular && (
@@ -128,9 +128,9 @@ export const BimbelPricing = () => {
                   href={waLink(plan.waMsg)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex w-full items-center justify-center rounded-xl py-3 text-sm font-semibold transition-transform hover:scale-[1.02] active:scale-[0.98] ${
+                  className={`flex w-full items-center justify-center rounded-xl py-3 text-sm font-semibold transition-transform hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     plan.popular
-                      ? "bg-linear-to-r from-sky-400 to-indigo-400 text-indigo-950 font-bold shadow-md shadow-indigo-900/40"
+                      ? "bg-linear-to-r from-sky-400 to-indigo-400 text-indigo-950 font-bold shadow-sm"
                       : "border border-neutral-300 bg-neutral-900 text-white hover:bg-neutral-800"
                   }`}>
                   Daftar Paket Ini

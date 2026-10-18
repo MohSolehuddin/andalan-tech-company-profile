@@ -41,7 +41,7 @@ export default function AgencyPortfolio() {
     <section id="portofolio" className="bg-white px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-xs font-bold uppercase tracking-widest text-violet-700">
+          <p className="text-xs font-bold uppercase tracking-widest text-indigo-700">
             Karya &amp; Studi Kasus
           </p>
           <h2 className="mt-2 text-2xl font-bold text-neutral-900 sm:text-3xl md:text-4xl">
@@ -57,9 +57,9 @@ export default function AgencyPortfolio() {
           {caseStudies.map((item) => (
             <div
               key={item.title}
-              className="relative overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50/50 p-6 sm:p-8 transition-all hover:border-violet-300 hover:bg-white hover:shadow-md">
+              className="relative overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50/50 p-6 sm:p-8 transition-all hover:border-indigo-300 hover:bg-white hover:shadow-md">
               <div className="flex items-center justify-between gap-2">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-violet-100 px-3 py-1 text-xs font-semibold text-violet-800">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-800">
                   <Layers className="h-3 w-3" />
                   {item.category}
                 </span>
@@ -91,7 +91,7 @@ export default function AgencyPortfolio() {
                   href={waLink(`Halo Andalan Digital Agency, saya tertarik dengan portofolio serupa proyek ${item.title}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-violet-700 transition-colors hover:text-violet-900">
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-700 transition-colors hover:text-indigo-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   Diskusikan Proyek Serupa
                   <ExternalLink className="h-3.5 w-3.5" />
                 </a>
