@@ -135,4 +135,17 @@ export const demoItems: DemoItem[] = [
     ring: "hover:border-sky-400",
     highlights: ["Antar-jemput gratis", "Harga per kg/pcs", "Order WhatsApp"],
   },
+  {
+    slug: "salon",
+    name: "Glow & Glam Salon",
+    niche: "Salon & Kecantikan",
+    tagline: "Perawatan rambut & kecantikan + booking WhatsApp",
+    description:
+      "Website salon kecantikan modern dengan menu treatment lengkap, daftar harga transparan, ulasan pelanggan, dan booking janji temu via WhatsApp.",
+    emoji: "💇‍♀️",
+    accentBg: "from-rose-500 to-pink-600",
+    accentText: "text-rose-600",
+    ring: "hover:border-rose-400",
+    highlights: ["Potong & treatment", "Daftar harga transparan", "Booking WhatsApp"],
+  },
 ];
