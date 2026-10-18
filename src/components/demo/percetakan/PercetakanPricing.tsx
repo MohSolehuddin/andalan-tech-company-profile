@@ -58,7 +58,7 @@ const priceList = [
     features: [
       "Sudah termasuk Kaos Cotton Combed 30s",
       "Cetak DTF area hingga A3 full color",
-      "Warna bebas tanpa batas gradasi",
+      "Warna penuh dengan gradasi halus",
       "Tersedia ukuran S, M, L, XL, XXL",
     ],
     waMsg: "Halo Cetak Cepat Digital Printing, saya mau pesan Sablon Kaos DTF Satuan.",
@@ -159,7 +159,7 @@ export default function PercetakanPricing() {
                   href={waLink(item.waMsg)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-2.5 text-sm font-semibold transition-colors ${
+                  className={`inline-flex w-full items-center justify-center gap-2 rounded-xl py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     item.popular
                       ? "bg-orange-600 text-white hover:bg-orange-500"
                       : "border border-neutral-300 bg-white text-neutral-800 hover:border-orange-500 hover:text-orange-600"
@@ -183,7 +183,7 @@ export default function PercetakanPricing() {
             href={waLink("Halo Cetak Cepat Digital Printing, saya mau minta penawaran harga untuk cetak partai besar / custom.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800">
+            className="mt-4 inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
             <MessageCircle className="h-4 w-4 text-emerald-400" />
             Minta Penawaran Grosir
           </a>

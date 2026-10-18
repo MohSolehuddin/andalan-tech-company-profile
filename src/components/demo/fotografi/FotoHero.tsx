@@ -29,7 +29,7 @@ export default function FotoHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#paket"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-100 px-6 py-3 font-semibold text-zinc-900 transition-colors hover:bg-white">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-100 px-6 py-3 font-semibold text-zinc-900 transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Camera className="h-5 w-5" />
               Lihat Paket
             </a>
@@ -37,7 +37,7 @@ export default function FotoHero() {
               href={waLink("Halo Lumen Studio, saya mau booking sesi foto.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Booking via WhatsApp
             </a>
           </div>

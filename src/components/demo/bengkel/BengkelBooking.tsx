@@ -95,7 +95,7 @@ Mohon info ketersediaan slotnya.`;
                     <Tag className="h-3 w-3" />
                     {pkg.badge}
                   </span>
-                  <span className="text-xs text-zinc-400 line-through">
+                  <span className="text-xs text-zinc-600 line-through">
                     {pkg.originalPrice}
                   </span>
                 </div>
@@ -120,7 +120,7 @@ Mohon info ketersediaan slotnya.`;
               <button
                 type="button"
                 onClick={() => setSelectedService(pkg.name)}
-                className={`mt-6 w-full rounded-lg py-2.5 text-sm font-semibold transition-colors ${
+                className={`mt-6 w-full rounded-lg py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   selectedService === pkg.name
                     ? "bg-red-600 text-white"
                     : "border border-zinc-200 bg-zinc-50 text-zinc-800 hover:bg-zinc-100"
@@ -132,7 +132,7 @@ Mohon info ketersediaan slotnya.`;
         </div>
 
         {/* Quick Booking Form Card */}
-        <div className="mt-12 rounded-3xl border border-zinc-200 bg-zinc-900 p-8 text-white md:p-10">
+        <div className="mt-12 rounded-xl border border-zinc-200 bg-zinc-900 p-8 text-white md:p-10">
           <div className="mx-auto max-w-3xl">
             <div className="text-center">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-red-500/20 px-3 py-1 text-xs font-medium text-red-300">
@@ -213,7 +213,7 @@ Mohon info ketersediaan slotnya.`;
                 href={waLink(bookingMessage)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-red-600 px-6 py-3.5 font-bold text-white transition-colors hover:bg-red-500 sm:w-auto">
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-red-600 px-6 py-3.5 font-bold text-white transition-colors hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 sm:w-auto">
                 <MessageCircle className="h-5 w-5" />
                 Kirim Booking via WhatsApp
               </a>

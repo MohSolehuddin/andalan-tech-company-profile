@@ -5,7 +5,7 @@ export default function LaundryContact() {
   return (
     <section id="kontak" className="bg-white px-4 py-20">
       <div className="container mx-auto max-w-5xl">
-        <div className="grid items-center gap-10 rounded-3xl border border-sky-100 bg-sky-50/60 p-8 md:grid-cols-2 md:p-10">
+        <div className="grid items-center gap-10 rounded-xl border border-sky-100 bg-sky-50/60 p-8 md:grid-cols-2 md:p-10">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-3.5 py-1 text-xs font-medium text-sky-700">
               <Shirt className="h-3.5 w-3.5" />
@@ -24,7 +24,7 @@ export default function LaundryContact() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-sky-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-sky-500">
+              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-sky-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-sky-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <MessageCircle className="h-5 w-5" />
               Hubungi via WhatsApp
             </a>

@@ -66,7 +66,7 @@ export default function PercetakanContact() {
         </div>
 
         {/* Informasi Kontak & Lokasi */}
-        <div className="mt-16 grid items-center gap-10 rounded-3xl border border-white/10 bg-linear-to-b from-white/10 to-white/5 p-8 md:grid-cols-2 md:p-12">
+        <div className="mt-16 grid items-center gap-10 rounded-xl border border-white/10 bg-linear-to-b from-white/10 to-white/5 p-8 md:grid-cols-2 md:p-12">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-semibold text-emerald-300">
               <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -84,7 +84,7 @@ export default function PercetakanContact() {
                 href={waLink("Halo Cetak Cepat Digital Printing, saya mau pesan cetak kilat sekarang.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 rounded-xl bg-orange-500 px-6 py-3.5 font-bold text-white shadow-lg shadow-orange-500/30 transition-colors hover:bg-orange-400">
+                className="inline-flex items-center gap-2.5 rounded-xl bg-orange-500 px-6 py-3.5 font-bold text-white shadow-sm transition-colors hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                 <MessageCircle className="h-5 w-5" />
                 Chat WhatsApp Sekarang
               </a>

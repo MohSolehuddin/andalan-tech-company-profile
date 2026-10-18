@@ -35,7 +35,7 @@ const services = [
     title: "Kaos Sablon DTF",
     category: "Apparel & Merchandise",
     desc: "Sablon digital transfer film (DTF) full-color pada kaos Cotton Combed 30s premium. Hasil lembut, tajam, dan tidak pecah.",
-    specs: ["Bisa pesan satuan tanpa minimal", "Warna gradasi & foto bebas batas", "Kaos katun adem & nyaman dipakai"],
+    specs: ["Bisa pesan satuan tanpa minimal", "Cetak gradasi warna & foto penuh", "Kaos katun adem & nyaman dipakai"],
   },
   {
     icon: Mail,

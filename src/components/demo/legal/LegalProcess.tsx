@@ -50,7 +50,7 @@ export default function LegalProcess() {
             <div
               key={item.step}
               className="relative rounded-2xl border border-slate-200 bg-slate-50/50 p-6 shadow-xs transition-all hover:-translate-y-1 hover:border-slate-300 hover:shadow-md">
-              <span className="text-xs font-bold tracking-wider text-slate-400">
+              <span className="text-xs font-bold tracking-wider text-slate-600">
                 TAHAP {item.step}
               </span>
               <div className="mt-3 flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white">
@@ -73,7 +73,7 @@ export default function LegalProcess() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg bg-slate-900 px-6 py-3 font-semibold text-white transition-colors hover:bg-slate-800">
+            className="inline-flex items-center gap-2 rounded-lg bg-slate-900 px-6 py-3 font-semibold text-white transition-colors hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
             Mulai Konsultasi Langkah Pertama
           </a>
         </div>

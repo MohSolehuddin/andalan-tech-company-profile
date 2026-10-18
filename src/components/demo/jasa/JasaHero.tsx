@@ -29,7 +29,7 @@ export default function JasaHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#layanan"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-orange-400">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition-colors hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Palette className="h-5 w-5" />
               Lihat Layanan
             </a>
@@ -37,7 +37,7 @@ export default function JasaHero() {
               href={waLink("Halo Nara Kreatif, saya mau konsultasi personal brand.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Konsultasi via WhatsApp
             </a>
           </div>

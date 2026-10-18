@@ -28,7 +28,7 @@ export default function HomeServiceWhy() {
     <section id="keunggulan" className="bg-neutral-50 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-700">
+          <p className="text-sm font-semibold uppercase tracking-widest text-sky-700">
             Kenapa ServisPro
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -41,7 +41,7 @@ export default function HomeServiceWhy() {
             <div
               key={reason.title}
               className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-              <reason.icon className="h-6 w-6 text-cyan-600" />
+              <reason.icon className="h-6 w-6 text-sky-600" />
               <h3 className="mt-4 font-bold text-neutral-900">
                 {reason.title}
               </h3>

@@ -31,7 +31,7 @@ export default function PercetakanHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#harga"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-6 py-3 font-semibold text-white shadow-lg shadow-orange-500/25 transition-colors hover:bg-orange-400">
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-6 py-3 font-semibold text-white shadow-sm transition-colors hover:bg-orange-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Printer className="h-5 w-5" />
               Lihat Daftar Harga
             </a>
@@ -39,7 +39,7 @@ export default function PercetakanHero() {
               href={waLink("Halo Cetak Cepat Digital Printing, saya mau konsultasi cetak dan kirim file desain.")}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/15">
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Kirim File via WhatsApp
             </a>
           </div>

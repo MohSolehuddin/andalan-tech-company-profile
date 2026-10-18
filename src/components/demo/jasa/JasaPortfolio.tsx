@@ -16,10 +16,10 @@ interface Work {
 const works: Work[] = [
   { id: 1, title: "Rebranding Kopi Senja", client: "Kedai kopi lokal", category: "Branding", emoji: "☕", gradient: "from-amber-400 to-orange-500" },
   { id: 2, title: "Identitas Visual Dapur Ibu", client: "Katering rumahan", category: "Branding", emoji: "🍲", gradient: "from-rose-400 to-orange-500" },
-  { id: 3, title: "Kampanye #KebaikanKecil", client: "Yayasan sosial", category: "Konten", emoji: "🌙", gradient: "from-violet-400 to-purple-500" },
+  { id: 3, title: "Kampanye #KebaikanKecil", client: "Yayasan sosial", category: "Konten", emoji: "🌙", gradient: "from-stone-400 to-stone-600" },
   { id: 4, title: "Seri Edukasi Finansial", client: "Konsultan keuangan", category: "Konten", emoji: "📊", gradient: "from-emerald-400 to-teal-500" },
   { id: 5, title: "Landing Page Kelas Online", client: "Mentor desain", category: "Website", emoji: "💻", gradient: "from-sky-400 to-blue-500" },
-  { id: 6, title: "Website Portofolio Fotografer", client: "Fotografer wedding", category: "Website", emoji: "📷", gradient: "from-fuchsia-400 to-pink-500" },
+  { id: 6, title: "Website Portofolio Fotografer", client: "Fotografer wedding", category: "Website", emoji: "📷", gradient: "from-rose-400 to-pink-500" },
 ];
 
 const categories = ["Semua", "Branding", "Konten", "Website"];
@@ -53,7 +53,7 @@ export default function JasaPortfolio() {
               key={category}
               type="button"
               onClick={() => setActive(category)}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                 active === category
                   ? "bg-orange-600 text-white"
                   : "border border-neutral-200 bg-white text-neutral-700 hover:border-orange-400"
@@ -86,7 +86,7 @@ export default function JasaPortfolio() {
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700">
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
                   <ArrowUpRight className="h-4 w-4" />
                   Tanya Karya Ini
                 </a>

@@ -35,7 +35,7 @@ const concepts: Concept[] = [
     title: "Grand Royal Ballroom",
     theme: "Luxury & Glamour",
     emoji: "✨",
-    gradient: "from-fuchsia-600 to-purple-800",
+    gradient: "from-rose-600 to-rose-900",
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ const testimonials: Testimonial[] = [
     couple: "Rizky & Amanda",
     location: "Plataran Cilandak, Jakarta Selatan",
     quote:
-      "Konsep outdoor garden kami terselenggara tanpa cemas walau sempat gerimis. Tim lapangan langsung sigap mengalihkan dekorasi secara seamless. Kami sangat puas!",
+      "Konsep outdoor garden kami terselenggara tanpa cemas walau sempat gerimis. Tim lapangan langsung sigap mengalihkan dekorasi saat itu juga. Kami sangat puas!",
     packageUsed: "Paket Silver (Intimate)",
   },
   {
@@ -90,14 +90,14 @@ export default function WeddingGallery() {
       <div className="container mx-auto max-w-6xl">
         {/* Gallery Section */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-fuchsia-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-rose-600">
             Galeri Konsep
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
             Inspirasi Tema Pernikahan Impian
           </h2>
           <p className="mt-3 inline-flex items-center gap-1.5 text-neutral-600">
-            <Sparkles className="h-4 w-4 text-fuchsia-500" />
+            <Sparkles className="h-4 w-4 text-rose-500" />
             Portofolio visual konsep pernikahan yang telah kami eksekusi dengan sempurna.
           </p>
         </div>
@@ -119,7 +119,7 @@ export default function WeddingGallery() {
         {/* Testimonials Section */}
         <div className="mt-24">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-widest text-fuchsia-600">
+            <p className="text-sm font-semibold uppercase tracking-widest text-rose-600">
               Ulasan Pengantin
             </p>
             <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -151,9 +151,9 @@ export default function WeddingGallery() {
                       <p className="font-bold text-neutral-900">{testi.couple}</p>
                       <p className="text-xs text-neutral-500">{testi.location}</p>
                     </div>
-                    <Heart className="h-5 w-5 text-fuchsia-400 fill-fuchsia-100" />
+                    <Heart className="h-5 w-5 text-rose-400 fill-rose-100" />
                   </div>
-                  <span className="mt-2 inline-block rounded-md bg-fuchsia-50 px-2 py-0.5 text-[11px] font-medium text-fuchsia-700">
+                  <span className="mt-2 inline-block rounded-md bg-rose-50 px-2 py-0.5 text-[11px] font-medium text-rose-700">
                     {testi.packageUsed}
                   </span>
                 </div>

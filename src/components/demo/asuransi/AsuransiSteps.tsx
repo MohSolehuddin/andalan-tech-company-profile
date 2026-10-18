@@ -59,7 +59,7 @@ export default function AsuransiSteps() {
             href={waLink("Halo Amanah Proteksi, saya mau mengajukan klaim.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-600">
+            className="inline-flex items-center gap-2 rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
             <MessageCircle className="h-5 w-5" />
             Ajukan Klaim via WhatsApp
           </a>

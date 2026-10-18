@@ -29,13 +29,13 @@ export default function LaundryHero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#order"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-sky-400 px-6 py-3 font-semibold text-sky-950 transition-colors hover:bg-sky-300">
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-sky-400 px-6 py-3 font-semibold text-sky-950 transition-colors hover:bg-sky-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               <Truck className="h-5 w-5" />
               Order Antar-Jemput
             </a>
             <a
               href="#layanan"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10">
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               Lihat Layanan & Harga
             </a>
           </div>
@@ -57,7 +57,7 @@ export default function LaundryHero() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-sky-300 underline underline-offset-4 hover:text-sky-200">
+              className="font-semibold text-sky-300 underline underline-offset-4 hover:text-sky-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
               WhatsApp
             </a>
             .

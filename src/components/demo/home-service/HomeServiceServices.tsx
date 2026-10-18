@@ -45,7 +45,7 @@ export default function HomeServiceServices() {
     <section id="layanan" className="bg-neutral-50 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-700">
+          <p className="text-sm font-semibold uppercase tracking-widest text-sky-700">
             Layanan
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -62,8 +62,8 @@ export default function HomeServiceServices() {
             <div
               key={service.title}
               className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-100">
-                <service.icon className="h-6 w-6 text-cyan-700" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-sky-100">
+                <service.icon className="h-6 w-6 text-sky-700" />
               </div>
               <h3 className="mt-4 font-bold text-neutral-900">
                 {service.title}

@@ -57,7 +57,7 @@ export default function WeddingServices() {
     <section id="layanan" className="bg-neutral-50 px-4 py-20">
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-fuchsia-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-rose-600">
             Layanan Terpadu
           </p>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">
@@ -75,7 +75,7 @@ export default function WeddingServices() {
               className="flex flex-col justify-between rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
               <div>
                 <div className="flex items-center justify-between">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-fuchsia-50 text-fuchsia-600">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-rose-50 text-rose-600">
                     <item.icon className="h-6 w-6" />
                   </div>
                   <span className="rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-600">

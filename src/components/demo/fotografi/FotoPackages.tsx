@@ -98,7 +98,7 @@ export default function FotoPackages() {
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors ${
+                className={`mt-6 inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                   pkg.popular
                     ? "bg-zinc-900 text-white hover:bg-zinc-700"
                     : "border border-neutral-300 text-neutral-800 hover:border-zinc-500"
