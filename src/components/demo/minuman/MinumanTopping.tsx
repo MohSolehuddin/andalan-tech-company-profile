@@ -1,4 +1,4 @@
-import { PlusCircle, SlidersHorizontal, Sparkles } from "lucide-react";
+import { PlusCircle, SlidersHorizontal, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface ToppingItem {
@@ -120,7 +120,7 @@ export default function MinumanTopping() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-teal-400 px-6 py-3 font-semibold text-neutral-950 transition-colors hover:bg-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-400">
-              <Sparkles className="h-4 w-4" />
+              <MessageCircle className="h-4 w-4" />
               Tanya Kombinasi Favorit
             </a>
           </div>

@@ -1,4 +1,4 @@
-import { Camera, Mail, Mic2, Palette, Sparkles, Utensils } from "lucide-react";
+import { Camera, Mail, Mic2, Palette, Heart, Utensils } from "lucide-react";
 
 interface Service {
   icon: typeof Palette;
@@ -23,7 +23,7 @@ const services: Service[] = [
     badge: "Food Tasting",
   },
   {
-    icon: Sparkles,
+    icon: Heart,
     title: "MUA & Gaun Pengantin",
     description:
       "Riasan pengantin tahan lama nan elegan oleh perias bersertifikat, sewa kebaya akad, gaun resepsi, dan busana keluarga.",

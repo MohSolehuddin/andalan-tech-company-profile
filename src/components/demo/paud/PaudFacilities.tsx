@@ -1,4 +1,4 @@
-import { Apple, Camera, Clock, Gamepad2, Shield, Sparkles, Wind } from "lucide-react";
+import { Apple, Camera, Clock, Gamepad2, Shield, BookOpen, Wind } from "lucide-react";
 
 const facilities = [
   {
@@ -22,7 +22,7 @@ const facilities = [
     desc: "Pengawasan lingkungan sekolah 24 jam dengan sistem absensi dan kartu jemput anak berfoto.",
   },
   {
-    icon: Sparkles,
+    icon: BookOpen,
     title: "Pojok Baca & Sensory Room",
     desc: "Ratusan buku cerita bergambar serta alat peraga Montessori untuk melatih konsentrasi motorik.",
   },

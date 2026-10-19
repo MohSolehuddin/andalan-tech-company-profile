@@ -1,4 +1,4 @@
-import { MessageCircle, ShieldCheck, Sparkles, Zap } from "lucide-react";
+import { MessageCircle, ShieldCheck, Settings, Zap } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const SaasCta = () => {
@@ -9,7 +9,6 @@ const SaasCta = () => {
 
       <div className="container relative z-10 mx-auto max-w-4xl px-4 text-center">
         <span className="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-400/10 px-4 py-1.5 text-xs font-semibold text-blue-200">
-          <Sparkles className="h-4 w-4" />
           Mulai Transformasi Digital Sekarang
         </span>
 
@@ -46,7 +45,7 @@ const SaasCta = () => {
             Source Code Milik Anda
           </span>
           <span className="inline-flex items-center gap-1.5">
-            <Sparkles className="h-4 w-4 text-blue-400" />
+            <Settings className="h-4 w-4 text-blue-400" />
             Bebas Kustomisasi Fitur
           </span>
         </div>

@@ -1,4 +1,4 @@
-import { Droplets, Flame, Sparkles, Sun, Wand2, Zap } from "lucide-react";
+import { Droplets, Flame, Heart, Sun, Wand2, Zap } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const treatments = [
@@ -43,7 +43,7 @@ const treatments = [
     target: "Jerawat meradang, kulit rentan breakout",
   },
   {
-    icon: Sparkles,
+    icon: Heart,
     badge: "Anti-Aging",
     name: "Collagen Lift & Tightening",
     desc: "Stimulasi ultrasound non-invasif untuk mengencangkan elastisitas kulit wajah, menyamarkan kerutan halus, dan mempertegas garis rahang.",

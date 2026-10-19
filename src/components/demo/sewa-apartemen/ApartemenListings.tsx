@@ -1,4 +1,4 @@
-import { Bed, Bath, Maximize2, MessageCircle, Sparkles } from "lucide-react";
+import { Bed, Bath, Maximize2, MessageCircle, Check } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface RentalUnit {
@@ -172,7 +172,7 @@ export default function ApartemenListings() {
                   <ul className="mt-2 space-y-1.5 text-xs text-slate-600">
                     {unit.features.map((feature) => (
                       <li key={feature} className="flex items-center gap-1.5">
-                        <Sparkles className="h-3.5 w-3.5 text-indigo-500 shrink-0" />
+                        <Check className="h-3.5 w-3.5 text-indigo-500 shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}

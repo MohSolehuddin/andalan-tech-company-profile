@@ -1,4 +1,4 @@
-import { Armchair, Coffee, Flame, Music, Sparkles, Wifi } from "lucide-react";
+import { Armchair, Coffee, Flame, Music, Wifi } from "lucide-react";
 
 const vibeFeatures = [
   {
@@ -33,7 +33,6 @@ export default function KafeVibe() {
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-1.5 text-sm font-semibold uppercase tracking-widest text-amber-700">
-            <Sparkles className="h-4 w-4" />
             Suasana & Fasilitas
           </span>
           <h2 className="mt-2 text-3xl font-bold text-stone-900 md:text-4xl">

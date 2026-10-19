@@ -1,8 +1,8 @@
-import { Clock, MapPin, Scissors, Sparkles, Star } from "lucide-react";
+import { Clock, MapPin, Scissors, BadgeCheck, Star } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
-  { icon: Sparkles, label: "Stylist bersertifikat & ramah" },
+  { icon: BadgeCheck, label: "Stylist bersertifikat & ramah" },
   { icon: Star, label: "Produk premium terdaftar BPOM" },
   { icon: Clock, label: "Ruang privat, higienis & nyaman" },
 ];
@@ -16,7 +16,6 @@ export default function SalonHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-rose-400/40 bg-rose-500/10 px-4 py-1.5 text-sm font-medium text-rose-300">
-            <Sparkles className="h-4 w-4 text-rose-300" />
             Salon Kecantikan & Perawatan Rambut Modern
           </span>
 
