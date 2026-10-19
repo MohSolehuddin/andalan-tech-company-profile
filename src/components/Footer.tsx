@@ -13,6 +13,7 @@ const Footer = () => {
               alt="logo with text"
               height={80}
               width={300}
+              className="h-16 w-auto"
             />
             <p className="text-sm text-muted-foreground">
               Jasa pembuatan website cepat, stabil, dan teroptimasi SEO dengan
