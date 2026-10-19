@@ -25,11 +25,11 @@ const Pricing = () => {
               key={tier.id}
               className={`relative p-8 rounded-xl border transition-all duration-300 ${
                 tier.popular
-                  ? "border-primary bg-card shadow-md"
-                  : "border-border bg-card/50 hover:border-primary/50 shadow-xs hover:shadow-sm"
+                  ? "border-primary bg-card"
+                  : "border-border bg-card/50 hover:border-primary/40"
               }`}>
               {tier.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-primary text-primary-foreground text-sm font-semibold">
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-accent text-accent-foreground text-sm font-semibold">
                   Paling Populer
                 </div>
               )}
@@ -50,7 +50,7 @@ const Pricing = () => {
                 <ul className="space-y-3">
                   {tier.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                      <Check className="w-5 h-5 text-[#A8530F] shrink-0 mt-0.5" />
                       <span className="text-foreground">{feature}</span>
                     </li>
                   ))}
@@ -58,8 +58,8 @@ const Pricing = () => {
 
                 <Button
                   asChild
-                  className="w-full shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-                  variant={tier.popular ? "default" : "secondary"}
+                  className="w-full rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                  variant={tier.popular ? "default" : "outline"}
                   size="lg">
                   <a href="#contact">
                     {tier.id === "custom" ? "Hubungi Kami" : "Pilih Paket"}
