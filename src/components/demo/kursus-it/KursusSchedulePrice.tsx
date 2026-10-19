@@ -1,4 +1,4 @@
-import { Calendar, Check, Clock, MessageCircle, Sparkles } from "lucide-react";
+import { Calendar, Check, Clock, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const pricePlans = [

@@ -1,9 +1,9 @@
 import {
   Bike,
   HeartPulse,
+  Leaf,
   MessageSquareText,
   Pill,
-  Sparkles,
   Stethoscope,
 } from "lucide-react";
 
@@ -14,7 +14,7 @@ const services = [
     desc: "Obat resep dokter maupun obat bebas tersedia lengkap dan asli.",
   },
   {
-    icon: Sparkles,
+    icon: Leaf,
     name: "Vitamin & Suplemen",
     desc: "Multivitamin, imun booster, dan suplemen harian untuk keluarga.",
   },

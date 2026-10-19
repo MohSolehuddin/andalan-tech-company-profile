@@ -1,4 +1,4 @@
-import { CheckCircle2, MessageSquare, Palette, Sparkles, Wand2 } from "lucide-react";
+import { Cake, CheckCircle2, MessageSquare, Palette, Wand2 } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const customFeatures = [
@@ -8,7 +8,7 @@ const customFeatures = [
     desc: "Kirimkan referensi desain dari Instagram atau Pinterest. Kami sesuaikan palet warna dan hiasannya.",
   },
   {
-    icon: Sparkles,
+    icon: Cake,
     title: "Custom Topper Akrilik & Nama",
     desc: "Pilihan hiasan topper premium: akrilik mirror gold/silver, topper kayu rustic, atau figur karakter.",
   },
@@ -34,7 +34,6 @@ export default function TokoKueCustom() {
           {/* Left Column: Information */}
           <div>
             <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-pink-600">
-              <Sparkles className="h-4 w-4" />
               Layanan Spesial
             </span>
             <h2 className="mt-2 text-3xl font-extrabold text-neutral-900 md:text-4xl">

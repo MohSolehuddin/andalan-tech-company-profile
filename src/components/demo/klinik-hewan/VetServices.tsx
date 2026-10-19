@@ -2,8 +2,8 @@ import {
   HeartPulse,
   Home,
   MessageCircle,
+  Scissors,
   ShieldPlus,
-  Sparkles,
   Stethoscope,
   Syringe,
 } from "lucide-react";
@@ -33,7 +33,7 @@ const services: ServiceItem[] = [
     priceStart: "Mulai Rp 75.000",
   },
   {
-    icon: Sparkles,
+    icon: Scissors,
     name: "Grooming & Spa Anabul",
     badge: "Favorit",
     desc: "Mandi kutu/jamur, potong kuku, bersihkan telinga, perapihan bulu dengan air hangat.",

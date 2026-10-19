@@ -1,4 +1,4 @@
-import { CalendarCheck, FileText, Heart, MessageCircle, Sparkles, UserCheck } from "lucide-react";
+import { CalendarCheck, FileText, Heart, MessageCircle, UserCheck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const steps = [
@@ -45,7 +45,6 @@ export const PaudPpdb = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold text-rose-700">
-            <Sparkles className="h-3.5 w-3.5" />
             <span>PPDB &amp; Pendaftaran Daycare</span>
           </div>
           <h2 className="mt-3 text-3xl font-extrabold text-neutral-900 md:text-4xl">

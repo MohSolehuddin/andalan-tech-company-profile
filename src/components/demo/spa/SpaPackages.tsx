@@ -1,4 +1,4 @@
-import { BadgeCheck, Check, Clock, Sparkles } from "lucide-react";
+import { BadgeCheck, Check, Clock } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const packages = [
@@ -68,7 +68,7 @@ export default function SpaPackages() {
               {pkg.popular && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
                   <span className="inline-flex items-center gap-1 rounded-full bg-lime-600 px-3.5 py-1 text-xs font-semibold text-white shadow-xs">
-                    <Sparkles className="h-3 w-3" /> Paling Diminati
+                    Paling Diminati
                   </span>
                 </div>
               )}

@@ -1,4 +1,3 @@
-import { Sparkles } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface Drop {
@@ -50,7 +49,6 @@ export default function FashionKoleksi() {
               <div
                 className={`relative flex h-44 items-center justify-center bg-linear-to-br ${drop.gradient}`}>
                 <span className="absolute left-4 top-4 inline-flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-neutral-900">
-                  <Sparkles className="h-3.5 w-3.5" />
                   Baru
                 </span>
                 <span className="text-6xl" aria-hidden="true">

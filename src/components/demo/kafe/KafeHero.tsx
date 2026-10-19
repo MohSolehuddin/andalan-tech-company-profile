@@ -1,4 +1,4 @@
-import { Coffee, Laptop, MapPin, Sparkles, Star, Wifi } from "lucide-react";
+import { Coffee, Laptop, MapPin, Star, Wifi } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
@@ -16,7 +16,6 @@ export default function KafeHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-amber-600/30 bg-amber-600/10 px-4 py-1.5 text-sm font-medium text-amber-300">
-            <Sparkles className="h-4 w-4 text-amber-400" />
             Specialty Coffee & Artisan Roastery
           </span>
 

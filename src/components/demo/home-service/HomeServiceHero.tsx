@@ -1,10 +1,10 @@
-import { CalendarCheck, ShieldCheck, Sparkles, Wind } from "lucide-react";
+import { CalendarCheck, Check, ShieldCheck, Wind } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const points = [
   { icon: ShieldCheck, label: "Teknisi berpengalaman" },
   { icon: CalendarCheck, label: "Jadwal fleksibel, bisa weekend" },
-  { icon: Sparkles, label: "Alat & cairan pembersih lengkap" },
+  { icon: Check, label: "Alat & cairan pembersih lengkap" },
 ];
 
 export default function HomeServiceHero() {

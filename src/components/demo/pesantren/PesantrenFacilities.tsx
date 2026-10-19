@@ -3,7 +3,6 @@ import {
   Building2,
   Library,
   Monitor,
-  Sparkles,
   Trophy,
   Users,
 } from "lucide-react";
@@ -107,7 +106,6 @@ export default function PesantrenFacilities() {
         <div className="mt-20">
           <div className="mx-auto max-w-2xl text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-teal-100 px-3 py-1 text-xs font-semibold text-teal-800">
-              <Sparkles className="h-3.5 w-3.5" />
               Dinamika Pesantren
             </span>
             <h3 className="mt-2 text-2xl font-bold text-neutral-900 md:text-3xl">

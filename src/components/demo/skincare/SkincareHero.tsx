@@ -1,9 +1,9 @@
-import { CalendarCheck, MessageCircle, ShieldCheck, Sparkles, Star } from "lucide-react";
+import { CalendarCheck, MessageCircle, ShieldCheck, Star, Zap } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
   { icon: ShieldCheck, label: "Dokter Berlisensi & Bersertifikat" },
-  { icon: Sparkles, label: "Teknologi Laser & Medis Mutakhir" },
+  { icon: Zap, label: "Teknologi Laser & Medis Mutakhir" },
   { icon: Star, label: "10.000+ Pasien Puas & Terbukti" },
 ];
 
@@ -16,7 +16,6 @@ export default function SkincareHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-rose-400/30 bg-rose-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-rose-300">
-            <Sparkles className="h-3.5 w-3.5 text-rose-400" />
             Klinik Estetika &amp; Skincare Medis
           </span>
 

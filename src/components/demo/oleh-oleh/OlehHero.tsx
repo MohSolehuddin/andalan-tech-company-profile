@@ -1,4 +1,4 @@
-import { Gift, MapPin, ShieldCheck, Sparkles, Truck } from "lucide-react";
+import { Gift, MapPin, ShieldCheck, Truck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
@@ -17,7 +17,6 @@ export default function OlehHero() {
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <span className="inline-flex items-center gap-2 rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1.5 text-sm text-orange-300">
-              <Sparkles className="h-4 w-4" />
               Otentik dari Pesisir & Pegunungan Situbondo
             </span>
 

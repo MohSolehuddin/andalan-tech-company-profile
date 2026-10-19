@@ -1,8 +1,8 @@
 import {
+  Droplets,
   HeartHandshake,
   Paintbrush,
   Scissors,
-  Sparkles,
   Wand2,
 } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
@@ -46,7 +46,7 @@ const services: ServiceItem[] = [
     duration: "60-90 menit",
     description:
       "Deep cleansing komedo, eksfoliasi lembut, massage wajah melancarkan sirkulasi, dan serum brightening.",
-    icon: Sparkles,
+    icon: Droplets,
   },
   {
     id: "nail-art",
