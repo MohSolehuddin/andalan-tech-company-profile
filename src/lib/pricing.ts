@@ -97,14 +97,14 @@ export function tierById(id: PackageTier): PackageInfo | undefined {
 export function tierBadgeClass(id: PackageTier): string {
   switch (id) {
     case "starter":
-      return "bg-neutral-100 text-neutral-800 border-neutral-300";
+      return "bg-muted text-foreground border-border";
     case "bisnis":
-      return "bg-amber-50 text-amber-950 border-amber-300";
+      return "bg-accent text-accent-foreground border-accent";
     case "pro":
-      return "bg-blue-950 text-white border-blue-900";
+      return "bg-primary text-primary-foreground border-primary";
     case "custom":
-      return "bg-purple-100 text-purple-900 border-purple-300";
+      return "bg-transparent text-primary border-primary";
     default:
-      return "bg-neutral-100 text-neutral-800 border-neutral-300";
+      return "bg-muted text-foreground border-border";
   }
 }
