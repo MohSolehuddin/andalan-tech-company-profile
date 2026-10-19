@@ -1,8 +1,8 @@
-import { Calendar, Clock, Heart, MapPin, MessageCircle, Sparkles } from "lucide-react";
+import { Award, Calendar, Clock, Heart, MapPin, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
-  { icon: Sparkles, label: "500+ Pesta Pernikahan Sukses" },
+  { icon: Award, label: "500+ Pesta Pernikahan Sukses" },
   { icon: Heart, label: "Vendor Rekanan Terkurasi & Terpercaya" },
   { icon: Calendar, label: "Pendampingan Penuh Hari-H" },
 ];
@@ -16,7 +16,6 @@ export default function WeddingHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-rose-400/40 bg-rose-500/10 px-4 py-1.5 text-sm font-medium text-rose-300">
-            <Sparkles className="h-4 w-4 text-rose-300" />
             Wedding Organizer & Event Planner Profesional
           </span>
 

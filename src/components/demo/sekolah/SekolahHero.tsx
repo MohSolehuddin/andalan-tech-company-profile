@@ -1,9 +1,9 @@
-import { CalendarCheck, GraduationCap, MessageCircle, Sparkles } from "lucide-react";
+import { CalendarCheck, Check, GraduationCap, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trust = [
   { icon: GraduationCap, label: "Akreditasi A" },
-  { icon: Sparkles, label: "Kurikulum Merdeka" },
+  { icon: Check, label: "Kurikulum Merdeka" },
   { icon: CalendarCheck, label: "PPDB 2026/2027 dibuka" },
 ];
 

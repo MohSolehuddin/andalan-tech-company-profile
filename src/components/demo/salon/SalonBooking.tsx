@@ -8,7 +8,6 @@ import {
   Heart,
   MessageCircle,
   PhoneCall,
-  Sparkles,
 } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
@@ -82,7 +81,6 @@ Mohon info ketersediaan slotnya ya. Terima kasih!`;
         <div className="mx-auto mt-12 max-w-3xl rounded-xl border border-rose-500/30 bg-white/5 p-6 sm:p-10 backdrop-blur-xs">
           <div className="text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-500/20 px-3.5 py-1 text-xs font-semibold text-rose-300">
-              <Sparkles className="h-3.5 w-3.5" />
               Form Reservasi Cepat
             </span>
             <h3 className="mt-3 text-2xl font-bold">Atur Jadwal Kunjungan</h3>

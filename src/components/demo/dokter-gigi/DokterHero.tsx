@@ -1,4 +1,4 @@
-import { CalendarCheck, Clock, ShieldCheck, Sparkles } from "lucide-react";
+import { CalendarCheck, Clock, ShieldCheck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const points = [
@@ -14,7 +14,6 @@ export default function DokterHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-sky-400/40 bg-sky-400/10 px-4 py-1.5 text-sm font-medium text-sky-200">
-            <Sparkles className="h-4 w-4" />
             Klinik Gigi &amp; Dokter Gigi
           </span>
 

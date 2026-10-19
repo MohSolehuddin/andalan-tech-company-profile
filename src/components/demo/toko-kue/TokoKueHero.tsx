@@ -1,8 +1,8 @@
-import { Cake, Clock, Heart, Sparkles, Truck } from "lucide-react";
+import { Cake, Check, Clock, Heart, Truck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
-  { icon: Sparkles, text: "Bahan Premium Tanpa Pengawet" },
+  { icon: Check, text: "Bahan Premium Tanpa Pengawet" },
   { icon: Clock, text: "Bake Fresh Setiap Pagi" },
   { icon: Truck, text: "Pengiriman Aman Same-Day" },
 ];

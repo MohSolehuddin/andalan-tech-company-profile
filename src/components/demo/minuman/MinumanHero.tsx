@@ -1,4 +1,4 @@
-import { Clock, GlassWater, Leaf, MessageCircle, Sparkles } from "lucide-react";
+import { Clock, GlassWater, Leaf, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
@@ -14,7 +14,6 @@ export default function MinumanHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-teal-400/40 bg-teal-400/10 px-4 py-1.5 text-sm font-medium text-teal-200">
-            <Sparkles className="h-4 w-4" />
             Juice Bar & Boba Fresh Tiap Hari
           </span>
 
