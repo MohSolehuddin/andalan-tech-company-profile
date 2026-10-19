@@ -1,4 +1,4 @@
-import { Dumbbell, ShieldCheck, Sparkles, Trophy, Users } from "lucide-react";
+import { Dumbbell, ShieldCheck, Trophy, Users } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trust = [
@@ -15,7 +15,6 @@ export default function FitnessHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-1.5 text-xs font-semibold tracking-wide text-orange-400">
-            <Sparkles className="h-3.5 w-3.5" />
             Pusat Kebugaran &amp; Gym Modern
           </span>
 

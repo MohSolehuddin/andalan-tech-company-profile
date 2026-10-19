@@ -1,4 +1,4 @@
-import { Calculator, Check, FileSpreadsheet, ShieldAlert, Sparkles, MessageCircle } from "lucide-react";
+import { Calculator, Check, FileSpreadsheet, ShieldAlert, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const rabTiers = [

@@ -1,4 +1,4 @@
-import { Clock, Croissant, MapPin, Sparkles, Star } from "lucide-react";
+import { Clock, Croissant, MapPin, Star } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
@@ -25,7 +25,6 @@ const BakeryHero = () => {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1.5 text-xs font-medium text-amber-300 md:text-sm">
-            <Sparkles className="h-4 w-4" />
             <span>Toko Roti & Pastry Artisan • Situbondo</span>
             <span className="hidden sm:inline-flex items-center gap-1 border-l border-amber-500/30 pl-2">
               <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />

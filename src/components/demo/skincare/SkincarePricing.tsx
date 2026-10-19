@@ -1,4 +1,4 @@
-import { Check, MessageCircle, Sparkles } from "lucide-react";
+import { Check, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface PricingPlan {
@@ -93,8 +93,8 @@ export default function SkincarePricing() {
               }`}>
               {plan.popular && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="inline-flex items-center gap-1 rounded-full bg-linear-to-r from-rose-600 to-pink-600 px-3 py-0.5 text-xs font-bold text-white shadow-xs">
-                    <Sparkles className="h-3 w-3" /> Paling Favorit
+                  <span className="inline-flex items-center rounded-full bg-linear-to-r from-rose-600 to-pink-600 px-3 py-0.5 text-xs font-bold text-white shadow-xs">
+                    Paling Favorit
                   </span>
                 </div>
               )}

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Calendar, ChevronRight, ShieldCheck, Sparkles } from "lucide-react";
+import { Calendar, Check, ChevronRight, ShieldCheck } from "lucide-react";
 import { USE_CASES } from "./contentData";
 import { waLink } from "@/lib/demo/wa";
 
@@ -172,7 +172,7 @@ const IRentHero = () => {
               >
                 <div>
                   <div className="w-10 h-10 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-200 mb-4">
-                    <Sparkles className="w-5 h-5 text-sky-400" />
+                    <Check className="w-5 h-5 text-sky-400" />
                   </div>
                   <h3 className="text-base font-bold text-white mb-2">{uc.title}</h3>
                   <p className="text-xs text-slate-400 leading-relaxed">{uc.desc}</p>

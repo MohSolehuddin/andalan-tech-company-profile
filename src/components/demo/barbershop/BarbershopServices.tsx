@@ -1,4 +1,4 @@
-import { Crown, Droplets, Palette, Scissors, Sparkles } from "lucide-react";
+import { Check, Crown, Droplets, Palette, Scissors } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface ServiceItem {
@@ -50,7 +50,7 @@ const services: ServiceItem[] = [
     duration: "30-60 menit",
     description:
       "Creambath, hair tonic, pijat kepala, dan perawatan kulit kepala untuk rambut sehat, kuat, dan bebas ketombe.",
-    icon: Sparkles,
+    icon: Check,
   },
   {
     id: "grooming-package",

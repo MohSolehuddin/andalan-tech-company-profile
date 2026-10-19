@@ -1,10 +1,10 @@
-import { Eye, MessageCircle, ShieldCheck, Sparkles } from "lucide-react";
+import { Check, Eye, MessageCircle, ShieldCheck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trust = [
   { icon: Eye, label: "Cek mata & resep gratis" },
   { icon: ShieldCheck, label: "Garansi lensa 1 tahun" },
-  { icon: Sparkles, label: "Frame original & lengkap" },
+  { icon: Check, label: "Frame original & lengkap" },
 ];
 
 export default function OptikHero() {

@@ -1,4 +1,4 @@
-import { Droplets, Flower2, Footprints, HandHeart, Sparkles } from "lucide-react";
+import { Check, Droplets, Flower2, Footprints, HandHeart } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const services = [
@@ -24,7 +24,7 @@ const services = [
     desc: "Eksfoliasi kulit dengan lulur rempah alami, dilanjutkan masker dan body lotion.",
   },
   {
-    icon: Sparkles,
+    icon: Check,
     name: "Facial Glow",
     duration: "60 menit",
     price: "Rp 150.000",
