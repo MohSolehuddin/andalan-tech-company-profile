@@ -1,4 +1,4 @@
-import { Check, Sparkles } from "lucide-react";
+import { Check } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const plans = [
@@ -89,7 +89,7 @@ const SaasPricing = () => {
               {plan.popular && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-600 px-4 py-1 text-xs font-semibold text-white shadow-sm">
-                    <Sparkles className="h-3.5 w-3.5" /> Paling Populer
+                    Paling Populer
                   </span>
                 </div>
               )}

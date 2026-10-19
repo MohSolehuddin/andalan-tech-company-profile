@@ -1,4 +1,4 @@
-import { Heart, Sparkles, Star } from "lucide-react";
+import { Heart, Star } from "lucide-react";
 
 interface Concept {
   id: number;
@@ -97,7 +97,6 @@ export default function WeddingGallery() {
             Inspirasi Tema Pernikahan Impian
           </h2>
           <p className="mt-3 inline-flex items-center gap-1.5 text-neutral-600">
-            <Sparkles className="h-4 w-4 text-rose-500" />
             Portofolio visual konsep pernikahan yang telah kami eksekusi dengan sempurna.
           </p>
         </div>

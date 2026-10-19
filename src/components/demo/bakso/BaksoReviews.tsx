@@ -1,4 +1,4 @@
-import { Clock, ShieldCheck, Sparkles, Star } from "lucide-react";
+import { Clock, ShieldCheck, Star } from "lucide-react";
 
 const SECRETS = [
   {
@@ -87,7 +87,6 @@ const BaksoReviews = () => {
           {/* 3 Rahasia Card */}
           <div className="bg-white p-6 rounded-xl border border-stone-200 shadow-sm space-y-4">
             <div className="flex items-center gap-2 border-b border-stone-100 pb-3">
-              <Sparkles className="w-4 h-4 text-amber-500" />
               <h3 className="font-bold text-base text-stone-900">
                 3 Rahasia Kelezatan Kuah & Bakso Kami
               </h3>
