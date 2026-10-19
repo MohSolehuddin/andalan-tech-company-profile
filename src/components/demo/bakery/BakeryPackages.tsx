@@ -1,4 +1,4 @@
-import { Check, Gift, Sparkles } from "lucide-react";
+import { Check, Gift } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface PackageItem {
@@ -90,7 +90,6 @@ const BakeryPackages = () => {
                         ? "bg-amber-500 text-neutral-950 shadow-xs"
                         : "bg-neutral-800 text-white"
                     }`}>
-                    {pkg.popular && <Sparkles className="h-3 w-3" />}
                     {pkg.badge}
                   </span>
                 </div>

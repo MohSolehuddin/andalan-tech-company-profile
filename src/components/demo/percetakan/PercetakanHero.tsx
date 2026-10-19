@@ -1,9 +1,9 @@
-import { Printer, Zap, Sparkles, ShieldCheck, FileUp } from "lucide-react";
+import { Printer, Zap, Palette, ShieldCheck, FileUp } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const highlights = [
   { icon: Zap, label: "Cetak Kilat Siap Hari Ini" },
-  { icon: Sparkles, label: "Warna Tajam High-Resolution" },
+  { icon: Palette, label: "Warna Tajam High-Resolution" },
   { icon: ShieldCheck, label: "Bisa Pesan Satuan & Grosir" },
   { icon: FileUp, label: "Bantu Setting Desain Gratis" },
 ];

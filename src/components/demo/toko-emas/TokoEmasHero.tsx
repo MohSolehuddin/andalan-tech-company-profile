@@ -1,10 +1,10 @@
-import { Award, Gem, MessageCircle, ShieldCheck, Sparkles } from "lucide-react";
+import { Award, Gem, MessageCircle, ShieldCheck, Pencil } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trustBadges = [
   { icon: ShieldCheck, label: "Kadar Terjamin & Bersertifikat" },
   { icon: Award, label: "Buyback Harga Transparan" },
-  { icon: Sparkles, label: "Bisa Custom & Grafir Nama" },
+  { icon: Pencil, label: "Bisa Custom & Grafir Nama" },
 ];
 
 export default function TokoEmasHero() {

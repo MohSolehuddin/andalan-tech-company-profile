@@ -1,9 +1,9 @@
-import { Baby, Braces, HeartPulse, ShieldCheck, Smile, Sparkles } from "lucide-react";
+import { Baby, Braces, HeartPulse, ShieldCheck, Smile, Droplets } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const services = [
   {
-    icon: Sparkles,
+    icon: Droplets,
     name: "Scaling Gigi",
     desc: "Membersihkan karang gigi dan plak agar gusi sehat dan napas segar.",
     price: "Mulai Rp 250.000",

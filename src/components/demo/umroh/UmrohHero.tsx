@@ -1,4 +1,4 @@
-import { Award, CheckCircle2, MessageCircle, Moon, Sparkles } from "lucide-react";
+import { Award, CheckCircle2, MessageCircle, Moon } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trustMetrics = [

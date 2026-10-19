@@ -1,7 +1,7 @@
 import {
   Wrench,
   Gauge,
-  Sparkles,
+  Zap,
   Snowflake,
   ShieldCheck,
   Disc,
@@ -62,7 +62,7 @@ const services: ServiceItem[] = [
     price: "Mulai Rp 100.000",
     duration: "20–30 Menit",
     description: "Pengecekan alternator, tegangan aki digital, sekring, dan lampu utama.",
-    icon: Sparkles,
+    icon: Zap,
   },
   {
     id: "inspeksi-total",

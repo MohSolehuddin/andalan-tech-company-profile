@@ -1,8 +1,8 @@
-import { Palette, Sparkles, MessagesSquare } from "lucide-react";
+import { Palette, Target, MessagesSquare } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const points = [
-  { icon: Sparkles, label: "Strategi brand personal" },
+  { icon: Target, label: "Strategi brand personal" },
   { icon: Palette, label: "Identitas visual konsisten" },
   { icon: MessagesSquare, label: "Konten siap tayang" },
 ];
@@ -14,7 +14,6 @@ export default function JasaHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-24 md:py-32">
         <div className="max-w-xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-orange-400/40 bg-orange-400/10 px-4 py-1.5 text-sm text-orange-200">
-            <Sparkles className="h-4 w-4" />
             Konsultan & Kreator Personal Brand
           </span>
 
