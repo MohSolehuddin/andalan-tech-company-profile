@@ -1,8 +1,8 @@
-import { Camera, CalendarCheck, Sparkles } from "lucide-react";
+import { CalendarCheck, Camera, Users } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const points = [
-  { icon: Sparkles, label: "Tim fotografer profesional" },
+  { icon: Users, label: "Tim fotografer profesional" },
   { icon: Camera, label: "Studio & properti lengkap" },
   { icon: CalendarCheck, label: "Hasil edit siap dalam 7 hari" },
 ];

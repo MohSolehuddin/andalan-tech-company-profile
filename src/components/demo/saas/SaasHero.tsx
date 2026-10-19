@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, MessageSquare, Sparkles, TrendingUp } from "lucide-react";
+import { ArrowRight, Check, CheckCircle2, MessageSquare, TrendingUp } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const metrics = [
@@ -18,7 +18,6 @@ const SaasHero = () => {
           {/* Kolom Kiri: Teks & CTA */}
           <div className="lg:col-span-7">
             <span className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-1.5 text-xs font-semibold text-blue-300 md:text-sm">
-              <Sparkles className="h-4 w-4 text-blue-400" />
               Platform SaaS & Operasional Modern #1
             </span>
 
@@ -115,7 +114,7 @@ const SaasHero = () => {
                 </div>
 
                 <div className="flex items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-950/30 p-3 text-xs text-blue-200">
-                  <Sparkles className="h-4 w-4 text-blue-400 shrink-0" />
+                  <Check className="h-4 w-4 text-blue-400 shrink-0" />
                   <span>AI otomatis menyusun 3 laporan mingguan untuk tim Anda.</span>
                 </div>
               </div>

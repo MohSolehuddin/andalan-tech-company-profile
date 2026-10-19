@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, MessageCircle, Sparkles } from "lucide-react";
+import { ArrowLeft, MessageCircle } from "lucide-react";
 import { formatIDR, tierById } from "@/lib/pricing";
 import { waLink } from "@/lib/demo/wa";
 
@@ -30,7 +30,6 @@ export default function DemoLayout({
           Semua Demo
         </Link>
         <span className="inline-flex items-center gap-1.5">
-          <Sparkles className="h-3.5 w-3.5 text-amber-400" />
           <span className="hidden sm:inline">Demo dibuat oleh</span>
           <Link href="/" className="font-semibold text-white hover:underline">
             Andalan Tech

@@ -1,4 +1,4 @@
-import { Calendar, Clock, Music, Sparkles, Users } from "lucide-react";
+import { Calendar, Clock, Coffee, Music, Users } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface CafeEvent {
@@ -30,7 +30,7 @@ const events: CafeEvent[] = [
     description:
       "Belajar teknik pouring V60, mengenali acidity & notes rasa kopi bersama Head Barista kami.",
     fee: "Rp 50.000 (Termasuk Bahan & Sertifikat)",
-    icon: Sparkles,
+    icon: Coffee,
   },
   {
     title: "Community Board Game & Meetup",

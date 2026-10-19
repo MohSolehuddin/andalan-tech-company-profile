@@ -1,9 +1,9 @@
-import { BookOpen, Calendar, CheckCircle2, MessageCircle, Sparkles, Users } from "lucide-react";
+import { Award, BookOpen, Calendar, CheckCircle2, MessageCircle, Users } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trustItems = [
   { icon: Users, label: "Kelas Kecil Maksimal 8 Siswa" },
-  { icon: Sparkles, label: "Tutor Alumnus PTN Terkemuka" },
+  { icon: Award, label: "Tutor Alumnus PTN Terkemuka" },
   { icon: CheckCircle2, label: "94% Lolos Sekolah & PTN Impian" },
 ];
 

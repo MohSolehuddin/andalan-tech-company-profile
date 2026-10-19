@@ -1,10 +1,10 @@
-import { Shirt, Sparkles, Truck, RefreshCcw } from "lucide-react";
+import { Check, RefreshCcw, Shirt, Truck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const points = [
   { icon: Truck, label: "Gratis ongkir min. Rp 250.000" },
   { icon: RefreshCcw, label: "Tukar ukuran 7 hari" },
-  { icon: Sparkles, label: "Bahan premium lokal" },
+  { icon: Check, label: "Bahan premium lokal" },
 ];
 
 export default function FashionHero() {
