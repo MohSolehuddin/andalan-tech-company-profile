@@ -1,4 +1,4 @@
-import { Baby, Calendar, HeartHandshake, MessageCircle, ShieldCheck, Sparkles } from "lucide-react";
+import { Baby, BookOpen, Calendar, HeartHandshake, MessageCircle, ShieldCheck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trustBadges = [
@@ -39,7 +39,7 @@ export const PaudHero = () => {
             <a
               href="#program"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2">
-              <Sparkles className="h-4 w-4 text-amber-300" />
+              <BookOpen className="h-4 w-4 text-amber-300" />
               Lihat Program Edukasi
             </a>
           </div>

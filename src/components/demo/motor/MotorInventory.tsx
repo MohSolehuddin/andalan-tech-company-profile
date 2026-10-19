@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Bike, MessageCircle, Sparkles } from "lucide-react";
+import { Bike, MessageCircle } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface MotorItem {
@@ -185,7 +185,7 @@ export default function MotorInventory() {
         </div>
 
         <div className="mt-10 rounded-2xl border border-orange-200 bg-orange-50/80 p-4 text-center text-xs text-orange-900 sm:text-sm">
-          <Sparkles className="inline-block h-4 w-4 mr-1 text-orange-600" />
+          <Bike className="inline-block h-4 w-4 mr-1 text-orange-600" />
           Mencari tipe motor lain? Kami memiliki puluhan stok lainnya yang siap dikirim. Hubungi tim showroom kami via WhatsApp.
         </div>
       </div>

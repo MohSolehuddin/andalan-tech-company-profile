@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Sparkles } from "lucide-react";
 import { demoItems } from "@/lib/demo/demos";
 import { DEMO_CATEGORIES } from "@/lib/demo/types";
 import { DemoHubList } from "@/components/demo-hub/DemoHubList";
@@ -16,7 +15,6 @@ export default function DemoIndexPage() {
       <section className="bg-neutral-950 px-4 py-16 text-white">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-neutral-300">
-            <Sparkles className="h-4 w-4 text-amber-400" />
             Demo Website
           </div>
           <h1 className="mt-6 text-4xl font-bold md:text-5xl">

@@ -1,4 +1,4 @@
-import { Building, Calendar, Check, MessageCircle, Plane, Sparkles } from "lucide-react";
+import { Building, Calendar, Check, MessageCircle, Plane, ShieldCheck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 interface PackageItem {
@@ -145,7 +145,7 @@ export default function UmrohPackages() {
                     <span><strong>Akomodasi:</strong> {pkg.hotel}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Sparkles className="h-4 w-4 shrink-0 text-emerald-600" />
+                    <ShieldCheck className="h-4 w-4 shrink-0 text-emerald-600" />
                     <span><strong>Legalitas:</strong> {pkg.visaNote}</span>
                   </div>
                 </div>

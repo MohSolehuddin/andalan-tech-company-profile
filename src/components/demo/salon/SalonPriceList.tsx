@@ -1,4 +1,4 @@
-import { Check, Sparkles } from "lucide-react";
+import { Check } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const packages = [
@@ -83,7 +83,7 @@ export default function SalonPriceList() {
               {pkg.popular && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
                   <span className="inline-flex items-center gap-1 rounded-full bg-rose-600 px-3.5 py-1 text-xs font-semibold text-white shadow-xs">
-                    <Sparkles className="h-3 w-3" /> Paling Favorit
+                    Paling Favorit
                   </span>
                 </div>
               )}

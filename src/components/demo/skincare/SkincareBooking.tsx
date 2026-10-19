@@ -1,4 +1,4 @@
-import { CalendarCheck, Clock, MapPin, MessageCircle, Phone, Sparkles } from "lucide-react";
+import { CalendarCheck, Clock, MapPin, MessageCircle, Phone } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 export default function SkincareBooking() {
@@ -8,7 +8,7 @@ export default function SkincareBooking() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
             <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-500/10 border border-rose-400/20 px-3 py-1 text-xs font-semibold text-rose-300">
-              <Sparkles className="h-3.5 w-3.5 text-rose-400" /> Reservasi Cepat
+              Reservasi Cepat
             </span>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
               Siap Rasakan Perubahan Nyata Kulit Anda?

@@ -1,4 +1,4 @@
-import { Clock, Leaf, MapPin, MessageCircle, Sparkles, Star } from "lucide-react";
+import { Clock, Leaf, MapPin, MessageCircle, Star } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trust = [
@@ -15,7 +15,6 @@ export default function SpaHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1.5 text-sm font-medium text-lime-200">
-            <Sparkles className="h-4 w-4" />
             Spa, Massage & Reflexology Keluarga
           </span>
 

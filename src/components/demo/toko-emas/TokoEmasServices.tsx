@@ -1,4 +1,4 @@
-import { CheckCircle2, MessageCircle, RefreshCw, Sparkles } from "lucide-react";
+import { CheckCircle2, MessageCircle, RefreshCw } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const services = [
@@ -50,7 +50,6 @@ export default function TokoEmasServices() {
       <div className="container mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-amber-700">
-            <Sparkles className="h-4 w-4" />
             Layanan Spesialis
           </span>
           <h2 className="mt-2 text-3xl font-bold text-neutral-900 md:text-4xl">

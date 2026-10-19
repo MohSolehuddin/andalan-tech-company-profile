@@ -1,4 +1,4 @@
-import { Clock, MapPin, MessageCircle, Monitor, Phone, Sparkles } from "lucide-react";
+import { Clock, MapPin, MessageCircle, Monitor, Phone } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const steps = [
@@ -55,7 +55,6 @@ export default function KursusContact() {
           <div className="grid items-center gap-8 lg:grid-cols-2">
             <div>
               <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/30 px-3 py-1 text-xs font-semibold text-indigo-200">
-                <Sparkles className="h-3.5 w-3.5" />
                 Pendaftaran Batch Terdekat Dibuka
               </span>
               <h3 className="mt-4 text-2xl font-bold tracking-tight sm:text-3xl">

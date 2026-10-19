@@ -1,8 +1,8 @@
-import { Award, Clock, DollarSign, Snowflake, Sparkles, ThermometerSnowflake } from "lucide-react";
+import { Award, Clock, DollarSign, Fish, Snowflake, ThermometerSnowflake } from "lucide-react";
 
 const advantages = [
   {
-    icon: Sparkles,
+    icon: Fish,
     title: "Segar Harian Nelayan",
     desc: "Ikan masuk dermaga Situbondo subuh langsung diproses sortasi grade A tanpa bahan kimia pengawet.",
   },

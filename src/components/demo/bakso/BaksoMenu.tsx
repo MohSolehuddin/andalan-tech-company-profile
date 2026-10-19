@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MessageCircle, Sparkles } from "lucide-react";
+import { MessageCircle, Utensils } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 import { MENU_CATEGORIES, MENU_ITEMS } from "./menuData";
 
@@ -106,7 +106,7 @@ const BaksoMenu = () => {
 
         <div className="mt-8 p-4 rounded-xl bg-amber-50 border border-amber-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-amber-900">
           <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-amber-600 shrink-0" />
+            <Utensils className="w-4 h-4 text-amber-600 shrink-0" />
             <span>
               Ingin memesan porsi banyak untuk kantor atau keluarga? Cek simulasi katering kami di bawah.
             </span>

@@ -1,10 +1,10 @@
-import { ArrowRight, Code2, MessageCircle, Rocket, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowRight, Code2, Layout, MessageCircle, Rocket, ShieldCheck } from "lucide-react";
 import { waLink } from "@/lib/demo/wa";
 
 const trustPoints = [
   { icon: Rocket, label: "50+ Proyek Digital Tuntas" },
   { icon: ShieldCheck, label: "Kode Bersih & Bergaransi" },
-  { icon: Sparkles, label: "Desain Modern & Responsif" },
+  { icon: Layout, label: "Desain Modern & Responsif" },
   { icon: Code2, label: "Tech Stack Terkini" },
 ];
 
@@ -14,7 +14,6 @@ export default function AgencyHero() {
       <div className="container relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-xs sm:text-sm font-medium text-indigo-300">
-            <Sparkles className="h-4 w-4 text-indigo-400" />
             <span>Digital Agency &amp; Software House</span>
           </div>
 
