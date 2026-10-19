@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Sparkles, Zap } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { demoItems } from "@/lib/demo/demos";
 
@@ -44,9 +44,9 @@ const Portfolio = () => {
             <Link
               key={demo.slug}
               href={`/demo/${demo.slug}`}
-              className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+              className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-colors hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
               <div
-                className={`relative h-44 overflow-hidden bg-linear-to-br ${demo.accentBg}`}>
+                className="relative h-44 overflow-hidden bg-neutral-100">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={`/demo/preview/${demo.slug}.webp`}
@@ -57,7 +57,7 @@ const Portfolio = () => {
               </div>
 
               <div className="flex flex-1 flex-col p-6">
-                <h3 className="text-xl font-bold transition-colors group-hover:text-accent">
+                <h3 className="text-xl font-bold transition-colors group-hover:text-[#A8530F]">
                   {demo.name}
                 </h3>
                 <span className="mt-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
@@ -100,18 +100,14 @@ const Portfolio = () => {
         </div>
 
         {/* Special Offer Banner */}
-        <div className="mt-16 rounded-xl bg-card p-8 border border-border shadow-xs animate-fade-in-up">
+        <div className="mt-16 rounded-xl bg-card p-8 border border-border">
           <div className="text-center space-y-4">
-            <div className="flex items-center justify-center gap-2 text-accent">
-              <Sparkles className="w-6 h-6 animate-pulse" />
-              <Zap className="w-6 h-6 animate-pulse" />
-            </div>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground">
               Butuh yang berbeda?
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
               Demo di atas bisa kami sesuaikan 100% dengan brand Anda. Dapatkan{" "}
-              <span className="text-accent font-bold">harga spesial</span> untuk
+              <span className="text-[#A8530F] font-bold">harga spesial</span> untuk
               klien pertama kami.
             </p>
             <Button

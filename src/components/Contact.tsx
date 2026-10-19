@@ -85,10 +85,10 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Info Cards */}
           <div className="space-y-6 animate-fade-in-up">
-            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all">
+            <div className="bg-card border border-border rounded-xl p-6 transition-colors hover:border-primary/40">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                  <MessageSquare className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 rounded-full bg-accent/10 text-[#A8530F] flex items-center justify-center shrink-0">
+                  <MessageSquare className="w-6 h-6 text-[#A8530F]" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-2">WhatsApp</h3>
@@ -99,14 +99,14 @@ const Contact = () => {
                     href="https://wa.me/6287745968545"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-accent hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded-xs">
+                    className="text-[#A8530F] hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A8530F] focus-visible:ring-offset-2 rounded-xs">
                     +62 877 4596 8545
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all">
+            <div className="bg-card border border-border rounded-xl p-6 transition-colors hover:border-primary/40">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                   <Mail className="w-6 h-6 text-primary" />
@@ -125,10 +125,10 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all">
+            <div className="bg-card border border-border rounded-xl p-6 transition-colors hover:border-primary/40">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                  <MapPin className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 rounded-full bg-accent/10 text-[#A8530F] flex items-center justify-center shrink-0">
+                  <MapPin className="w-6 h-6 text-[#A8530F]" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-2">Lokasi</h3>
